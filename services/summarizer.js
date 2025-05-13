@@ -1,26 +1,149 @@
-/*
-For email:
-Notice ID:
-Date posted
-Date Due
-Federal Organization: Priority is DHS, US Navy then others
-Set Aside:  SDVOSB, Small Business, Veteran Owned
-NAICS Code(s): 541330, 541611, 541614, 611430, 611519
-Description of the work required:
-Location of work:  Remote, or on-site or hybrid  
-Topics: Logistics, Data Analysis, Engineering Management, Consulting, System engineering etc. . other similar topics
-Number of people required
-Period of Performance
-Value if they have it
-*/
 import { fetchDescription } from "./samgov.js";
+import { readFileStorage, saveToFileStorage } from "./storage.js";
+import fetch from "node-fetch";
 
-export async function go() {
-  const idNumber = `fe3c90d3a1084200b870b45e1b4e3344`;
+const BATCH_SIZE = 2; // Number of records to process per batch
+const BATCH_DELAY = 60001; // Delay between batches in milliseconds (60 seconds)
+
+export async function generateSummariesForStorage() {
   try {
-    const descriptionData = await fetchDescription(idNumber);
-    console.log("Description Data:", descriptionData);
+    // Read data from storage.json
+    const storageData = await readFileStorage();
+    console.log(`Total records in storage: ${storageData.length}`);
+
+    // Filter records with an empty summary
+    const recordsToProcess = storageData.filter(
+      (record) => !record.summaryText
+    );
+    console.log(`Records to process: ${recordsToProcess.length}`);
+
+    // Process records in batches
+    for (let i = 0; i < recordsToProcess.length; i += BATCH_SIZE) {
+      const batch = recordsToProcess.slice(i, i + BATCH_SIZE);
+      console.log(
+        `Processing batch ${i / BATCH_SIZE + 1} of ${Math.ceil(
+          recordsToProcess.length / 2
+        )} with ${batch.length} records...`
+      );
+
+      // Process each record in the batch
+      for (const record of batch) {
+        try {
+          console.log(`Processing record with Notice ID: ${record.noticeId}`);
+
+          // Fetch the description document from SAM.gov
+          const descriptionData = await fetchDescription(record.descriptionUrl);
+
+          // Prepare the prompt for OpenAI
+          const prompt = `
+            Based on the following description and details, summarize the work required in a paragraph.
+            Before the paragraph, include a one-line description with the big picture and location.
+            In the summary paragraph, include the number of people required, the period of performance, and the value if available. 
+            If not available, state that. Also include the location of work (remote, on-site, hybrid, or not specified).
+            Be sure to include topics such as Logistics, Data Analysis, Engineering Management, Consulting, System Engineering, or similar topics.
+
+            Description: ${
+              descriptionData.description || "No description provided."
+            }
+            Details:
+            - Notice ID: ${record.noticeId}
+            - Date Posted: ${record.datePosted}
+            - Federal Organization: ${record.federalOrg}
+            - Set Aside: ${record.setAside}
+            - NAICS Codes: ${record.naicsCodes?.join(", ") || "Not specified"}
+            - Location: ${record.locationCity}, ${record.locationState}
+          `;
+
+          // Call OpenAI API to generate the summary
+          const summary = await generateSummaryWithOpenAI(prompt);
+
+          // Update the record with the generated summary
+          record.summaryText = summary;
+          console.log(`Generated summary: ${summary}`);
+
+          // Save the updated record back to storage.json immediately
+          await saveToFileStorage(
+            record.noticeId,
+            record.dateFetched,
+            record.title,
+            record.federalOrg,
+            record.datePosted,
+            record.dueDate,
+            record.setAside,
+            record.naicsCodes,
+            record.locationCity,
+            record.locationState,
+            record.descriptionUrl,
+            record.samUrl,
+            record.summaryText,
+            "summarized"
+          );
+
+          console.log(
+            `Summary generated and saved for Notice ID: ${record.noticeId}`
+          );
+        } catch (error) {
+          console.error(
+            `Error processing record with Notice ID: ${record.noticeId}`,
+            error.message
+          );
+        }
+      }
+
+      // Delay between batches to respect rate limits
+      if (i + BATCH_SIZE < recordsToProcess.length) {
+        console.log(
+          `Batch ${i / BATCH_SIZE + 1} completed. Waiting ${
+            BATCH_DELAY / 1000
+          } seconds before next batch...`
+        );
+        await new Promise((resolve) => setTimeout(resolve, BATCH_DELAY));
+      }
+    }
+
+    console.log("All summaries have been processed.");
   } catch (error) {
-    console.error("Failed to fetch description:", error.message);
+    console.error("Error generating summaries:", error.message);
+  }
+}
+
+// Helper function to call OpenAI API
+async function generateSummaryWithOpenAI(prompt) {
+  try {
+    const response = await fetch("https://api.openai.com/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: "gpt-4-turbo", // Use the GPT-4 model
+        messages: [
+          {
+            role: "system",
+            content:
+              "You are a helpful assistant that summarizes government opportunities.",
+          },
+          {
+            role: "user",
+            content: prompt,
+          },
+        ],
+        max_tokens: 500,
+        temperature: 0.7,
+      }),
+    });
+
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(
+        data.error?.message || "Failed to generate summary with OpenAI."
+      );
+    }
+
+    return data.choices[0].message.content.trim();
+  } catch (error) {
+    console.error("Error calling OpenAI API:", error.message);
+    throw error;
   }
 }

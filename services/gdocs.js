@@ -40,7 +40,7 @@ export async function dumpStorageToGoogleSheet() {
       record.samUrl,
     ]);
 
-    // Add headers to the rows
+    // Add headers only if the sheet is empty
     const headers = [
       "Notice ID",
       "Date Fetched",
@@ -55,24 +55,34 @@ export async function dumpStorageToGoogleSheet() {
       "Description URL",
       "SAM URL",
     ];
-    rows.unshift(headers);
 
-    // Write data to Google Sheets
+    // Check if the sheet is empty
     const spreadsheetId = process.env.GOOGLE_SHEET_ID;
     const range = "Sheet1!A1"; // Adjust the range as needed
-    await sheets.spreadsheets.values.update({
+    const existingData = await sheets.spreadsheets.values.get({
       spreadsheetId,
       range,
+    });
+
+    if (!existingData.data.values || existingData.data.values.length === 0) {
+      rows.unshift(headers); // Add headers if the sheet is empty
+    }
+
+    // Append data to the spreadsheet
+    await sheets.spreadsheets.values.append({
+      spreadsheetId,
+      range: "Sheet1", // Specify the sheet name
       valueInputOption: "RAW",
+      insertDataOption: "INSERT_ROWS",
       requestBody: {
         values: rows,
       },
     });
 
-    console.log("Successfully dumped storage.json data to Google Sheets.");
+    console.log("Successfully appended storage.json data to Google Sheets.");
   } catch (error) {
     console.error(
-      "Error dumping storage.json to Google Sheets:",
+      "Error appending storage.json to Google Sheets:",
       error.message
     );
     throw error;

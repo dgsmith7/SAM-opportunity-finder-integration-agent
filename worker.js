@@ -5,8 +5,9 @@
 //import { log } from "./utils/logger.js";
 //import { alreadyExists, saveOpportunity } from "./db/opportunity.js";
 import { fetchAndSaveOpportunities } from "./services/samgov.js";
-import { go } from "./services/summarizer.js";
 import { dumpStorageToGoogleSheet } from "./services/gdocs.js";
+import { generateSummariesForStorage } from "./services/summarizer.js";
+import { sendEmailRollup } from "./services/emailer.js";
 
 export async function runSofiaJob() {
   // try {
@@ -60,14 +61,26 @@ export async function runTestJob2() {
   try {
     console.log("Starting test job 2: Fetching and saving opportunities...");
     //await fetchAndSaveOpportunities();
-    //await go();
-    await dumpStorageToGoogleSheet();
-
+    //await generateSummariesForStorage();
+    await sendEmailRollup();
+    //await dumpStorageToGoogleSheet();
     console.log("Test job 2 completed successfully.");
   } catch (err) {
     console.log("Error in test job 2:", err);
   }
 }
+
+/* 
+Probable jobs:
+Daily - check sam and do summaries at 12AM Eastern
+Weely - make rollup and send email, update google sheet at 3 AM Eastern
+
+Probable endpoint job:
+Daily job
+Weekly job
+Send weekly email without updates (button on spreadsheet?)
+
+*/
 
 /*
 import {

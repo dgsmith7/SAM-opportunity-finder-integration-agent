@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "src",
+    "services"
+  ],
+  "ignore": [
+    "storage.json"
+  ]
+}

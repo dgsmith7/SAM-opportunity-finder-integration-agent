@@ -47,6 +47,7 @@ export async function fetchAndSaveOpportunities() {
             placeOfPerformance.state?.name || "Not specified";
           const descriptionUrl = opportunity.description;
           const samUrl = opportunity.uiLink;
+          const summaryText = "";
           const noticeStatus = "new";
           // Check if the notice already exists in the storage file
           if (!(await alreadyExistsInFileStorage(noticeId))) {
@@ -64,6 +65,7 @@ export async function fetchAndSaveOpportunities() {
               locationState,
               descriptionUrl,
               samUrl,
+              summaryText,
               noticeStatus
             );
             console.log(`Saved new opportunity: ${noticeId}`);
@@ -85,13 +87,11 @@ export async function fetchAndSaveOpportunities() {
   console.log("Finished fetching opportunities from SAM.gov.");
 }
 
-//  `https://api.sam.gov/prod/opportunities/v2/noticedesc?noticeid=fe3c90d3a1084200b870b45e1b4e3344?api_key=${config.SAM_API_KEY}`;
-
-export async function fetchDescription(noticeId) {
-  const descriptionUrl = `https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=${noticeId}&api_key=${config.SAM_API_KEY}`;
+export async function fetchDescription(descriptionUrl) {
+  const queryString = `${descriptionUrl}&api_key=${config.SAM_API_KEY}`;
   try {
-    console.log(`Fetching description from: ${descriptionUrl}`);
-    const response = await fetch(descriptionUrl);
+    console.log(`Fetching description from: ${queryString}`);
+    const response = await fetch(queryString);
 
     if (!response.ok) {
       throw new Error(
@@ -100,11 +100,11 @@ export async function fetchDescription(noticeId) {
     }
 
     const data = await response.json();
-    console.log(`Successfully fetched description for URL: ${descriptionUrl}`);
+    console.log(`Successfully fetched description for URL: ${queryString}`);
     return data;
   } catch (error) {
     console.error(
-      `Error fetching description from ${descriptionUrl}:`,
+      `Error fetching description from ${queryString}:`,
       error.message
     );
     throw error;

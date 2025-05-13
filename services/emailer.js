@@ -1,20 +1,129 @@
-/*
-For email:
-get from api response 
-Notice ID:
-Date posted
-Federal Organization: Priority is DHS, US Navy then others
-Set Aside:  SDVOSB, Small Business, Veteran Owned
-NAICS Code(s): 541330, 541611, 541614, 611430, 611519
-Location of work:  Remote, or on-site or hybrid  
+import nodemailer from "nodemailer";
+import { readFileStorage, saveToFileStorage } from "./storage.js";
 
-get from summarizer
-Date Due
-Description of the work required: (samgov api promt for description string)
-Topics: Logistics, Data Analysis, Engineering Management, Consulting, System engineering etc. . other similar topics (gleaned from GPT)
-Number of people required
-Period of Performance
-Value if they have it
+// Nodemailer configuration
+const transporter = nodemailer.createTransport({
+  host: process.env.GMAIL_HOST,
+  port: parseInt(process.env.MAIL_PORT, 10),
+  secure: process.env.MAIL_SECURE === "true", // true for 465, false for other ports
+  auth: {
+    user: process.env.GMAIL_USERNAME,
+    pass: process.env.GMAIL_PASSWORD,
+  },
+});
 
-Prompt for GPT.  Based on the attached full description, summarize the work required in a paragraph. Before the paragraph, place a one-line description that has the big pictuer and location.  In the summary paragrph, be sure to include the number of people required, the period of performance, and the value if they have it.  If not, say that.  Also include the location of work.  If remote, say that.  If on-site, say that.  If hybrid, say that.  If not specified, say that.  Be sure to include the topics: Logistics, Data Analysis, Engineering Management, Consulting, System engineering, or other similar topics.  
-*/
+// Function to send email roll-up of new notifications
+export async function sendEmailRollup() {
+  try {
+    // Read data from storage.json
+    const storageData = await readFileStorage();
+
+    // Filter records with a status of "summarized"
+    const summarizedRecords = storageData.filter(
+      (record) => record.noticeStatus === "summarized"
+    );
+
+    // If no new opportunities, send an email stating that
+    if (summarizedRecords.length === 0) {
+      console.log("No new summarized records to include in the email roll-up.");
+
+      // Send the "no new opportunities" email
+      const mailOptions = {
+        from: process.env.MESSAGE_FROM, // Sender address
+        to: process.env.MESSAGE_TO, // Recipient address
+        subject: "No New Opportunities", // Subject line
+        html: `
+          <h1>No New Opportunities</h1>
+          <p>There are no new opportunities since the last update.</p>
+        `,
+      };
+
+      await transporter.sendMail(mailOptions);
+      console.log("No new opportunities email sent successfully.");
+      return;
+    }
+
+    // Generate HTML content for the email roll-up
+    let emailHtml = "<h1>New Opportunities Roll-Up</h1>";
+    for (const record of summarizedRecords) {
+      // Extract the one-liner and summary paragraph from the summary text
+      // Extract the one-liner and summary paragraph from the summary text
+      let cleanedOneLiner = "No one-liner available.";
+      let summaryParagraph = "No summary available.";
+
+      if (record.summaryText) {
+        // Match the one-liner section
+        const oneLinerMatch = record.summaryText.match(
+          /\*\*One-line Description:\*\*\s*(.+?)(?=\n|$)/
+        );
+        if (oneLinerMatch) {
+          cleanedOneLiner = oneLinerMatch[1].trim(); // Extract and clean the one-liner
+        }
+
+        // Match the summary paragraph section
+        const summaryParagraphMatch = record.summaryText.match(
+          /\*\*Summary Paragraph:\*\*\s*([\s\S]+)/
+        );
+        if (summaryParagraphMatch) {
+          summaryParagraph = summaryParagraphMatch[1].trim(); // Extract and clean the summary paragraph
+        }
+      }
+      // Determine the due date or fallback to "Not specified"
+      const dueDate = record.dueDate || "Not specified";
+
+      // Add the record to the email HTML
+      emailHtml += `
+        <div>
+          <p><strong>One-Liner:</strong> ${cleanedOneLiner.trim()}</p>
+          <p><strong>Notice ID:</strong> ${record.noticeId}</p>
+          <p><strong>Date Posted:</strong> ${record.datePosted}</p>
+          <p><strong>Due Date:</strong> ${dueDate}</p>
+          <p><strong>Organization:</strong> ${record.federalOrg}</p>
+          <p><strong>Set-Aside Type(s):</strong> ${record.setAside}</p>
+          <p><strong>NAICS Code(s):</strong> ${
+            record.naicsCodes?.join(", ") || "Not specified"
+          }</p>
+          <p><strong>Summary:</strong> ${summaryParagraph.trim()}</p>
+          <p><strong>Link:</strong> <a href="${
+            record.samUrl
+          }" target="_blank">${record.samUrl}</a></p>
+        </div>
+        <hr>
+      `;
+
+      // Update the noticeStatus to "emailed"
+      record.noticeStatus = "emailed";
+
+      // Save the updated record back to storage.json
+      await saveToFileStorage(
+        record.noticeId,
+        record.dateFetched,
+        record.title,
+        record.federalOrg,
+        record.datePosted,
+        record.dueDate,
+        record.setAside,
+        record.naicsCodes,
+        record.locationCity,
+        record.locationState,
+        record.descriptionUrl,
+        record.samUrl,
+        record.summaryText,
+        record.noticeStatus
+      );
+    }
+
+    // Send the email
+    const mailOptions = {
+      from: process.env.MESSAGE_FROM, // Sender address
+      to: process.env.MESSAGE_TO, // Recipient address
+      subject: "New Opportunities Roll-Up", // Subject line
+      html: emailHtml, // HTML body
+    };
+
+    await transporter.sendMail(mailOptions);
+    console.log("Email roll-up sent successfully.");
+  } catch (error) {
+    console.error("Error sending email roll-up:", error.message);
+  }
+}

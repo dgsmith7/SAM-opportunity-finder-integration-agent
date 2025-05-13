@@ -17,6 +17,7 @@ export async function saveToFileStorage(
   locationState,
   descriptionUrl,
   samUrl,
+  summaryText,
   noticeStatus
 ) {
   try {
@@ -33,12 +34,30 @@ export async function saveToFileStorage(
       locationState,
       descriptionUrl,
       samUrl,
+      summaryText,
       noticeStatus,
     };
+
+    // Read existing records from storage.json
     const existingRecords = await readFileStorage();
-    existingRecords.push(record);
+
+    // Check if the record already exists
+    const recordIndex = existingRecords.findIndex(
+      (existingRecord) => existingRecord.noticeId === noticeId
+    );
+
+    if (recordIndex !== -1) {
+      // Overwrite the existing record
+      existingRecords[recordIndex] = record;
+      console.log(`Updated existing record: ${noticeId}`);
+    } else {
+      // Add the new record
+      existingRecords.push(record);
+      console.log(`Added new record: ${noticeId}`);
+    }
+
+    // Write the updated records back to storage.json
     await fs.writeFile(STORAGE_FILE, JSON.stringify(existingRecords, null, 2));
-    console.log(`Saved record: ${noticeId}`);
   } catch (error) {
     console.error("Error saving to file storage:", error.message);
   }

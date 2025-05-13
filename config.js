@@ -11,9 +11,8 @@ export const config = {
   NOTIFY_EMAILS: process.env.NOTIFY_EMAILS?.split(","),
 };
 
-//export const naicsCodes = ["541330", "541611", "541614", "611430", "611519"];
-export const naicsCodes = ["541330"];
-// 551330 - Engineering Services
+export const naicsCodes = ["541330", "541611", "541614", "611430", "611519"];
+// 541330 - Engineering Services
 // 541611 - Administrative Management and General Management Consulting Services
 // 541614 - Process, Physical Distribution, and Logistics Consulting Services
 // 611430 - Professional and Management Development Training
