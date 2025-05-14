@@ -1,22 +1,49 @@
 {
   "name": "sam-opportunity-finder-integration-agent",
   "version": "1.0.0",
-  "description": "",
+  "description": "A microservice for automating the discovery, summarization, and distribution of government contracting opportunities from SAM.gov.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "npx eslint .",
+    "clean": "rm -rf node_modules && npm install"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "SAM.gov",
+    "government opportunities",
+    "OpenAI",
+    "Google Sheets",
+    "automation",
+    "microservice"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgsmith7/SAM-opportunity-finder-integration-agent.git"
+  },
+  "author": "David Gail Smith, DGS Creative, LLC",
+  "bugs": {
+    "url": "https://github.com/dgsmith7/SAM-opportunity-finder-integration-agent/issues"
+  },
+  "homepage": "https://github.com/dgsmith7/SAM-opportunity-finder-integration-agent#readme",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "googleapis": "^148.0.0",
-    "mongodb": "^6.16.0",
     "node-cron": "^3.0.3",
-    "nodemailer": "^7.0.3"
-  }
+    "nodemailer": "^7.0.3",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0",
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "private": true
 }

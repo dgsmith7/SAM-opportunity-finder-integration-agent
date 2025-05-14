@@ -1,5 +1,3615 @@
 [
   {
+    "noticeId": "cc86fa1594d346c1ba5c68e8e29115f2",
+    "dateFetched": "2025-05-13",
+    "title": "Unrestricted Roadways and Railways AE MATOC Suite",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION NORTHWESTERN.W071 ENDIST OMAHA",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-06-03T14:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=cc86fa1594d346c1ba5c68e8e29115f2",
+    "samUrl": "https://sam.gov/opp/cc86fa1594d346c1ba5c68e8e29115f2/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "c42b428829244511b031b600b5a4356d",
+    "dateFetched": "2025-05-13",
+    "title": "C1DA--534-24-916 Renovate Hematology & Chemistry (VA-25-00020282)",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.247-NETWORK CONTRACT OFFICE 7 (36C247)",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-02-06T15:00:00-05:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Charleston",
+    "locationState": "SC",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c42b428829244511b031b600b5a4356d",
+    "samUrl": "https://sam.gov/opp/c42b428829244511b031b600b5a4356d/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "b072bd3c5a4e4d7bb2ea4975de101c5e",
+    "dateFetched": "2025-05-13",
+    "title": "Amendment 0006 to Final RFP for the internal Contractor Support Services Contract at NAWCTSD ",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR NAWC TSD.NAWC TRAINING SYSTEMS DIV",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-19T15:00:00-04:00",
+    "setAside": "SBA Certified Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b072bd3c5a4e4d7bb2ea4975de101c5e",
+    "samUrl": "https://sam.gov/opp/b072bd3c5a4e4d7bb2ea4975de101c5e/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "8c129a541db84815b56c3cb472e7772b",
+    "dateFetched": "2025-05-13",
+    "title": "Request for Qualifications (RFQ) – Architect/Engineer (A/E) Services for Construction Oversight and Quality Assurance of Housing Development",
+    "federalOrg": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.AMERICAN CONSULATE CAPE TOWN",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-28T10:00:00+02:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Cape Town",
+    "locationState": "Western Cape",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8c129a541db84815b56c3cb472e7772b",
+    "samUrl": "https://sam.gov/opp/8c129a541db84815b56c3cb472e7772b/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "896ce92aaadd4409b4e9ff854f978034",
+    "dateFetched": "2025-05-13",
+    "title": "Port Security Barrier (PSB) System and Components Out of Water Upkeep, Repair, & Maintenance",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA SUPSHIP.SUP OF SHIPBUILDING CONV AND REPAIR",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-12T12:15:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Newport News",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=896ce92aaadd4409b4e9ff854f978034",
+    "samUrl": "https://sam.gov/opp/896ce92aaadd4409b4e9ff854f978034/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "10382a7df10b4e69863fd0f9f41d85a8",
+    "dateFetched": "2025-05-13",
+    "title": "Brandon Road Interbasin Project A-E Design Services Single Award IDIQ",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION MISSISSIPPI VALLEY.W07V ENDIST ROCK ISLAND",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-29T14:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Joliet",
+    "locationState": "Illinois",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=10382a7df10b4e69863fd0f9f41d85a8",
+    "samUrl": "https://sam.gov/opp/10382a7df10b4e69863fd0f9f41d85a8/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "0df5362471034d98817363799723b526",
+    "dateFetched": "2025-05-13",
+    "title": "C1DA--Prevent Legionella and Scalding",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.246-NETWORK CONTRACTING OFFICE 6 (36C246)",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-23T15:00:00-04:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Fayetteville",
+    "locationState": "North Carolina",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0df5362471034d98817363799723b526",
+    "samUrl": "https://sam.gov/opp/0df5362471034d98817363799723b526/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "bdfc2a36975d44be8faea13cf8d72fbe",
+    "dateFetched": "2025-05-13",
+    "title": "SOLE SOURCE - Engineering Services for Microwave Devices with Goals to Increase Reliability, Improve Performance and Reduce Acquisition Costs",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC CRANE",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-13T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bdfc2a36975d44be8faea13cf8d72fbe",
+    "samUrl": "https://sam.gov/opp/bdfc2a36975d44be8faea13cf8d72fbe/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "a8dbef3dc3ba4772a9a3beb8f2d89ba7",
+    "dateFetched": "2025-05-13",
+    "title": "Modernized FADC Systems",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-23T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Philadelphia",
+    "locationState": "Pennsylvania",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a8dbef3dc3ba4772a9a3beb8f2d89ba7",
+    "samUrl": "https://sam.gov/opp/a8dbef3dc3ba4772a9a3beb8f2d89ba7/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "9a5fc22f7a8940bfb29a048d85494b9e",
+    "dateFetched": "2025-05-13",
+    "title": "SOLE SOURCE - Engineering Services for Microwave Devices with Goals to Increase Reliability, Improve Performance and Reduce Acquisition Costs",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC CRANE",
+    "datePosted": "2025-05-12",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Crane",
+    "locationState": "Indiana",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9a5fc22f7a8940bfb29a048d85494b9e",
+    "samUrl": "https://sam.gov/opp/9a5fc22f7a8940bfb29a048d85494b9e/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "7b40477e89ed4449ad1d12179b20f166",
+    "dateFetched": "2025-05-13",
+    "title": "SYNOPSIS:  141 Air Refueling Wing AE Single Award IDIQ",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.NATIONAL GUARD BUREAU.W7N6 USPFO ACTIVITY WAANG 141",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-06-12T03:00:00-08:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7b40477e89ed4449ad1d12179b20f166",
+    "samUrl": "https://sam.gov/opp/7b40477e89ed4449ad1d12179b20f166/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "748ab4c380464afc912204207cdf2de4",
+    "dateFetched": "2025-05-13",
+    "title": "Request for Information ATC Scientific and Engineering Requirement - Draft RFP",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-06-12T10:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Aberdeen Proving Ground",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=748ab4c380464afc912204207cdf2de4",
+    "samUrl": "https://sam.gov/opp/748ab4c380464afc912204207cdf2de4/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "33c880d1d2544452824ed55b0d105a32",
+    "dateFetched": "2025-05-13",
+    "title": "Request for Qualifications (RFQ) for Project XUMU 243207, Engineering Study, Study Launch Facilities (LFs) 9 and 10, Vandenberg SFB, CA",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.FA4610  30 CONS PK",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-23T15:00:00-07:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "California",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=33c880d1d2544452824ed55b0d105a32",
+    "samUrl": "https://sam.gov/opp/33c880d1d2544452824ed55b0d105a32/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2cbb754d967a4fb8b2a9caa85ed4971b",
+    "dateFetched": "2025-05-13",
+    "title": "C222--Provide Emergency Power to  3rd Floor Labs 558-24-109",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.246-NETWORK CONTRACTING OFFICE 6 (36C246)",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-22T10:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Durham",
+    "locationState": "North Carolina",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2cbb754d967a4fb8b2a9caa85ed4971b",
+    "samUrl": "https://sam.gov/opp/2cbb754d967a4fb8b2a9caa85ed4971b/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "0b0e7b7baca9437dab3c71f9d5f38b7e",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-12T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0b0e7b7baca9437dab3c71f9d5f38b7e",
+    "samUrl": "https://sam.gov/opp/0b0e7b7baca9437dab3c71f9d5f38b7e/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "eec37c4421634007b981dfe20d63e75c",
+    "dateFetched": "2025-05-13",
+    "title": "Eglin Operations and Maintenance Services (EOMS) II",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE TEST CENTER.FA2488  AFTC PZZA EGLIN",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-13T03:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Ft Lauderdale",
+    "locationState": "Florida",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=eec37c4421634007b981dfe20d63e75c",
+    "samUrl": "https://sam.gov/opp/eec37c4421634007b981dfe20d63e75c/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "bb51c36ad0474473a4fc2796eb222d48",
+    "dateFetched": "2025-05-13",
+    "title": "R410--667-24-3-501-0072 Provide 10 Year Facility Master Plan  (VA-24-00027915)",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.256-NETWORK CONTRACT OFFICE 16 (36C256)",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-09T14:00:00-05:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Shreveport",
+    "locationState": "Louisiana",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bb51c36ad0474473a4fc2796eb222d48",
+    "samUrl": "https://sam.gov/opp/bb51c36ad0474473a4fc2796eb222d48/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "71c03ca5180a4c26adc099b4236d6025",
+    "dateFetched": "2025-05-13",
+    "title": "618-25-200 AE Upgrade Building 222 HVAC - MPLS",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NETWORK CONTRACT OFFICE 23 (36C263)",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-26T10:00:00-05:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Minneapolis",
+    "locationState": "Minnesota",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=71c03ca5180a4c26adc099b4236d6025",
+    "samUrl": "https://sam.gov/opp/71c03ca5180a4c26adc099b4236d6025/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "59ad640522f34142861bfeefc8fd6054",
+    "dateFetched": "2025-05-13",
+    "title": "Lake City Army Ammunition Plant (LCAAP) Small Business SATOC",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION NORTHWESTERN.W071 ENDIST KANSAS CITY",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-06-09T10:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=59ad640522f34142861bfeefc8fd6054",
+    "samUrl": "https://sam.gov/opp/59ad640522f34142861bfeefc8fd6054/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2cde8fbff5f94263a3ba69a710b70b80",
+    "dateFetched": "2025-05-13",
+    "title": "Renovate Patient Restrooms",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.246-NETWORK CONTRACTING OFFICE 6 (36C246)",
+    "datePosted": "2025-05-09",
+    "dueDate": null,
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Salem",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2cde8fbff5f94263a3ba69a710b70b80",
+    "samUrl": "https://sam.gov/opp/2cde8fbff5f94263a3ba69a710b70b80/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2ac8e4c0a0f84700b7ca3c6516e4964e",
+    "dateFetched": "2025-05-13",
+    "title": "Lake City Army Ammunition Plant Unrestricted SATOC",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION NORTHWESTERN.W071 ENDIST KANSAS CITY",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-06-09T10:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2ac8e4c0a0f84700b7ca3c6516e4964e",
+    "samUrl": "https://sam.gov/opp/2ac8e4c0a0f84700b7ca3c6516e4964e/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "268887fa20a84c20b515e6de638c2a37",
+    "dateFetched": "2025-05-13",
+    "title": "PRT PCAS & FCDC BLDG 5746",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVFAC.NAVFAC PACIFIC CMD.NAVFAC SOUTHWEST SW.NAVFACSYSCOM SOUTHWEST",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-23T15:00:00-07:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Twentynine Palms",
+    "locationState": "California",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=268887fa20a84c20b515e6de638c2a37",
+    "samUrl": "https://sam.gov/opp/268887fa20a84c20b515e6de638c2a37/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "25484c388ee5435eaf6ee39874fba812",
+    "dateFetched": "2025-05-13",
+    "title": "USDA Forest Service -Region 1 AE Facility Design Services_Pre-solicitation",
+    "federalOrg": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA FOREST SERVICE-SPOC IM",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-15T17:00:00-06:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Montana",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=25484c388ee5435eaf6ee39874fba812",
+    "samUrl": "https://sam.gov/opp/25484c388ee5435eaf6ee39874fba812/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "247c926ce0144816b748075db45dbcf4",
+    "dateFetched": "2025-05-13",
+    "title": "Hydrant Fueling Automation Maintenance (HFAM) Request for Information",
+    "federalOrg": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DCSO",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-23T23:59:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Fort Belvoir",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=247c926ce0144816b748075db45dbcf4",
+    "samUrl": "https://sam.gov/opp/247c926ce0144816b748075db45dbcf4/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "096235bb36f04fc28ff529ff79f6415a",
+    "dateFetched": "2025-05-13",
+    "title": "PATRIOT Engineering Services (ESM) 2027 - 2032",
+    "federalOrg": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA LAND.DLA LAND ABERDEEN.DLA LAND AT ABERDEEN",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-26T09:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=096235bb36f04fc28ff529ff79f6415a",
+    "samUrl": "https://sam.gov/opp/096235bb36f04fc28ff529ff79f6415a/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "08492d933c47408ab19e10402a74f2d9",
+    "dateFetched": "2025-05-13",
+    "title": "Flight Dynamic Support Services (FDSS III) Extension",
+    "federalOrg": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA GODDARD SPACE FLIGHT CENTER",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-24T16:30:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Greenbelt",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=08492d933c47408ab19e10402a74f2d9",
+    "samUrl": "https://sam.gov/opp/08492d933c47408ab19e10402a74f2d9/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "06090499ee0f4234bf1a1154c4976e12",
+    "dateFetched": "2025-05-13",
+    "title": "Architect-Engineering Synopsis for Historic Preservation MATOC, U.S. Army Corps of Engineers, St. Louis District",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION MISSISSIPPI VALLEY.W07V ENDIST ST LOUIS",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-06-10T14:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=06090499ee0f4234bf1a1154c4976e12",
+    "samUrl": "https://sam.gov/opp/06090499ee0f4234bf1a1154c4976e12/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "e01f0620d36746deb928084d5f182226",
+    "dateFetched": "2025-05-13",
+    "title": "Estimating the Manufacturing Advantage of Dry-Coating of Cathodes in a Lithium-Ion Cell Plant",
+    "federalOrg": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-13T17:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e01f0620d36746deb928084d5f182226",
+    "samUrl": "https://sam.gov/opp/e01f0620d36746deb928084d5f182226/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "dbbaa46cdb364db284f6d61c5f94859a",
+    "dateFetched": "2025-05-13",
+    "title": "H345--SDVOSB Set Aside",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.248-NETWORK CONTRACT OFFICE 8 (36C248)",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-07T11:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=dbbaa46cdb364db284f6d61c5f94859a",
+    "samUrl": "https://sam.gov/opp/dbbaa46cdb364db284f6d61c5f94859a/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "c7322ef45e4046f385c85ae50016945c",
+    "dateFetched": "2025-05-13",
+    "title": "C1DA--EHRM Infrastructure Upgrades Construction  Period Services (CPS) Lexington-Leestown 596-22-700",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.PCAC (36C776)",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-23T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c7322ef45e4046f385c85ae50016945c",
+    "samUrl": "https://sam.gov/opp/c7322ef45e4046f385c85ae50016945c/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "c3e5e1c205bd4b499d335603b6274603",
+    "dateFetched": "2025-05-13",
+    "title": "DESIGN AGENT ENGINEERING SERVICES FOR THE LITTORAL COMBAT SHIP (LCS) FREEDOM CLASS, LSD 41/49 CLASS, AND DDG-51 ARLEIGH BURKE CLASS",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV",
+    "datePosted": "2025-05-08",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Philadelphia",
+    "locationState": "Pennsylvania",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c3e5e1c205bd4b499d335603b6274603",
+    "samUrl": "https://sam.gov/opp/c3e5e1c205bd4b499d335603b6274603/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "ad605ceba2bf43d98337b9a89cc1f5fe",
+    "dateFetched": "2025-05-13",
+    "title": "636A8-25-002 AE Retro-Commission AHU 102 IC 36C26325R0048 Full Brooks Act {One Step}",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NETWORK CONTRACT OFFICE 23 (36C263)",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-06-11T10:00:00-05:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Iowa City",
+    "locationState": "Iowa",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ad605ceba2bf43d98337b9a89cc1f5fe",
+    "samUrl": "https://sam.gov/opp/ad605ceba2bf43d98337b9a89cc1f5fe/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "a8f56e0821ee4587910c549d7f9be6af",
+    "dateFetched": "2025-05-13",
+    "title": "Indefinite-Delivery Architect-Engineer Services Contract (Electrical) Not-To-Exceed $9.9M for the Design of Miscellaneous Projects in the USACE Honolulu District Area of Responsibility",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION PACIFIC OCEAN.W2SN ENDIST HONOLULU",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-06-06T14:00:00-10:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Fort Shafter",
+    "locationState": "Hawaii",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a8f56e0821ee4587910c549d7f9be6af",
+    "samUrl": "https://sam.gov/opp/a8f56e0821ee4587910c549d7f9be6af/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "a0ca939bb7744759a942598fcc913c1c",
+    "dateFetched": "2025-05-13",
+    "title": "Notice of Intent to Sole Source - Honeywell",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.USMC.MARCOR SYSCOM.COMMANDER",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-23T08:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Clearwater",
+    "locationState": "Florida",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a0ca939bb7744759a942598fcc913c1c",
+    "samUrl": "https://sam.gov/opp/a0ca939bb7744759a942598fcc913c1c/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "91b81964f32d46ae890bc0715076d5e5",
+    "dateFetched": "2025-05-13",
+    "title": "Storage Tank Testing and Certifications",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC WRN.W6QK ACC RRAD",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-13T15:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Texarkana",
+    "locationState": "Texas",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=91b81964f32d46ae890bc0715076d5e5",
+    "samUrl": "https://sam.gov/opp/91b81964f32d46ae890bc0715076d5e5/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "848e59387a61462680edc21107641a5a",
+    "dateFetched": "2025-05-13",
+    "title": "Audio Over IP Network - Library of Congress",
+    "federalOrg": "LIBRARY OF CONGRESS.LIBRARY OF CONGRESS.CONTRACTS SERVICES",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-23T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Culpeper",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=848e59387a61462680edc21107641a5a",
+    "samUrl": "https://sam.gov/opp/848e59387a61462680edc21107641a5a/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "8472e42293a74141a46ea168f5e20044",
+    "dateFetched": "2025-05-13",
+    "title": "C--US AFCEC NEPA/EA/EIS MATOC ",
+    "federalOrg": "INTERIOR, DEPARTMENT OF THE.DEPARTMENTAL OFFICES.IBC ACQ SVCS DIRECTORATE (00004)",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-23T16:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8472e42293a74141a46ea168f5e20044",
+    "samUrl": "https://sam.gov/opp/8472e42293a74141a46ea168f5e20044/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "76e90a687e984a53a61242197175f447",
+    "dateFetched": "2025-05-13",
+    "title": "H345--SDVOSB Set Aside",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.248-NETWORK CONTRACT OFFICE 8 (36C248)",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-30T11:00:00-04:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=76e90a687e984a53a61242197175f447",
+    "samUrl": "https://sam.gov/opp/76e90a687e984a53a61242197175f447/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "744d1bd31d5145ed8032bb1a4ef0ec5f",
+    "dateFetched": "2025-05-13",
+    "title": "Design and Assembly of Battery Systems for Medium- and Heavy-Duty Vehicles",
+    "federalOrg": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-13T17:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=744d1bd31d5145ed8032bb1a4ef0ec5f",
+    "samUrl": "https://sam.gov/opp/744d1bd31d5145ed8032bb1a4ef0ec5f/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "5f0205581d184b489d538fc224af54ac",
+    "dateFetched": "2025-05-13",
+    "title": "Estimating the Cost of a Manufacturing Plant for LFP-Based Lithium-Ion Cells",
+    "federalOrg": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-19T12:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5f0205581d184b489d538fc224af54ac",
+    "samUrl": "https://sam.gov/opp/5f0205581d184b489d538fc224af54ac/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "4fda62854c9c4ce59be1ca21e111c4bf",
+    "dateFetched": "2025-05-13",
+    "title": "To provide Hygrothermal study for a US Government owned residence in Singapore.",
+    "federalOrg": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY SINGAPORE",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-06-09T16:30:00+08:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Singapore",
+    "locationState": "Central Singapore",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4fda62854c9c4ce59be1ca21e111c4bf",
+    "samUrl": "https://sam.gov/opp/4fda62854c9c4ce59be1ca21e111c4bf/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "0fc358fd1b2b47d6a4cae793bbca3128",
+    "dateFetched": "2025-05-13",
+    "title": "C223--558-24-156 Install SPS AHU  A/E Services",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.246-NETWORK CONTRACTING OFFICE 6 (36C246)",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-16T10:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Durham",
+    "locationState": "North Carolina",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0fc358fd1b2b47d6a4cae793bbca3128",
+    "samUrl": "https://sam.gov/opp/0fc358fd1b2b47d6a4cae793bbca3128/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "0e613ffe0646427e8dd9c64158942409",
+    "dateFetched": "2025-05-13",
+    "title": "C1DA--EHRM Infrastructure Upgrades Fort Meade  A/E CPS",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.PCAC (36C776)",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-23T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0e613ffe0646427e8dd9c64158942409",
+    "samUrl": "https://sam.gov/opp/0e613ffe0646427e8dd9c64158942409/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "0ab54f73ac4c440392be330f0adfcac7",
+    "dateFetched": "2025-05-13",
+    "title": "System Configuration (SC) 28 Fleet Release",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR HQS.NAVAL AIR SYSTEMS COMMAND",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-23T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Owego",
+    "locationState": "New York",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0ab54f73ac4c440392be330f0adfcac7",
+    "samUrl": "https://sam.gov/opp/0ab54f73ac4c440392be330f0adfcac7/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "fea145aef48e47dda87267ed0a9bd793",
+    "dateFetched": "2025-05-13",
+    "title": "Joint Interoperability of Tactical Command and Control Systems (JINTACCS)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.USMC.MARCOR SYSCOM.SUPPLY OFFICER",
+    "datePosted": "2025-05-07",
+    "dueDate": null,
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Camp Pendleton",
+    "locationState": "California",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fea145aef48e47dda87267ed0a9bd793",
+    "samUrl": "https://sam.gov/opp/fea145aef48e47dda87267ed0a9bd793/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "f3ef8ed7f1374aa78c8156100e84f994",
+    "dateFetched": "2025-05-13",
+    "title": "Pre-Solicitation Synopsis 80GSFC25R0001 - Space Weather Geostationary (SWGEO) PHOtospheric Magnetograph Imager (PHOMI) Phase A Study",
+    "federalOrg": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA GODDARD SPACE FLIGHT CENTER",
+    "datePosted": "2025-05-07",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Greenbelt",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f3ef8ed7f1374aa78c8156100e84f994",
+    "samUrl": "https://sam.gov/opp/f3ef8ed7f1374aa78c8156100e84f994/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "cbbad6e50b7849ba997578cc0269ee35",
+    "dateFetched": "2025-05-13",
+    "title": "C1DA--Engineering and CM Services for the WCHCS in Grand Junction,  CO",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NETWORK CONTRACT OFFICE 19 (36C259)",
+    "datePosted": "2025-05-07",
+    "dueDate": null,
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=cbbad6e50b7849ba997578cc0269ee35",
+    "samUrl": "https://sam.gov/opp/cbbad6e50b7849ba997578cc0269ee35/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "bb92c354b98b46838fda9b0705d3511e",
+    "dateFetched": "2025-05-13",
+    "title": "RFI - Implementation of Manual Controls for Scubber System, Louvers, and Emergency Gas Shutoff Valve",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG NATICK",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-06-06T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Natick",
+    "locationState": "Massachusetts",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bb92c354b98b46838fda9b0705d3511e",
+    "samUrl": "https://sam.gov/opp/bb92c354b98b46838fda9b0705d3511e/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "88cae766ee45476684e81e4605f058cf",
+    "dateFetched": "2025-05-13",
+    "title": "C--ACAD - SCHOODIC WASTEWATER DEMO TITLE III",
+    "federalOrg": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.NER SERVICES MABO (43000)",
+    "datePosted": "2025-05-07",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Bar Harbor",
+    "locationState": "ME",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=88cae766ee45476684e81e4605f058cf",
+    "samUrl": "https://sam.gov/opp/88cae766ee45476684e81e4605f058cf/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "672e789594614f488b32453c0d08fd87",
+    "dateFetched": "2025-05-13",
+    "title": "Residential Generator Post Program Installation Civil Work",
+    "federalOrg": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY QUITO",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-05-19T16:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Quito",
+    "locationState": "Pichincha",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=672e789594614f488b32453c0d08fd87",
+    "samUrl": "https://sam.gov/opp/672e789594614f488b32453c0d08fd87/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "61fbc4245797433f9cffe9a049649f54",
+    "dateFetched": "2025-05-13",
+    "title": "C1DZ--523-25-004 Replace Fire Alarm A/E  Request SF 330 Qualifications",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.241-NETWORK CONTRACT OFFICE 01 (36C241)",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-06-06T16:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=61fbc4245797433f9cffe9a049649f54",
+    "samUrl": "https://sam.gov/opp/61fbc4245797433f9cffe9a049649f54/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "6007285f01464383b30bde100f5b62e9",
+    "dateFetched": "2025-05-13",
+    "title": "NUWC Division, Keyport and NSLC Mechanicsburg SeaPort/Service Contract Forecast",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NAVAL UNDERSEA WARFARE CENTER",
+    "datePosted": "2025-05-07",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6007285f01464383b30bde100f5b62e9",
+    "samUrl": "https://sam.gov/opp/6007285f01464383b30bde100f5b62e9/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "5cf3fceacd4b4cdab6cdf4d5bdeac63f",
+    "dateFetched": "2025-05-13",
+    "title": "Guam PMO A&AS",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AF INSTALLATION & MISSION SUPPORT CENTER.FA8003  771 ENTERPRISE SOURCING SQ",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-05-22T13:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Guam",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5cf3fceacd4b4cdab6cdf4d5bdeac63f",
+    "samUrl": "https://sam.gov/opp/5cf3fceacd4b4cdab6cdf4d5bdeac63f/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "562d808d473e49f6bd4ddb13a4ac0354",
+    "dateFetched": "2025-05-13",
+    "title": "DPS Engineering Services Notice of Sole Source to Lockheed Martin",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NUWC DIV NEWPORT",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-05-08T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=562d808d473e49f6bd4ddb13a4ac0354",
+    "samUrl": "https://sam.gov/opp/562d808d473e49f6bd4ddb13a4ac0354/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "4e2a1435ad274f73aeb30137f17eb212",
+    "dateFetched": "2025-05-13",
+    "title": "OEHE GIS Support Services",
+    "federalOrg": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.DIV OF ENGINEERING SVCS - SEATTLE",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-06-06T14:00:00-07:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Rockville",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4e2a1435ad274f73aeb30137f17eb212",
+    "samUrl": "https://sam.gov/opp/4e2a1435ad274f73aeb30137f17eb212/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "3b932625c44b4dc3af9e0afbdfc6a845",
+    "dateFetched": "2025-05-13",
+    "title": "Architect/Engineer Design Services for Site 39, Building 326, and Building 327 HVAC Replacement",
+    "federalOrg": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.FERMILAB - DOE CONTRACTOR",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-06-17T15:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Batavia",
+    "locationState": "Illinois",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3b932625c44b4dc3af9e0afbdfc6a845",
+    "samUrl": "https://sam.gov/opp/3b932625c44b4dc3af9e0afbdfc6a845/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2c5c60c675334cbabdf4c661e74ba584",
+    "dateFetched": "2025-05-13",
+    "title": "PEO Maritime requirements",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA FAS AAS REGION 4",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-05-22T11:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2c5c60c675334cbabdf4c661e74ba584",
+    "samUrl": "https://sam.gov/opp/2c5c60c675334cbabdf4c661e74ba584/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "20d04a979e8849e2983d51ab6f23fab3",
+    "dateFetched": "2025-05-13",
+    "title": "Architect Engineer IDIQ for NAVFAC EURAFCENT Area of Responsibility (AOR)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVFAC.NAVFAC ATLANTIC CMD.NAVFAC EUR SWA.NAVFACSYSCOM EUROPE AFRICA CENTRAL",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-06-02T15:00:00+02:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "NAVFAC EURAFCENT AOR",
+    "locationState": "N/A",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=20d04a979e8849e2983d51ab6f23fab3",
+    "samUrl": "https://sam.gov/opp/20d04a979e8849e2983d51ab6f23fab3/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "19d6652d4af64d73aac930d05cc51f60",
+    "dateFetched": "2025-05-13",
+    "title": "Solicitation for Fiscal Year 2025 Cost Analysis Support (CAS) Services Indefinite Delivery Indefinite Quantity (IDIQ)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC WRN.W6QK ACC- DTA",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-05-15T12:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Michigan",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=19d6652d4af64d73aac930d05cc51f60",
+    "samUrl": "https://sam.gov/opp/19d6652d4af64d73aac930d05cc51f60/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "018a4278e3744c639773f97768012400",
+    "dateFetched": "2025-05-13",
+    "title": "Hydrogen Conversion Plans for the NWS Office of Facilities in Silver Spring, MD",
+    "federalOrg": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-05-23T12:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Silver Spring",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=018a4278e3744c639773f97768012400",
+    "samUrl": "https://sam.gov/opp/018a4278e3744c639773f97768012400/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "00f1749ac72a475c8b3d6964097afd9b",
+    "dateFetched": "2025-05-13",
+    "title": "C1DA--AE-NRM 668-25-102  Replace Asphalt Drywells and Sidewalks",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.260-NETWORK CONTRACT OFFICE 20 (36C260)",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-06-06T11:00:00-07:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Spokane",
+    "locationState": "WA",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=00f1749ac72a475c8b3d6964097afd9b",
+    "samUrl": "https://sam.gov/opp/00f1749ac72a475c8b3d6964097afd9b/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "d4610f6915b940318e40279d34c514e7",
+    "dateFetched": "2025-05-13",
+    "title": "Centralized Energy Resilience and Conservation Investment Program (ERCIP) AE Services $249M",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.OTHER_DIVISION.W2V6 USA ENG SPT CTR HUNTSVIL",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d4610f6915b940318e40279d34c514e7",
+    "samUrl": "https://sam.gov/opp/d4610f6915b940318e40279d34c514e7/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "ba26fdd1152a4fa6b4430357cc51482b",
+    "dateFetched": "2025-05-13",
+    "title": "AE IDIQ Multi-Discipline Primarily for Billeting and Community Support Facilities, MCB Camp Lejeune and MCAS Cherry Point, NC",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVFAC.NAVFAC ATLANTIC CMD.NAVFAC MID-ATLANTIC.NAVFACSYSCOM MID-ATLANTIC",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Camp Lejeune",
+    "locationState": "North Carolina",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ba26fdd1152a4fa6b4430357cc51482b",
+    "samUrl": "https://sam.gov/opp/ba26fdd1152a4fa6b4430357cc51482b/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "99c5965059de40ca987ebdb381eea3aa",
+    "dateFetched": "2025-05-13",
+    "title": "Centralized Energy Resilience and Conservation Investment Program (ERCIP) AE Services $249M",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.OTHER_DIVISION.W2V6 USA ENG SPT CTR HUNTSVIL",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=99c5965059de40ca987ebdb381eea3aa",
+    "samUrl": "https://sam.gov/opp/99c5965059de40ca987ebdb381eea3aa/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "9454d3ba3ab9461c989c93c702eaa877",
+    "dateFetched": "2025-05-13",
+    "title": "Centralized Energy Resilience and Conservation Investment Program (ERCIP) AE Services $249M",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.OTHER_DIVISION.W2V6 USA ENG SPT CTR HUNTSVIL",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9454d3ba3ab9461c989c93c702eaa877",
+    "samUrl": "https://sam.gov/opp/9454d3ba3ab9461c989c93c702eaa877/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "7dcc36c524f940d5b795855db555a23a",
+    "dateFetched": "2025-05-13",
+    "title": "Centralized Energy Resilience and Conservation Investment Program (ERCIP) AE Services $249M",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.OTHER_DIVISION.W2V6 USA ENG SPT CTR HUNTSVIL",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7dcc36c524f940d5b795855db555a23a",
+    "samUrl": "https://sam.gov/opp/7dcc36c524f940d5b795855db555a23a/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "75686f0846ce48a48957fec7d948dfa2",
+    "dateFetched": "2025-05-13",
+    "title": "RFI READI ASSESSMENT- Savannah District, USACE",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION SOUTH ATLANTIC.W074 ENDIST SAVANNAH",
+    "datePosted": "2025-05-06",
+    "dueDate": "2025-05-27T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Savannah",
+    "locationState": "Georgia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=75686f0846ce48a48957fec7d948dfa2",
+    "samUrl": "https://sam.gov/opp/75686f0846ce48a48957fec7d948dfa2/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "7178bc589cc54e9aa2a20a2fb3ccccf0",
+    "dateFetched": "2025-05-13",
+    "title": "RECERTIFICATION FOR 87' SLING LIFT RIG & 87' WPB LIFT RIG",
+    "federalOrg": "HOMELAND SECURITY, DEPARTMENT OF.US COAST GUARD.SFLC PROCUREMENT BRANCH 3(00040)",
+    "datePosted": "2025-05-06",
+    "dueDate": "2025-05-21T12:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Curtis Bay",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7178bc589cc54e9aa2a20a2fb3ccccf0",
+    "samUrl": "https://sam.gov/opp/7178bc589cc54e9aa2a20a2fb3ccccf0/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "47eb5597a4e3445098aefa82fbd5afe9",
+    "dateFetched": "2025-05-13",
+    "title": "Fabric Specimen Testing Services",
+    "federalOrg": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA SHARED SERVICES CENTER",
+    "datePosted": "2025-05-06",
+    "dueDate": "2025-05-09T13:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Houston",
+    "locationState": "Texas",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=47eb5597a4e3445098aefa82fbd5afe9",
+    "samUrl": "https://sam.gov/opp/47eb5597a4e3445098aefa82fbd5afe9/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "306367f903304a4188efe44300360eee",
+    "dateFetched": "2025-05-13",
+    "title": "Centralized Energy Resilience and Conservation Investment Program (ERCIP) AE Services $249M",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.OTHER_DIVISION.W2V6 USA ENG SPT CTR HUNTSVIL",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=306367f903304a4188efe44300360eee",
+    "samUrl": "https://sam.gov/opp/306367f903304a4188efe44300360eee/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "21962eb0f7ee403083a789c82add4efb",
+    "dateFetched": "2025-05-13",
+    "title": "Centralized Energy Resilience and Conservation Investment Program (ERCIP) AE Services $249M",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.OTHER_DIVISION.W2V6 USA ENG SPT CTR HUNTSVIL",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=21962eb0f7ee403083a789c82add4efb",
+    "samUrl": "https://sam.gov/opp/21962eb0f7ee403083a789c82add4efb/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "11b80c49026c402db24cd70de2d0062e",
+    "dateFetched": "2025-05-13",
+    "title": "C--AE Title III (Post Approved for Construction) Services for Task No. BH-LE-1778 Raw Water Pigging Settling Pond",
+    "federalOrg": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.STRATEGIC PETROLEUM RESERVE",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=11b80c49026c402db24cd70de2d0062e",
+    "samUrl": "https://sam.gov/opp/11b80c49026c402db24cd70de2d0062e/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "f321fca65c6d4150a2314b19d79005f5",
+    "dateFetched": "2025-05-13",
+    "title": "Weapons Effects",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC CARDEROCK",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-22T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Bethesda",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f321fca65c6d4150a2314b19d79005f5",
+    "samUrl": "https://sam.gov/opp/f321fca65c6d4150a2314b19d79005f5/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "afa03f89e76348cfbaebf12d8c5c2cd8",
+    "dateFetched": "2025-05-13",
+    "title": "NAWCAD WOLF SCMS DIVISION SPECIAL COMMUNICATION RAPID INTEGRATION FACILITY (SCRIF) FOLLOW-ON SOURCES SOUGHT",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR NAWC AD.NAVAL AIR WARFARE CENTER AIR DIV",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-20T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "St James",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=afa03f89e76348cfbaebf12d8c5c2cd8",
+    "samUrl": "https://sam.gov/opp/afa03f89e76348cfbaebf12d8c5c2cd8/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "9fe824621fa148a18467284bc2ba1b29",
+    "dateFetched": "2025-05-13",
+    "title": "Notice of Intent to Sole-Source  - Engineering, Maintenance, and Testing Support (EMTS) Services",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.USMC.MARCOR SYSCOM.COMMANDER",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-14T09:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Ruther Glen",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9fe824621fa148a18467284bc2ba1b29",
+    "samUrl": "https://sam.gov/opp/9fe824621fa148a18467284bc2ba1b29/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "82c36b9bfb3248b9ae1b5f718fa5d96f",
+    "dateFetched": "2025-05-13",
+    "title": "LM2500 GGA Container Repair",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-09T15:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Philadelphia",
+    "locationState": "Pennsylvania",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=82c36b9bfb3248b9ae1b5f718fa5d96f",
+    "samUrl": "https://sam.gov/opp/82c36b9bfb3248b9ae1b5f718fa5d96f/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "66b649e367ce4c959808cf43d0d12812",
+    "dateFetched": "2025-05-13",
+    "title": "Follow-On Indefinite-Delivery, Indefinite-Quantity (IDIQ) Multiple Award Contract (MAC) for Petroleum, Oil, and Lubricants (POL) Architect-Engineer (A-E) Services",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVFAC.EXPEDITIONARY WARFARE CENTER.NAVFAC SYSTEMS AND EXP WARFARE CTR",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-19T00:00:00-07:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=66b649e367ce4c959808cf43d0d12812",
+    "samUrl": "https://sam.gov/opp/66b649e367ce4c959808cf43d0d12812/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "61e7b22217b8445e86dabed8b2b22ea2",
+    "dateFetched": "2025-05-13",
+    "title": "Sole Source to Instruments Inc,: Amplifier inspection and repair",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NUWC DIV NEWPORT",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-09T14:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Newport",
+    "locationState": "Rhode Island",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=61e7b22217b8445e86dabed8b2b22ea2",
+    "samUrl": "https://sam.gov/opp/61e7b22217b8445e86dabed8b2b22ea2/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "3c23b2ba9156456188658c1ff0551810",
+    "dateFetched": "2025-05-13",
+    "title": "Project 541-25-504 - AE Replace Rehab Medicine AHU",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.250-NETWORK CONTRACT OFFICE 10 (36C250)",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-06-05T15:00:00-04:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Cleveland",
+    "locationState": "Ohio",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3c23b2ba9156456188658c1ff0551810",
+    "samUrl": "https://sam.gov/opp/3c23b2ba9156456188658c1ff0551810/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2807f7c6d3774463b92af573fe9fdd64",
+    "dateFetched": "2025-05-13",
+    "title": "CIP New Scope under FY22 FC Production Contract",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.SSP.STRATEGIC SYSTEMS PROGRAMS",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-20T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2807f7c6d3774463b92af573fe9fdd64",
+    "samUrl": "https://sam.gov/opp/2807f7c6d3774463b92af573fe9fdd64/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "26c8eaedaaa646c58238a5cc6ae52116",
+    "dateFetched": "2025-05-13",
+    "title": "Counter Uncrewed Systems Support Services",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR NAWC AD.NAVAL AIR WARFARE CENTER AIR DIV",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-20T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Saint Inigoes",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=26c8eaedaaa646c58238a5cc6ae52116",
+    "samUrl": "https://sam.gov/opp/26c8eaedaaa646c58238a5cc6ae52116/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "f1d189dd41344ed88efea2e2d65693c9",
+    "dateFetched": "2025-05-13",
+    "title": "Impeller Scan Software",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV",
+    "datePosted": "2025-05-02",
+    "dueDate": "2025-05-15T15:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Philadelphia",
+    "locationState": "Pennsylvania",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f1d189dd41344ed88efea2e2d65693c9",
+    "samUrl": "https://sam.gov/opp/f1d189dd41344ed88efea2e2d65693c9/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "ecfc9d8fb0674619bdd14c8679e4d6c4",
+    "dateFetched": "2025-05-13",
+    "title": "B-52 AN/ALQ-172(V)2 Field Support",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE GLOBAL STRIKE COMMAND.FA4608  2 CONS LGC",
+    "datePosted": "2025-05-02",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Fort Johnson",
+    "locationState": "Louisiana",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ecfc9d8fb0674619bdd14c8679e4d6c4",
+    "samUrl": "https://sam.gov/opp/ecfc9d8fb0674619bdd14c8679e4d6c4/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "d5a82295dc784a95971ebe6261e27484",
+    "dateFetched": "2025-05-13",
+    "title": "Pre-Synopsis Notice: USACE SPK Civil Works A&E Horizontal Design Services",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION SOUTH PACIFIC.W075 ENDIST SACRAMENTO",
+    "datePosted": "2025-05-02",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Sacramento",
+    "locationState": "California",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d5a82295dc784a95971ebe6261e27484",
+    "samUrl": "https://sam.gov/opp/d5a82295dc784a95971ebe6261e27484/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "b1ef38b9c68d42dca9151ab6db784ba5",
+    "dateFetched": "2025-05-13",
+    "title": "Evolving Launch Vehicle Integrated Support 4 (ELVIS 4)",
+    "federalOrg": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA KENNEDY SPACE CENTER",
+    "datePosted": "2025-05-02",
+    "dueDate": "2025-03-18T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Florida",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1ef38b9c68d42dca9151ab6db784ba5",
+    "samUrl": "https://sam.gov/opp/b1ef38b9c68d42dca9151ab6db784ba5/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "7b49e9c7487c4d58903c9fc7e0cc6f34",
+    "dateFetched": "2025-05-13",
+    "title": "C1DZ--656-26-102, Remodel B48 1st Floor CLC  36C263-25-AP-1434",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NETWORK CONTRACT OFFICE 23 (36C263)",
+    "datePosted": "2025-05-02",
+    "dueDate": "",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7b49e9c7487c4d58903c9fc7e0cc6f34",
+    "samUrl": "https://sam.gov/opp/7b49e9c7487c4d58903c9fc7e0cc6f34/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "59a36898361d46d2b4452347f8a00def",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-02",
+    "dueDate": "2025-05-02T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=59a36898361d46d2b4452347f8a00def",
+    "samUrl": "https://sam.gov/opp/59a36898361d46d2b4452347f8a00def/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "3d21be17c6e84ae581ba946b5c46cca9",
+    "dateFetched": "2025-05-13",
+    "title": "Program and Analysis Control (PAAC VI) Support Services Draft Request for Propopsal (DRFP)",
+    "federalOrg": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA GODDARD SPACE FLIGHT CENTER",
+    "datePosted": "2025-05-02",
+    "dueDate": "2025-03-24T16:30:00-04:00",
+    "setAside": "8(a) Set-Aside (FAR 19.8)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Greenbelt",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3d21be17c6e84ae581ba946b5c46cca9",
+    "samUrl": "https://sam.gov/opp/3d21be17c6e84ae581ba946b5c46cca9/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "f9e812e259a24915b4e5598687b09f06",
+    "dateFetched": "2025-05-13",
+    "title": "LSNFH Infrastructure Review & Alternatives Analysi",
+    "federalOrg": "INTERIOR, DEPARTMENT OF THE.BUREAU OF RECLAMATION.MP-REGIONAL OFFICE",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-15T15:00:00-07:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f9e812e259a24915b4e5598687b09f06",
+    "samUrl": "https://sam.gov/opp/f9e812e259a24915b4e5598687b09f06/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "eedd77a9533a405eac6d18f016d31903",
+    "dateFetched": "2025-05-13",
+    "title": "Notice of Intent to Sole Source to Oklahoma State University",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.SPAWAR.SPAWAR PACIFIC.NIWC PACIFIC",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-07T17:00:00-07:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=eedd77a9533a405eac6d18f016d31903",
+    "samUrl": "https://sam.gov/opp/eedd77a9533a405eac6d18f016d31903/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "d7aa7bc32c984a5698775f7fa816b51c",
+    "dateFetched": "2025-05-13",
+    "title": "Advisory Support & Technical Requirement Administration (ASTRA)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.FA8604  AFLCMC PZI",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-08T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Wright Patterson AFB",
+    "locationState": "Ohio",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d7aa7bc32c984a5698775f7fa816b51c",
+    "samUrl": "https://sam.gov/opp/d7aa7bc32c984a5698775f7fa816b51c/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "b9bc0a5107bd4fb281debf5f524617d2",
+    "dateFetched": "2025-05-13",
+    "title": "Y1DA--590-25-701 | Design EHRM Data Center | Hampton, VA |",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.PCAC (36C776)",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-05T15:00:00-04:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Hampton",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b9bc0a5107bd4fb281debf5f524617d2",
+    "samUrl": "https://sam.gov/opp/b9bc0a5107bd4fb281debf5f524617d2/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "8225232d7ace47b490abb4d7c38f77b4",
+    "dateFetched": "2025-05-13",
+    "title": "Integrated Multi-Domain Command and Control (IMDC2)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE DISTRICT OF WASHINGTON.AFWERX.FA7013 AFX VNTURES CON OFC SAF AQCR",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-16T17:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8225232d7ace47b490abb4d7c38f77b4",
+    "samUrl": "https://sam.gov/opp/8225232d7ace47b490abb4d7c38f77b4/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "788ffb96ce984c8f847ad1cc11fdd1e7",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-01T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=788ffb96ce984c8f847ad1cc11fdd1e7",
+    "samUrl": "https://sam.gov/opp/788ffb96ce984c8f847ad1cc11fdd1e7/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "71b048052d854e3a8f6ad13015d9d07f",
+    "dateFetched": "2025-05-13",
+    "title": "Catawba Tow Machine Certification",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-15T15:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Philadelphia",
+    "locationState": "Pennsylvania",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=71b048052d854e3a8f6ad13015d9d07f",
+    "samUrl": "https://sam.gov/opp/71b048052d854e3a8f6ad13015d9d07f/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "6b53e806ee3047df99030f43d14d5a93",
+    "dateFetched": "2025-05-13",
+    "title": "AE Services for Federal Bureau of Prisons Federal Correctional Institution (FCI) and minimum-security Federal Prison Camp (FPC)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION GREAT LAKES AND OHIO.W072 ENDIST LOUISVILLE",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-19T15:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Kentucky",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6b53e806ee3047df99030f43d14d5a93",
+    "samUrl": "https://sam.gov/opp/6b53e806ee3047df99030f43d14d5a93/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "69b4a15cdd354f8e95a3a9c703dd5ff2",
+    "dateFetched": "2025-05-13",
+    "title": "USNS Salvor (T-ARS 52) Tow Machine Certification",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-15T15:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Philadelphia",
+    "locationState": "Pennsylvania",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=69b4a15cdd354f8e95a3a9c703dd5ff2",
+    "samUrl": "https://sam.gov/opp/69b4a15cdd354f8e95a3a9c703dd5ff2/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "4ac239529fb546819d04862873dde982",
+    "dateFetched": "2025-05-13",
+    "title": "N4008525R2578, INDEFINITE DELIVERY INDEFINITE QUANTITY CONTRACT FOR FIRE PROTECTION DESIGN AND ENGINEERING SERVICES FOR PROJECTS THROUGHOUT THE NAVAL FACILITIES ENGINEERING COMMAND, MID-ATLANTIC'S AREA OF RESPONSIBILITY (AOR)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVFAC.NAVFAC ATLANTIC CMD.NAVFAC MID-ATLANTIC.NAVFACSYSCOM MID-ATLANTIC",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-16T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4ac239529fb546819d04862873dde982",
+    "samUrl": "https://sam.gov/opp/4ac239529fb546819d04862873dde982/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "3d7efa877e50451793668d97c98b928f",
+    "dateFetched": "2025-05-13",
+    "title": "INDEFINITE DELIVERY/INDEFINITE QUANTITY CONTRACT FOR ARCHITECT-ENGINEER SERVICES FOR UTILITY ENGINEERING, UTILITY INFRASTRUCTURE MANAGEMENT, UTILITY OPERATION AND MAINTENANCE, AND UTILITY MANAGEMENT SERVICES WORLDWIDE",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVFAC.NAVFAC ATLANTIC CMD.NAVFACSYSCOM ATLANTIC",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-27T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3d7efa877e50451793668d97c98b928f",
+    "samUrl": "https://sam.gov/opp/3d7efa877e50451793668d97c98b928f/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "3be2aa1df23d4489938fc667e005eaff",
+    "dateFetched": "2025-05-13",
+    "title": "Sources Sought: FA8228-25-Electronic Engineering Support",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE SUSTAINMENT CENTER.FA8228  AFSC OL H PZIM",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-15T23:59:00-06:00",
+    "setAside": "8(a) Set-Aside (FAR 19.8)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Hill Air Force Base",
+    "locationState": "Utah",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3be2aa1df23d4489938fc667e005eaff",
+    "samUrl": "https://sam.gov/opp/3be2aa1df23d4489938fc667e005eaff/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "bf3aa3539bd04d80b4030d06de16a6aa",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-13T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bf3aa3539bd04d80b4030d06de16a6aa",
+    "samUrl": "https://sam.gov/opp/bf3aa3539bd04d80b4030d06de16a6aa/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "4301314a4c574b06a98ed542dbbcae74",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-13T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4301314a4c574b06a98ed542dbbcae74",
+    "samUrl": "https://sam.gov/opp/4301314a4c574b06a98ed542dbbcae74/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "2d1493e893a048d28cae08af1d253787",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-13T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2d1493e893a048d28cae08af1d253787",
+    "samUrl": "https://sam.gov/opp/2d1493e893a048d28cae08af1d253787/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "7c962847b54943f38e0b78fafe3fd1d8",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-12T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7c962847b54943f38e0b78fafe3fd1d8",
+    "samUrl": "https://sam.gov/opp/7c962847b54943f38e0b78fafe3fd1d8/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "550e3d02184a49f19718c2d0aabc2efa",
+    "dateFetched": "2025-05-13",
+    "title": "Joint Data and Analytic Support Services",
+    "federalOrg": "DEPT OF DEFENSE.WASHINGTON HEADQUARTERS SERVICES (WHS).WASHINGTON HEADQUARTERS SERVICES",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-22T11:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=550e3d02184a49f19718c2d0aabc2efa",
+    "samUrl": "https://sam.gov/opp/550e3d02184a49f19718c2d0aabc2efa/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "1f55abfdc9fd402c94515b36d9b86e26",
+    "dateFetched": "2025-05-13",
+    "title": "SRSU Management Consulting Services",
+    "federalOrg": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.NAVAJO AREA INDIAN HEALTH SVC",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-20T14:30:00-06:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Shiprock",
+    "locationState": "New Mexico",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=1f55abfdc9fd402c94515b36d9b86e26",
+    "samUrl": "https://sam.gov/opp/1f55abfdc9fd402c94515b36d9b86e26/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "b0ec73eae01c4d14b21975de258566c1",
+    "dateFetched": "2025-05-13",
+    "title": "Non-Personal Augmentee Service",
+    "federalOrg": "DEPT OF DEFENSE.US SPECIAL OPERATIONS COMMAND (USSOCOM).HQ USSOCOM",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-19T13:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Colorado Springs",
+    "locationState": "Colorado",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b0ec73eae01c4d14b21975de258566c1",
+    "samUrl": "https://sam.gov/opp/b0ec73eae01c4d14b21975de258566c1/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "a90768397aaa42b0afdfcadc9a9f49fa",
+    "dateFetched": "2025-05-13",
+    "title": "Operational Training and Exercise Support (OTES)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AF INSTALLATION & MISSION SUPPORT CENTER.FA8052  773 ESS",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-16T14:00:00-05:00",
+    "setAside": "8(a) Set-Aside (FAR 19.8)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a90768397aaa42b0afdfcadc9a9f49fa",
+    "samUrl": "https://sam.gov/opp/a90768397aaa42b0afdfcadc9a9f49fa/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "50afcc7481ef456cbcaf686976088394",
+    "dateFetched": "2025-05-13",
+    "title": "Program And Staff Services (PASS)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG",
+    "datePosted": "2025-05-09",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=50afcc7481ef456cbcaf686976088394",
+    "samUrl": "https://sam.gov/opp/50afcc7481ef456cbcaf686976088394/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "e99460f874644174ac3d196a3fdffe02",
+    "dateFetched": "2025-05-13",
+    "title": "R425--Notice of Intent to Sole Source FY 25-Clinical  Informatics-745 Enterprise Standardization Informatics  Pipeline (ESIP)",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.STRATEGIC ACQUISITION CENTER FREDERICKSBURG (36C10G)",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-04-03T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e99460f874644174ac3d196a3fdffe02",
+    "samUrl": "https://sam.gov/opp/e99460f874644174ac3d196a3fdffe02/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "d2ffe083646d40b5a7c346fc46440c0d",
+    "dateFetched": "2025-05-13",
+    "title": "25-47 Public User Portal Applications",
+    "federalOrg": "TREASURY, DEPARTMENT OF THE.INTERNAL REVENUE SERVICE.DEPT OF TREASURY IRS",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-22T16:30:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "New Carrollton",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d2ffe083646d40b5a7c346fc46440c0d",
+    "samUrl": "https://sam.gov/opp/d2ffe083646d40b5a7c346fc46440c0d/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "94f977a5e6124e6daef3f0d5161eeb5f",
+    "dateFetched": "2025-05-13",
+    "title": "SRSU Management Consulting Services",
+    "federalOrg": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.NAVAJO AREA INDIAN HEALTH SVC",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-09T08:00:00-06:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Shiprock",
+    "locationState": "New Mexico",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=94f977a5e6124e6daef3f0d5161eeb5f",
+    "samUrl": "https://sam.gov/opp/94f977a5e6124e6daef3f0d5161eeb5f/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "543549884c5c4190b85bc43c7dd072f3",
+    "dateFetched": "2025-05-13",
+    "title": "R425--FY 25-Clinical Informatics-745 Enterprise Standardization  Informatics Pipeline (ESIP)",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.STRATEGIC ACQUISITION CENTER FREDERICKSBURG (36C10G)",
+    "datePosted": "2025-05-08",
+    "dueDate": null,
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=543549884c5c4190b85bc43c7dd072f3",
+    "samUrl": "https://sam.gov/opp/543549884c5c4190b85bc43c7dd072f3/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "102987fe3b5347b3a6b476a028467029",
+    "dateFetched": "2025-05-13",
+    "title": "DO-200B",
+    "federalOrg": "DEPT OF DEFENSE.NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY (NGA).NATL GEOSPATIAL-INTELLIGENCE AGENCY",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-06-09T10:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Saint Louis",
+    "locationState": "Missouri",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=102987fe3b5347b3a6b476a028467029",
+    "samUrl": "https://sam.gov/opp/102987fe3b5347b3a6b476a028467029/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "89e733ed83194d0db32eacea60e72dc4",
+    "dateFetched": "2025-05-13",
+    "title": "Program And Staff Services (PASS)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-05-22T05:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Gunpowder",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=89e733ed83194d0db32eacea60e72dc4",
+    "samUrl": "https://sam.gov/opp/89e733ed83194d0db32eacea60e72dc4/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "40446df040e444aa9bff1be274100678",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-05-07T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=40446df040e444aa9bff1be274100678",
+    "samUrl": "https://sam.gov/opp/40446df040e444aa9bff1be274100678/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "286a75d063f74fd4a237bd2247dcf52e",
+    "dateFetched": "2025-05-13",
+    "title": "Program And Staff Services (PASS) Draft RFP",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG",
+    "datePosted": "2025-05-07",
+    "dueDate": "2024-11-22T17:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Aberdeen Proving Ground",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=286a75d063f74fd4a237bd2247dcf52e",
+    "samUrl": "https://sam.gov/opp/286a75d063f74fd4a237bd2247dcf52e/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "e4c1990728c34766aa92573ee2362a80",
+    "dateFetched": "2025-05-13",
+    "title": "Program Manager Motor Transport Support Services",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.USMC.MARCOR SYSCOM.COMMANDER",
+    "datePosted": "2025-05-06",
+    "dueDate": "2025-06-12T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Quantico",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e4c1990728c34766aa92573ee2362a80",
+    "samUrl": "https://sam.gov/opp/e4c1990728c34766aa92573ee2362a80/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "4ec5ffedf06c4aa082a93c219c8e674c",
+    "dateFetched": "2025-05-13",
+    "title": "Bureau of Transportation Statistics (BTS) Analytical Support Services IDIQ",
+    "federalOrg": "TRANSPORTATION, DEPARTMENT OF.OFFICE OF THE SECRETARY.693JK4 OST",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Washington",
+    "locationState": "District of Columbia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4ec5ffedf06c4aa082a93c219c8e674c",
+    "samUrl": "https://sam.gov/opp/4ec5ffedf06c4aa082a93c219c8e674c/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "a153ba1f024f42aab6282e81e9b275ec",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-05T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a153ba1f024f42aab6282e81e9b275ec",
+    "samUrl": "https://sam.gov/opp/a153ba1f024f42aab6282e81e9b275ec/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "88766b5d65414623a3c89426a2c6aad7",
+    "dateFetched": "2025-05-13",
+    "title": "FEMA Pre-Solicitation: Hermit’s Peak/Calf Canyon Claims Review Technical Support",
+    "federalOrg": "HOMELAND SECURITY, DEPARTMENT OF.FEDERAL EMERGENCY MANAGEMENT AGENCY.REGION 6",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-30T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Santa Fe",
+    "locationState": "New Mexico",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=88766b5d65414623a3c89426a2c6aad7",
+    "samUrl": "https://sam.gov/opp/88766b5d65414623a3c89426a2c6aad7/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "71146b9792ab47e89aa5d493792071ee",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-05T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=71146b9792ab47e89aa5d493792071ee",
+    "samUrl": "https://sam.gov/opp/71146b9792ab47e89aa5d493792071ee/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "22caf4fbdd144ee89cd2486b586667b5",
+    "dateFetched": "2025-05-13",
+    "title": "Office of Patent Legal Administration (OPLA) Services",
+    "federalOrg": "COMMERCE, DEPARTMENT OF.US PATENT AND TRADEMARK OFFICE.DEPT OF COMMERCE PTO",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-05T05:50:00-04:00",
+    "setAside": "8(a) Set-Aside (FAR 19.8)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Alexandria",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=22caf4fbdd144ee89cd2486b586667b5",
+    "samUrl": "https://sam.gov/opp/22caf4fbdd144ee89cd2486b586667b5/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "91bd71bdb62340bc94df27aca636d96b",
+    "dateFetched": "2025-05-13",
+    "title": "Professional Services IDIQ MATOC Award Notice",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION GREAT LAKES AND OHIO.W072 ENDIST LOUISVILLE",
+    "datePosted": "2025-05-02",
+    "dueDate": null,
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=91bd71bdb62340bc94df27aca636d96b",
+    "samUrl": "https://sam.gov/opp/91bd71bdb62340bc94df27aca636d96b/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "8612aeda01f2441d8928f0965fa4f057",
+    "dateFetched": "2025-05-13",
+    "title": "Professional Services IDIQ MATOC Award Notice",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION GREAT LAKES AND OHIO.W072 ENDIST LOUISVILLE",
+    "datePosted": "2025-05-02",
+    "dueDate": null,
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8612aeda01f2441d8928f0965fa4f057",
+    "samUrl": "https://sam.gov/opp/8612aeda01f2441d8928f0965fa4f057/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "51ac1a7c729d4266a9c14b245e7f37e8",
+    "dateFetched": "2025-05-13",
+    "title": "Professional Services IDIQ MATOC Award Notice",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION GREAT LAKES AND OHIO.W072 ENDIST LOUISVILLE",
+    "datePosted": "2025-05-02",
+    "dueDate": null,
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=51ac1a7c729d4266a9c14b245e7f37e8",
+    "samUrl": "https://sam.gov/opp/51ac1a7c729d4266a9c14b245e7f37e8/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "e0d2f4de504e43eb9d6b1bedc4110cc9",
+    "dateFetched": "2025-05-13",
+    "title": "Operating and Support Management Information System (OSMIS)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.W00G OFC ASA FIN MGT AND COMPT",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-16T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Washington",
+    "locationState": "District of Columbia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e0d2f4de504e43eb9d6b1bedc4110cc9",
+    "samUrl": "https://sam.gov/opp/e0d2f4de504e43eb9d6b1bedc4110cc9/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "6085c605f85243bf985b9ff5c84284f5",
+    "dateFetched": "2025-05-13",
+    "title": "Patent License Agreement Audit Services",
+    "federalOrg": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).ARMY MED RES ACQ ACTIVITY",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-16T10:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Frederick",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6085c605f85243bf985b9ff5c84284f5",
+    "samUrl": "https://sam.gov/opp/6085c605f85243bf985b9ff5c84284f5/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "23eb3e3a13d34417b5a31f210d9d0aea",
+    "dateFetched": "2025-05-13",
+    "title": "Business Support Services for the Rural Econnectivity (Reconnect) Program",
+    "federalOrg": "AGRICULTURE, DEPARTMENT OF.RURAL HOUSING SERVICE.USDA/RD/REGIONAL ACQ DIVISION",
+    "datePosted": "2025-05-01",
+    "dueDate": null,
+    "setAside": "8(a) Sole Source (FAR 19.8)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Grand Rapids",
+    "locationState": "Michigan",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=23eb3e3a13d34417b5a31f210d9d0aea",
+    "samUrl": "https://sam.gov/opp/23eb3e3a13d34417b5a31f210d9d0aea/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "1ff1bd59df1c42b99a1a2c76087c56c3",
+    "dateFetched": "2025-05-13",
+    "title": "SOF Global Services Delivery Request for Proposal (DRAFT)",
+    "federalOrg": "DEPT OF DEFENSE.US SPECIAL OPERATIONS COMMAND (USSOCOM).HQ USSOCOM",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-20T12:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Tampa",
+    "locationState": "Florida",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=1ff1bd59df1c42b99a1a2c76087c56c3",
+    "samUrl": "https://sam.gov/opp/1ff1bd59df1c42b99a1a2c76087c56c3/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "1d351932e5524660b8bc825f802462ae",
+    "dateFetched": "2025-05-13",
+    "title": "R499--Small Business Event | Dun & Bradstreet Virtual One on One  Session | Cisco Webex May 22",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.OFFICE OF SMALL & DISADVANTAGED BUSINESS UTILIZATION (OSDBU) (36U101)",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-08T03:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=1d351932e5524660b8bc825f802462ae",
+    "samUrl": "https://sam.gov/opp/1d351932e5524660b8bc825f802462ae/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "11e3b3f97217428f8117ce22f7aea5d0",
+    "dateFetched": "2025-05-13",
+    "title": "SOF Global Services Delivery Request for Information",
+    "federalOrg": "DEPT OF DEFENSE.US SPECIAL OPERATIONS COMMAND (USSOCOM).HQ USSOCOM",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-01-03T11:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Tampa",
+    "locationState": "Florida",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=11e3b3f97217428f8117ce22f7aea5d0",
+    "samUrl": "https://sam.gov/opp/11e3b3f97217428f8117ce22f7aea5d0/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "e205454656144a3dadd26edc4d421fdf",
+    "dateFetched": "2025-05-13",
+    "title": "Strategic Visual Graphic Design & Facilitation",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA HQ.NAVSEA HQ",
+    "datePosted": "2025-04-30",
+    "dueDate": "2025-04-30T16:20:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Washington Navy Yard",
+    "locationState": "District of Columbia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e205454656144a3dadd26edc4d421fdf",
+    "samUrl": "https://sam.gov/opp/e205454656144a3dadd26edc4d421fdf/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "7c3f4ac870c947aaaf1a07fa18ada2a2",
+    "dateFetched": "2025-05-13",
+    "title": "316 Wing Fire Department Strategic Plan",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE DISTRICT OF WASHINGTON.FA2860  316 CONS PK",
+    "datePosted": "2025-04-30",
+    "dueDate": "2025-05-30T16:30:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Andrews Air Force Base",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7c3f4ac870c947aaaf1a07fa18ada2a2",
+    "samUrl": "https://sam.gov/opp/7c3f4ac870c947aaaf1a07fa18ada2a2/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "757ed88f197e413d9e2c0dd166cb20d0",
+    "dateFetched": "2025-05-13",
+    "title": "Single Provider MC/PC Services RFI",
+    "federalOrg": "SOCIAL SECURITY ADMINISTRATION.SOCIAL SECURITY ADMINISTRATION.SSA OFC OF ACQUISITION  GRANTS",
+    "datePosted": "2025-04-29",
+    "dueDate": "2025-05-09T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=757ed88f197e413d9e2c0dd166cb20d0",
+    "samUrl": "https://sam.gov/opp/757ed88f197e413d9e2c0dd166cb20d0/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "118a9471ff96488dac4d4497849cfca2",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-04-29",
+    "dueDate": "2025-04-29T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=118a9471ff96488dac4d4497849cfca2",
+    "samUrl": "https://sam.gov/opp/118a9471ff96488dac4d4497849cfca2/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "0e14eb4eac3e43cf82624656f5ed5c74",
+    "dateFetched": "2025-05-13",
+    "title": "Professional Support Services",
+    "federalOrg": "JUSTICE, DEPARTMENT OF.OFFICES, BOARDS AND DIVISIONS.JMD-PROCUREMENT SERVICES STAFF",
+    "datePosted": "2025-04-29",
+    "dueDate": "2025-05-13T10:00:00-04:00",
+    "setAside": "8(a) Set-Aside (FAR 19.8)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Washington",
+    "locationState": "District of Columbia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0e14eb4eac3e43cf82624656f5ed5c74",
+    "samUrl": "https://sam.gov/opp/0e14eb4eac3e43cf82624656f5ed5c74/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "bb8338d2e6444bd0a724462becbeca68",
+    "dateFetched": "2025-05-13",
+    "title": "National Oceanic and Atmospheric Administration (NOAA) NOAA Fisheries  West Coast Region (WCR) Administrative, Clerical, and Non-Scientific Support Services Multiple Award Indefinite Delivery Indefinite Quantity (IDIQ)",
+    "federalOrg": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA",
+    "datePosted": "2025-04-28",
+    "dueDate": null,
+    "setAside": "SBA Certified Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Seattle",
+    "locationState": "Washington",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bb8338d2e6444bd0a724462becbeca68",
+    "samUrl": "https://sam.gov/opp/bb8338d2e6444bd0a724462becbeca68/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "c3ab05477f094d3492c91b920ea6b52f",
+    "dateFetched": "2025-05-13",
+    "title": "R--DIGITIZATION PROJECT",
+    "federalOrg": "INTERIOR, DEPARTMENT OF THE.BUREAU OF INDIAN AFFAIRS.ROCKY MOUNTAIN REGION",
+    "datePosted": "2025-04-25",
+    "dueDate": "2025-05-08T17:00:00-06:00",
+    "setAside": "Indian Small Business Economic Enterprise (ISBEE) Set-Aside (specific to Department of Interior and Indian Health Services)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c3ab05477f094d3492c91b920ea6b52f",
+    "samUrl": "https://sam.gov/opp/c3ab05477f094d3492c91b920ea6b52f/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "666e586391e6473a88dee71a8df2e088",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-04-25",
+    "dueDate": "2025-04-25T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=666e586391e6473a88dee71a8df2e088",
+    "samUrl": "https://sam.gov/opp/666e586391e6473a88dee71a8df2e088/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "739a66b379e84ea882518428d03591c0",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-04-24",
+    "dueDate": "2025-04-24T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=739a66b379e84ea882518428d03591c0",
+    "samUrl": "https://sam.gov/opp/739a66b379e84ea882518428d03591c0/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "fa85cc23447e4d4d9dd76faca2383285",
+    "dateFetched": "2025-05-13",
+    "title": "Notification of Intent to Sole Source | R408 | Department of Veterans Affairs (VA) - Contract Oversight and Integration and Program Management Support Services (COI/PMSS)",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.SAC FREDERICK (36C10X)",
+    "datePosted": "2025-04-23",
+    "dueDate": "2025-05-07T10:00:00-04:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Sole Source (FAR 19.14)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Washington",
+    "locationState": "District of Columbia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fa85cc23447e4d4d9dd76faca2383285",
+    "samUrl": "https://sam.gov/opp/fa85cc23447e4d4d9dd76faca2383285/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "89393e808f374749a99dccb181e62598",
+    "dateFetched": "2025-05-13",
+    "title": "Services for Co-creation with Public Libraries",
+    "federalOrg": "LIBRARY OF CONGRESS.LIBRARY OF CONGRESS.CONTRACTS SERVICES",
+    "datePosted": "2025-04-23",
+    "dueDate": "2025-04-28T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Washington",
+    "locationState": "District of Columbia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=89393e808f374749a99dccb181e62598",
+    "samUrl": "https://sam.gov/opp/89393e808f374749a99dccb181e62598/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "19d22c9c80254bd4a195b543976c8827",
+    "dateFetched": "2025-05-13",
+    "title": "NGA Cost Assessment and Program Evaluation (CAPE) Contract",
+    "federalOrg": "DEPT OF DEFENSE.NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY (NGA).ATTN: MS S84 - OCS",
+    "datePosted": "2025-04-23",
+    "dueDate": "2025-05-08T12:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Springfield",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=19d22c9c80254bd4a195b543976c8827",
+    "samUrl": "https://sam.gov/opp/19d22c9c80254bd4a195b543976c8827/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "f005864d960c47f4ae20f58879c3b28a",
+    "dateFetched": "2025-05-13",
+    "title": "Civil Engineering Services Pacific (CESPAC) - Pre-Solicitation Industry Feedback",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.PACIFIC AIR FORCES.FA5215  766 ESS PKP",
+    "datePosted": "2025-04-22",
+    "dueDate": "2025-05-08T14:00:00-10:00",
+    "setAside": "8(a) Set-Aside (FAR 19.8)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Honolulu",
+    "locationState": "Hawaii",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f005864d960c47f4ae20f58879c3b28a",
+    "samUrl": "https://sam.gov/opp/f005864d960c47f4ae20f58879c3b28a/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2d20e40a52864057b16c84b24c24ce11",
+    "dateFetched": "2025-05-13",
+    "title": "RFI MARCORSYSCOM System Sustainment and Readiness Directorate",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.USMC.MARCOR SYSCOM.COMMANDER",
+    "datePosted": "2025-04-22",
+    "dueDate": "2025-05-06T11:59:00-04:00",
+    "setAside": "8(a) Set-Aside (FAR 19.8)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Quantico",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2d20e40a52864057b16c84b24c24ce11",
+    "samUrl": "https://sam.gov/opp/2d20e40a52864057b16c84b24c24ce11/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "ce059344d6004a82810f60b8d66db8a6",
+    "dateFetched": "2025-05-13",
+    "title": "Continuous Process Improvement Support Services",
+    "federalOrg": "DEPT OF DEFENSE.WASHINGTON HEADQUARTERS SERVICES (WHS).WASHINGTON HEADQUARTERS SERVICES",
+    "datePosted": "2025-04-16",
+    "dueDate": null,
+    "setAside": "8(a) Set-Aside (FAR 19.8)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Washington",
+    "locationState": "District of Columbia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ce059344d6004a82810f60b8d66db8a6",
+    "samUrl": "https://sam.gov/opp/ce059344d6004a82810f60b8d66db8a6/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "fa2cd098adde47beaa88d5e4c2c534ae",
+    "dateFetched": "2025-05-13",
+    "title": "Nationwide Public Safety Broadband Network (NPSBN) Investment, Oversight, Engagement, and Outreach Services",
+    "federalOrg": "COMMERCE, DEPARTMENT OF.NATIONAL TELECOMMUNICATIONS AND INFORMATION ADMINISTRATION.DEPT OF COMMERCE NTIA/FIRST NET",
+    "datePosted": "2025-04-14",
+    "dueDate": "2025-05-02T17:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Reston",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fa2cd098adde47beaa88d5e4c2c534ae",
+    "samUrl": "https://sam.gov/opp/fa2cd098adde47beaa88d5e4c2c534ae/view",
+    "summaryText": "**One-line Description:**\nPresolicitation notice for services related to the Nationwide Public Safety Broadband Network (NPSBN), located in Reston, Virginia.\n\n**Summary Paragraph:**\nThis presolicitation notice is for the provision of Investment, Oversight, Engagement, and Outreach Services for the Nationwide Public Safety Broadband Network (NPSBN) by the Department of Commerce’s National Telecommunications and Information Administration. The services required include Logistics, Data Analysis, Engineering Management, Consulting, and System Engineering. The work will be performed in Reston, Virginia. Details such as the number of personnel required, the period of performance, and the contract value are not specified in the notice. The notice is a Total Small Business Set-Aside under NAICS code 541611, ensuring that only small business entities are invited to participate in the forthcoming solicitation.",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "e796c92e940f4dfb83b80b283d9afbfc",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-04-14",
+    "dueDate": "2025-04-14T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e796c92e940f4dfb83b80b283d9afbfc",
+    "samUrl": "https://sam.gov/opp/e796c92e940f4dfb83b80b283d9afbfc/view",
+    "summaryText": "",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "6557b8b2695d4cfeb391a2601bd576b1",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-04-14",
+    "dueDate": "2025-04-14T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6557b8b2695d4cfeb391a2601bd576b1",
+    "samUrl": "https://sam.gov/opp/6557b8b2695d4cfeb391a2601bd576b1/view",
+    "summaryText": "",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "5294c0de4df8456ea9f22a2731c41bfd",
+    "dateFetched": "2025-05-13",
+    "title": "Aerospace AS 9100/9110 Audit",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC RSA.W6QK LAD CONTR OFF",
+    "datePosted": "2025-04-14",
+    "dueDate": "2025-04-29T15:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Chambersburg",
+    "locationState": "Pennsylvania",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5294c0de4df8456ea9f22a2731c41bfd",
+    "samUrl": "https://sam.gov/opp/5294c0de4df8456ea9f22a2731c41bfd/view",
+    "summaryText": "**One-line Description:**\nFirm-fixed price service contract for auditing Aerospace AS9100D / AS9110C Standards at Letterkenny Army Depot in Chambersburg, Pennsylvania.\n\n**Summary Paragraph:**\nLetterkenny Army Depot is seeking a contractor to perform an audit to sustain certification for the Aerospace AS9100D / AS9110C Standards. This contract will include a twelve-month base period and four twelve-month option years. Although the exact value of the contract is not specified, the work will be conducted under NAICS code 541611 with a size standard of $24.5 million. The work will be performed on-site at Letterkenny Army Depot, Chambersburg, PA. The project, tagged under federal solicitation number W911N2-25-Q-0023, will be released for bidding on April 22, 2025, with proposals due by May 7, 2025. This contract will involve expertise in areas such as auditing, consulting, and possibly other aspects of administrative and general management consulting to ensure compliance with specified aerospace standards. The number of people required for the project has not been specified. Interested contractors must be registered in the SAM database to be eligible for the award.",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "04c8f941931246c9a1151e1aac1fea2b",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-04-14",
+    "dueDate": "2025-04-14T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=04c8f941931246c9a1151e1aac1fea2b",
+    "samUrl": "https://sam.gov/opp/04c8f941931246c9a1151e1aac1fea2b/view",
+    "summaryText": "",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "b232d5d3aa0348da8c6f012c375c7f71",
+    "dateFetched": "2025-05-13",
+    "title": "Q702--Elizabethtown Initial Outfitting Transition and Activations  (IOTA) Services",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.PCAC (36C776)",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-06-25T12:00:00-04:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b232d5d3aa0348da8c6f012c375c7f71",
+    "samUrl": "https://sam.gov/opp/b232d5d3aa0348da8c6f012c375c7f71/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "d7b1a8001921435da2307fb4c33def85",
+    "dateFetched": "2025-05-13",
+    "title": "Diplomatic Post Office (DPO) Mail and Diplomatic Pouch Pick-up and Delivery Services US Embassy Ljubljana, Slovenia",
+    "federalOrg": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY LJUBLJANA",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-28T13:00:00+02:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "LJUBLJANA",
+    "locationState": "Ljubljana",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d7b1a8001921435da2307fb4c33def85",
+    "samUrl": "https://sam.gov/opp/d7b1a8001921435da2307fb4c33def85/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "b0b9744d3275488bb63d1266a9598736",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-12T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b0b9744d3275488bb63d1266a9598736",
+    "samUrl": "https://sam.gov/opp/b0b9744d3275488bb63d1266a9598736/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "e4f8163936e940c6ad85e5990bbc8c8a",
+    "dateFetched": "2025-05-13",
+    "title": "Theater Deployable Communications (TDC) Contractor Logistics Support (CLS)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.FA8726  AFLCMC HNK C3IN",
+    "datePosted": "2025-05-06",
+    "dueDate": "2025-06-09T13:00:00-04:00",
+    "setAside": "Historically Underutilized Business (HUBZone) Set-Aside (FAR 19.13)",
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Hanscom AFB",
+    "locationState": "Massachusetts",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e4f8163936e940c6ad85e5990bbc8c8a",
+    "samUrl": "https://sam.gov/opp/e4f8163936e940c6ad85e5990bbc8c8a/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "a50bb6294fbc4ae08520c26dd59d368b",
+    "dateFetched": "2025-05-13",
+    "title": "Redacted Limit Source Justification: Comprehensive Support for the El Paso Soft Sided Facility (SSF)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.MISSION INSTALLATION CONTRACTING COMMAND.FDO SAM HOUSTON.W6QM MICC-FDO FT SAM HOUSTON",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "El Paso",
+    "locationState": "Texas",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a50bb6294fbc4ae08520c26dd59d368b",
+    "samUrl": "https://sam.gov/opp/a50bb6294fbc4ae08520c26dd59d368b/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "7f36bffc413a42538dee28fa741bb105",
+    "dateFetched": "2025-05-13",
+    "title": "REQUEST FOR PROPOSAL (RFP) N62473-25-RP-00059 FOR COMMERCIAL OUTLEASE FOR PARCELS 10E, 16, 17, AND 18  AT NAVAL BASE VENTURA COUNTY, CA (LEASING OF APPROXIMATELY 10.73 ACRES OF LAND FOR ROLL ON / ROLL OFF PURPOSES)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVFAC.NAVFAC PACIFIC CMD.NAVFAC SOUTHWEST SW.NAVFACSYSCOM SOUTHWEST",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-16T10:00:00-07:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Port Hueneme",
+    "locationState": "California",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7f36bffc413a42538dee28fa741bb105",
+    "samUrl": "https://sam.gov/opp/7f36bffc413a42538dee28fa741bb105/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "5e7e97d658ee4f3e8bafafad8a8390d5",
+    "dateFetched": "2025-05-13",
+    "title": "FY26-30 Test Fleet Maintenance for High Mobility Artillery Rocket System and Multiple Launch Rocket System",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC RSA.W6QK ACC-RSA",
+    "datePosted": "2025-05-01",
+    "dueDate": "2025-05-16T17:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Redstone Arsenal",
+    "locationState": "Alabama",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5e7e97d658ee4f3e8bafafad8a8390d5",
+    "samUrl": "https://sam.gov/opp/5e7e97d658ee4f3e8bafafad8a8390d5/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "fc049261ff9d4e24b482e40e31609ecc",
+    "dateFetched": "2025-05-13",
+    "title": "F-15 FMS Repair Return Services to Support RSAF Pre-Award Synopsis - USG Response to Industry Feedback",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.FIGHTER AND ADVANCED AIRCRAFT.FA8575  AFLCMC WAQKA",
+    "datePosted": "2025-04-30",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Unknown/TBD",
+    "locationState": "N/A",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fc049261ff9d4e24b482e40e31609ecc",
+    "samUrl": "https://sam.gov/opp/fc049261ff9d4e24b482e40e31609ecc/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "a1d07e46c38a411ca7d1e0f9bc41ff9d",
+    "dateFetched": "2025-05-13",
+    "title": "NATO Request for Information: NATO Enablement Support Services (ESS)",
+    "federalOrg": "COMMERCE, DEPARTMENT OF.BUREAU OF INDUSTRY AND SECURITY",
+    "datePosted": "2025-04-28",
+    "dueDate": "2025-06-20T09:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Norfolk",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a1d07e46c38a411ca7d1e0f9bc41ff9d",
+    "samUrl": "https://sam.gov/opp/a1d07e46c38a411ca7d1e0f9bc41ff9d/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2baad1ba19f34a4cbd22d053da4a0927",
+    "dateFetched": "2025-05-13",
+    "title": "Q702--Cookeville IOTA",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.PCAC (36C776)",
+    "datePosted": "2025-04-25",
+    "dueDate": "2025-06-06T12:00:00-04:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2baad1ba19f34a4cbd22d053da4a0927",
+    "samUrl": "https://sam.gov/opp/2baad1ba19f34a4cbd22d053da4a0927/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "8f3c71ca6d3e44dbb2fa25bd23bf51b9",
+    "dateFetched": "2025-05-13",
+    "title": "W912DY25RA021 previously W912DY25R0003 IOT IV Sources Sought",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.OTHER_DIVISION.W2V6 USA ENG SPT CTR HUNTSVIL",
+    "datePosted": "2025-04-24",
+    "dueDate": "2025-04-29T12:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8f3c71ca6d3e44dbb2fa25bd23bf51b9",
+    "samUrl": "https://sam.gov/opp/8f3c71ca6d3e44dbb2fa25bd23bf51b9/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "5a904e99d09a42e285baaa4dbe9e33b8",
+    "dateFetched": "2025-05-13",
+    "title": "LOCAL PROPERTY MOVEMENT SERVICES",
+    "federalOrg": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY MANILA",
+    "datePosted": "2025-04-23",
+    "dueDate": "2025-05-02T16:30:00+08:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5a904e99d09a42e285baaa4dbe9e33b8",
+    "samUrl": "https://sam.gov/opp/5a904e99d09a42e285baaa4dbe9e33b8/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "baabbcaa7ada481196a901858deda4ef",
+    "dateFetched": "2025-05-13",
+    "title": "Logistics Readiness Squadron Capabilities: 541614 RFI 16 April 2025",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR MOBILITY COMMAND.FA4452  763 ESS",
+    "datePosted": "2025-04-16",
+    "dueDate": "2025-05-01T17:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Mt Zion",
+    "locationState": "Illinois",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=baabbcaa7ada481196a901858deda4ef",
+    "samUrl": "https://sam.gov/opp/baabbcaa7ada481196a901858deda4ef/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "e9e672b96b6f4c7e83d46e62670851c0",
+    "dateFetched": "2025-05-13",
+    "title": "Remote Manifesting Resolution Center (RMRC) Follow-On Sources Sought",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR MOBILITY COMMAND.FA4452  763 ESS",
+    "datePosted": "2025-04-14",
+    "dueDate": "2025-04-28T12:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541614"
+    ],
+    "locationCity": "Scott Air Force Base",
+    "locationState": "Illinois",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e9e672b96b6f4c7e83d46e62670851c0",
+    "samUrl": "https://sam.gov/opp/e9e672b96b6f4c7e83d46e62670851c0/view",
+    "summaryText": "**One-Line Description:** Seeking businesses to provide support for the RMRC at HQ Air Mobility Command, Scott AFB, IL.\n\n**Summary Paragraph:**\nThis SOURCES SOUGHT notice is aimed at identifying businesses, including various small business classifications, capable of offering functional, technical, and analytical support alongside project management support to the RMRC at Headquarters Air Mobility Command located at Scott Air Force Base, Illinois. The support is essential for the execution and management of operations within two main categories. While the precise number of personnel required and the project value are not specified in the notice, interested businesses should demonstrate their capability in areas such as Logistics, Data Analysis, Engineering Management, Consulting, and System Engineering. The work location is specified as on-site at Scott Air Force Base. The period of performance and other specific contract details remain undefined in the provided information.",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "5e43e4f93cc7405d9d555709365af4a6",
+    "dateFetched": "2025-05-13",
+    "title": "Sources Sought-Workplace Violence Prevention Training for staff members at  Comprehensive Community Health Center",
+    "federalOrg": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.INDIAN HEALTH SERVICE.ALBUQUERQUE AREA INDIAN HEALTH SVC",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-27T15:00:00-06:00",
+    "setAside": "Indian Small Business Economic Enterprise (ISBEE) Set-Aside (specific to Department of Interior and Indian Health Services)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Zuni",
+    "locationState": "New Mexico",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5e43e4f93cc7405d9d555709365af4a6",
+    "samUrl": "https://sam.gov/opp/5e43e4f93cc7405d9d555709365af4a6/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2419df8be3454738a6a98c2da1628ac0",
+    "dateFetched": "2025-05-13",
+    "title": "CPB Cyber Training",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG CONT CT SW SECTOR",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-27T09:00:00-07:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Fort Moore",
+    "locationState": "Georgia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2419df8be3454738a6a98c2da1628ac0",
+    "samUrl": "https://sam.gov/opp/2419df8be3454738a6a98c2da1628ac0/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "016e47fbd0424b57a98f7cf55d15509e",
+    "dateFetched": "2025-05-13",
+    "title": "RFI: Program Management Course",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.FA4610  30 CONS PK",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-16T17:00:00-07:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Lompoc",
+    "locationState": "California",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=016e47fbd0424b57a98f7cf55d15509e",
+    "samUrl": "https://sam.gov/opp/016e47fbd0424b57a98f7cf55d15509e/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "eaca762923c046de97bc70dc2aa006a5",
+    "dateFetched": "2025-05-13",
+    "title": "Introduction to Waterfront Facilities Course",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC PEARL HARBOR.NAVSUP FLT LOG CTR PEARL HARBOR",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-17T12:00:00-10:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Port Hueneme CBC Base",
+    "locationState": "California",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=eaca762923c046de97bc70dc2aa006a5",
+    "samUrl": "https://sam.gov/opp/eaca762923c046de97bc70dc2aa006a5/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "bd3c1a16b783492f8c6b57dcf4e2543a",
+    "dateFetched": "2025-05-13",
+    "title": "Building Strong and Ready Teams Curriculum",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.MISSION INSTALLATION CONTRACTING COMMAND.FDO SAM HOUSTON.W6QM MICC-FDO FT SAM HOUSTON",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-16T00:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bd3c1a16b783492f8c6b57dcf4e2543a",
+    "samUrl": "https://sam.gov/opp/bd3c1a16b783492f8c6b57dcf4e2543a/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "9e9f8c78411a425f89fd06927d6a2deb",
+    "dateFetched": "2025-05-13",
+    "title": "FBI-HRD Customer Service Training",
+    "federalOrg": "JUSTICE, DEPARTMENT OF.FEDERAL BUREAU OF INVESTIGATION.FBI-JEH",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-27T13:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Washington",
+    "locationState": "District of Columbia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9e9f8c78411a425f89fd06927d6a2deb",
+    "samUrl": "https://sam.gov/opp/9e9f8c78411a425f89fd06927d6a2deb/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "84ac3c6e49f146c9928cd8161d996722",
+    "dateFetched": "2025-05-13",
+    "title": "USACE NWP Leadership Development Program Services",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION NORTHWESTERN.W071 ENDIST PORTLAND",
+    "datePosted": "2025-05-12",
+    "dueDate": "2025-05-19T14:00:00-07:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Portland",
+    "locationState": "Oregon",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=84ac3c6e49f146c9928cd8161d996722",
+    "samUrl": "https://sam.gov/opp/84ac3c6e49f146c9928cd8161d996722/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "c6a4f64edbe84f509d801de6164776e8",
+    "dateFetched": "2025-05-13",
+    "title": "BPA for Human Trafficking Academic Lecture",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.MISSION INSTALLATION CONTRACTING COMMAND.FDO EUSTIS.W6QM MICC-FT LEONARD WOOD",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-06-09T15:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Fort Leonard Wood",
+    "locationState": "Missouri",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c6a4f64edbe84f509d801de6164776e8",
+    "samUrl": "https://sam.gov/opp/c6a4f64edbe84f509d801de6164776e8/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "bb091dc5d8a24f1c91a5476c2ba1e462",
+    "dateFetched": "2025-05-13",
+    "title": "Organizational Coaching for US Army Corps of Engineers - Kansas City District",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION NORTHWESTERN.W071 ENDIST KANSAS CITY",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-23T17:00:00-06:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Missouri",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bb091dc5d8a24f1c91a5476c2ba1e462",
+    "samUrl": "https://sam.gov/opp/bb091dc5d8a24f1c91a5476c2ba1e462/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "8f209288088340769ebc154663581418",
+    "dateFetched": "2025-05-13",
+    "title": "Safety Training Session",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.USMC.MARCORP I&L.MARINE CORPS INSTALLATIONS COMMAND.MCIPAC.COMMANDING OFFICER",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-16T08:00:00-10:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Wake Island",
+    "locationState": "Hawaii",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8f209288088340769ebc154663581418",
+    "samUrl": "https://sam.gov/opp/8f209288088340769ebc154663581418/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "46aba192521c47be953a9838a5321df1",
+    "dateFetched": "2025-05-13",
+    "title": "Travis AFB, CA - Suicide Prevention, Sexual Assault, & Domestic Violence Awareness Training",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR MOBILITY COMMAND.FA4427  60 CONS LGC",
+    "datePosted": "2025-05-09",
+    "dueDate": "2025-05-14T12:00:00-07:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Broadmoor Vlg",
+    "locationState": "California",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=46aba192521c47be953a9838a5321df1",
+    "samUrl": "https://sam.gov/opp/46aba192521c47be953a9838a5321df1/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "c7d9d994d67146ab8afc7e9a2b7681a6",
+    "dateFetched": "2025-05-13",
+    "title": "Crucial Conversations for Accountability Training at Watervliet Arsenal",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC WRN.W6QK ACC WVA",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-16T16:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Watervliet",
+    "locationState": "New York",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c7d9d994d67146ab8afc7e9a2b7681a6",
+    "samUrl": "https://sam.gov/opp/c7d9d994d67146ab8afc7e9a2b7681a6/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "5d6c9ea5363046e38b1a4d9581deeba5",
+    "dateFetched": "2025-05-13",
+    "title": "NSWCPD STEM Camp",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC PHILADELPHIA DIV",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-22T15:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5d6c9ea5363046e38b1a4d9581deeba5",
+    "samUrl": "https://sam.gov/opp/5d6c9ea5363046e38b1a4d9581deeba5/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "3c7ea3f25f114508998f8665f510d76a",
+    "dateFetched": "2025-05-13",
+    "title": "FA445225R0015_Professional Leadership Course Simplified Acquisition Proposal Request (SAPR)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR MOBILITY COMMAND.FA4452  763 ESS",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-26T12:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Fort Campbell",
+    "locationState": "Kentucky",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3c7ea3f25f114508998f8665f510d76a",
+    "samUrl": "https://sam.gov/opp/3c7ea3f25f114508998f8665f510d76a/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "30c2972bc55b4255a649b634be0019d8",
+    "dateFetched": "2025-05-13",
+    "title": "Synopsis - NNSY Change Management Training & Certification Services",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA SHIPYARD.NORFOLK NAVAL SHIPYARD GF",
+    "datePosted": "2025-05-08",
+    "dueDate": "2025-05-15T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Portsmouth",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=30c2972bc55b4255a649b634be0019d8",
+    "samUrl": "https://sam.gov/opp/30c2972bc55b4255a649b634be0019d8/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "72414b25efcc4164a9a4ac0d25d67b02",
+    "dateFetched": "2025-05-13",
+    "title": "Wellness Information Sessions FY25",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-NJ.W6QK ACC-PICA",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-05-20T01:00:00-05:00",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Set-Aside (FAR 19.14)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=72414b25efcc4164a9a4ac0d25d67b02",
+    "samUrl": "https://sam.gov/opp/72414b25efcc4164a9a4ac0d25d67b02/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "200da3c39c524ef0b8d96cb9984bb452",
+    "dateFetched": "2025-05-13",
+    "title": "221d4 Affordable Housing Training",
+    "federalOrg": "HOUSING AND URBAN DEVELOPMENT, DEPARTMENT OF.HOUSING AND URBAN DEVELOPMENT, DEPARTMENT OF.CPO : IT PROGRAM SUPPORT DIVISION; NOI",
+    "datePosted": "2025-05-07",
+    "dueDate": "2025-05-15T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Washington",
+    "locationState": "District of Columbia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=200da3c39c524ef0b8d96cb9984bb452",
+    "samUrl": "https://sam.gov/opp/200da3c39c524ef0b8d96cb9984bb452/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "eb005283182c40dca5f7cb2be1cafa2e",
+    "dateFetched": "2025-05-13",
+    "title": "Notice of Intent to Sole Source",
+    "federalOrg": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY COTONOU",
+    "datePosted": "2025-05-06",
+    "dueDate": "2025-05-15T10:00:00+02:00",
+    "setAside": "8(a) Sole Source (FAR 19.8)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "COTONOU",
+    "locationState": "Littoral",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=eb005283182c40dca5f7cb2be1cafa2e",
+    "samUrl": "https://sam.gov/opp/eb005283182c40dca5f7cb2be1cafa2e/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "3e9b65e805aa4fcbb0ed7ea19e99e971",
+    "dateFetched": "2025-05-13",
+    "title": "W912P625QA003 FY25 LDPII Communication Skills Workshop",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION GREAT LAKES AND OHIO.W072 ENDIST CHICAGO",
+    "datePosted": "2025-05-06",
+    "dueDate": null,
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Chicago",
+    "locationState": "Illinois",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3e9b65e805aa4fcbb0ed7ea19e99e971",
+    "samUrl": "https://sam.gov/opp/3e9b65e805aa4fcbb0ed7ea19e99e971/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "194d49d1733045a3b2e43b5d9237f9b1",
+    "dateFetched": "2025-05-13",
+    "title": "DoDEA Student Transportation Security Services Program (STSSP) Training - Pacific (Japan/Korea/Guam)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF DEFENSE EDUCATION ACTIVITY (DODEA).DOD EDUCATION ACTIVITY",
+    "datePosted": "2025-05-06",
+    "dueDate": "2025-05-20T11:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=194d49d1733045a3b2e43b5d9237f9b1",
+    "samUrl": "https://sam.gov/opp/194d49d1733045a3b2e43b5d9237f9b1/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "9b772dcece0b43bd81e6b992ff0236de",
+    "dateFetched": "2025-05-13",
+    "title": "30 FSS Education Center Facility Manager with IT Skills",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.FA4610  30 CONS PK",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-16T12:00:00-07:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Lompoc",
+    "locationState": "California",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9b772dcece0b43bd81e6b992ff0236de",
+    "samUrl": "https://sam.gov/opp/9b772dcece0b43bd81e6b992ff0236de/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "528f0fbeb376464db65b70d3a76536be",
+    "dateFetched": "2025-05-13",
+    "title": "API 520/521 PRESSURE RELIEVING SYSTEMS VIRTUAL TRAINING COURSE",
+    "federalOrg": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-07T12:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Cleveland",
+    "locationState": "Ohio",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=528f0fbeb376464db65b70d3a76536be",
+    "samUrl": "https://sam.gov/opp/528f0fbeb376464db65b70d3a76536be/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2904ff4d0d39484aa9d71d610be66c83",
+    "dateFetched": "2025-05-13",
+    "title": "GLAP II Request for Information",
+    "federalOrg": "DEPT OF DEFENSE.NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY (NGA).ATTN MS S84   OCS",
+    "datePosted": "2025-05-05",
+    "dueDate": "2025-05-16T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2904ff4d0d39484aa9d71d610be66c83",
+    "samUrl": "https://sam.gov/opp/2904ff4d0d39484aa9d71d610be66c83/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "d31b06be2ff641fc95ef8c3b3d45cc98",
+    "dateFetched": "2025-05-13",
+    "title": "U099 - CULINARY INSTRUCTOR SERVICES FOR NAVAL TECHNICAL TRAINING CENTER (NTTC) FORT GREGG-ADAMS, VA \r\n",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC NORFOLK.NAVSUP FLT LOG CTR NORFOLK",
+    "datePosted": "2025-05-02",
+    "dueDate": "2025-05-14T11:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d31b06be2ff641fc95ef8c3b3d45cc98",
+    "samUrl": "https://sam.gov/opp/d31b06be2ff641fc95ef8c3b3d45cc98/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "5e95509285504f07a35bf8eb358db14a",
+    "dateFetched": "2025-05-13",
+    "title": "Interviewing and Personal Safety Training",
+    "federalOrg": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.FOOD AND DRUG ADMINISTRATION.FDA OFFICE OF OPERATIONS",
+    "datePosted": "2025-05-02",
+    "dueDate": "2025-05-21T12:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Silver Spring",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5e95509285504f07a35bf8eb358db14a",
+    "samUrl": "https://sam.gov/opp/5e95509285504f07a35bf8eb358db14a/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "5c8a7125bfe240909514b17c89df1625",
+    "dateFetched": "2025-05-13",
+    "title": "GeoTol Pro GD&T Fundamentals Course Instruction",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA SUPSHIP.SUP OF SHIPBUILDING GROTON",
+    "datePosted": "2025-05-02",
+    "dueDate": "2025-05-19T08:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Groton",
+    "locationState": "Connecticut",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5c8a7125bfe240909514b17c89df1625",
+    "samUrl": "https://sam.gov/opp/5c8a7125bfe240909514b17c89df1625/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "feb7abbe60c04f1183f9f5736315d40c",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-04-30",
+    "dueDate": "2025-04-30T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=feb7abbe60c04f1183f9f5736315d40c",
+    "samUrl": "https://sam.gov/opp/feb7abbe60c04f1183f9f5736315d40c/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "8c5d8223540f470bb3747041d0d77952",
+    "dateFetched": "2025-05-13",
+    "title": "DC3 Cyber Academy Training (CTA) Follow-On",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE DISTRICT OF WASHINGTON.FA7014  AFDW PK",
+    "datePosted": "2025-04-30",
+    "dueDate": "2025-05-30T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8c5d8223540f470bb3747041d0d77952",
+    "samUrl": "https://sam.gov/opp/8c5d8223540f470bb3747041d0d77952/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "cf2a90e4550d4f72a8a5602752855cd6",
+    "dateFetched": "2025-05-13",
+    "title": "C2G3 Digital and Simulation Support",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.MISSION INSTALLATION CONTRACTING COMMAND.FDO EUSTIS.W6QM MICC-FT LEONARD WOOD",
+    "datePosted": "2025-04-29",
+    "dueDate": "2025-05-30T09:00:00-05:00",
+    "setAside": "8(a) Set-Aside (FAR 19.8)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Fort Leonard Wood",
+    "locationState": "Missouri",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=cf2a90e4550d4f72a8a5602752855cd6",
+    "samUrl": "https://sam.gov/opp/cf2a90e4550d4f72a8a5602752855cd6/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "246d2ac68c3b4b9f92aeeec5935eaae5",
+    "dateFetched": "2025-05-13",
+    "title": "HTM PROFESSIONAL DEVELOPMENT PROGRAM SUPPORT AND TRAINING",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.SAC FREDERICK (36C10X)",
+    "datePosted": "2025-04-29",
+    "dueDate": "2025-04-29T15:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Frederick",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=246d2ac68c3b4b9f92aeeec5935eaae5",
+    "samUrl": "https://sam.gov/opp/246d2ac68c3b4b9f92aeeec5935eaae5/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "8357ff131d984cea925b2db9314c27a4",
+    "dateFetched": "2025-05-13",
+    "title": "ROCSCIENCE Software Training",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVFAC.NAVFAC ATLANTIC CMD.NAVFACSYSCOM ATLANTIC",
+    "datePosted": "2025-04-28",
+    "dueDate": "2025-04-29T13:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Norfolk",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8357ff131d984cea925b2db9314c27a4",
+    "samUrl": "https://sam.gov/opp/8357ff131d984cea925b2db9314c27a4/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "4cc580b21e814772b43237bee95f7dbd",
+    "dateFetched": "2025-05-13",
+    "title": "DON FM Training Academy",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC NORFOLK.NAVSUP FLT LOG CTR NORFOLK",
+    "datePosted": "2025-04-28",
+    "dueDate": "2025-05-14T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4cc580b21e814772b43237bee95f7dbd",
+    "samUrl": "https://sam.gov/opp/4cc580b21e814772b43237bee95f7dbd/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "f7de263556334d87844bb46f8fa58d82",
+    "dateFetched": "2025-05-13",
+    "title": "French Language Training Services",
+    "federalOrg": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.US EMBASSY LIBREVILLE",
+    "datePosted": "2025-04-25",
+    "dueDate": "2025-05-02T12:00:00+01:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Libreville",
+    "locationState": "Estuaire",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f7de263556334d87844bb46f8fa58d82",
+    "samUrl": "https://sam.gov/opp/f7de263556334d87844bb46f8fa58d82/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "afe107a8d127467593fc147152c99825",
+    "dateFetched": "2025-05-13",
+    "title": "Arctic Medical Subject Matter Expertise Service",
+    "federalOrg": "DEPT OF DEFENSE.US SPECIAL OPERATIONS COMMAND (USSOCOM).HQ USSOCOM",
+    "datePosted": "2025-04-25",
+    "dueDate": "2025-05-16T12:00:00-06:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Seattle",
+    "locationState": "Washington",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=afe107a8d127467593fc147152c99825",
+    "samUrl": "https://sam.gov/opp/afe107a8d127467593fc147152c99825/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "5885f9210d644c2c8c3aa74fb8863baa",
+    "dateFetched": "2025-05-13",
+    "title": "DIESEL ENGINE MAINTENANCE REPAIR AND OVERHAUL TRAINING",
+    "federalOrg": "HOMELAND SECURITY, DEPARTMENT OF.US COAST GUARD.SFLC PROCUREMENT BRANCH 3(00040)",
+    "datePosted": "2025-04-25",
+    "dueDate": "2025-05-10T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Curtis Bay",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5885f9210d644c2c8c3aa74fb8863baa",
+    "samUrl": "https://sam.gov/opp/5885f9210d644c2c8c3aa74fb8863baa/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2aad44a0933c4af68ec4020391642b4c",
+    "dateFetched": "2025-05-13",
+    "title": "GMU Cyber Training",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA WARFARE CENTER.NSWC DAHLGREN",
+    "datePosted": "2025-04-25",
+    "dueDate": "2025-04-29T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Dahlgren",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2aad44a0933c4af68ec4020391642b4c",
+    "samUrl": "https://sam.gov/opp/2aad44a0933c4af68ec4020391642b4c/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "5ecb64f8fe2d4f28af72e3e4ff83a32c",
+    "dateFetched": "2025-05-13",
+    "title": "W912P625QA003 FY25 LDPII Communication Skills Workshop",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION GREAT LAKES AND OHIO.W072 ENDIST CHICAGO",
+    "datePosted": "2025-04-24",
+    "dueDate": "2025-04-29T14:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Chicago",
+    "locationState": "Illinois",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5ecb64f8fe2d4f28af72e3e4ff83a32c",
+    "samUrl": "https://sam.gov/opp/5ecb64f8fe2d4f28af72e3e4ff83a32c/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "584aa67e17254e54968ca2985857888b",
+    "dateFetched": "2025-05-13",
+    "title": "Deliberate Leadership Education (DLE) Instructor",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR EDUCATION AND TRAINING COMMAND.FA3010  81 CONS CC",
+    "datePosted": "2025-04-24",
+    "dueDate": "2025-05-07T10:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Biloxi",
+    "locationState": "Mississippi",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=584aa67e17254e54968ca2985857888b",
+    "samUrl": "https://sam.gov/opp/584aa67e17254e54968ca2985857888b/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "155c660375294ac383e150511b153e03",
+    "dateFetched": "2025-05-13",
+    "title": "U099--Notice of Intent to Sole Source ASHE Healthcare Construction  Workshop.",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.252-NETWORK CONTRACT OFFICE 12 (36C252)",
+    "datePosted": "2025-04-24",
+    "dueDate": "2025-05-01T10:00:00-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=155c660375294ac383e150511b153e03",
+    "samUrl": "https://sam.gov/opp/155c660375294ac383e150511b153e03/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "60deab5cc90a427da2cb5e6740e646bf",
+    "dateFetched": "2025-05-13",
+    "title": "RFP- Technical Sensory Training (Amend 5)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC-APG.W6QK ACC-APG NATICK",
+    "datePosted": "2025-04-23",
+    "dueDate": "2025-04-28T08:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Natick",
+    "locationState": "Massachusetts",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=60deab5cc90a427da2cb5e6740e646bf",
+    "samUrl": "https://sam.gov/opp/60deab5cc90a427da2cb5e6740e646bf/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "020f05239c684f228948a6aa4c03c783",
+    "dateFetched": "2025-05-13",
+    "title": "Professional Development Service, TOHS",
+    "federalOrg": "INTERIOR, DEPARTMENT OF THE.BUREAU OF INDIAN AFFAIRS.INDIAN EDUCATION ACQUISITION OFFICE",
+    "datePosted": "2025-04-23",
+    "dueDate": "2025-05-01T10:00:00-06:00",
+    "setAside": "Indian Small Business Economic Enterprise (ISBEE) Set-Aside (specific to Department of Interior and Indian Health Services)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=020f05239c684f228948a6aa4c03c783",
+    "samUrl": "https://sam.gov/opp/020f05239c684f228948a6aa4c03c783/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "a49455e5b2724d44b05f2c0311dc0666",
+    "dateFetched": "2025-05-13",
+    "title": "Multiple Award Schedule",
+    "federalOrg": "GENERAL SERVICES ADMINISTRATION.FEDERAL ACQUISITION SERVICE.GSA/FAS FURNITURE SYSTEMS MGT DIV",
+    "datePosted": "2025-04-22",
+    "dueDate": "2025-04-22T11:12:13-05:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a49455e5b2724d44b05f2c0311dc0666",
+    "samUrl": "https://sam.gov/opp/a49455e5b2724d44b05f2c0311dc0666/view",
+    "noticeStatus": "new"
+  },
+  {
+    "noticeId": "a76b11886ccc4cc9a2ddea7003ef0c23",
+    "dateFetched": "2025-05-13",
+    "title": "6910--Bullseye Digital Fire Extinguisher Training System | 646",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.244-NETWORK CONTRACT OFFICE 4 (36C244)",
+    "datePosted": "2025-04-21",
+    "dueDate": "2025-04-25T12:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Pittsburgh",
+    "locationState": "PA",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a76b11886ccc4cc9a2ddea7003ef0c23",
+    "samUrl": "https://sam.gov/opp/a76b11886ccc4cc9a2ddea7003ef0c23/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "fa61f37e9dcc49a1bea2a767e404bc88",
+    "dateFetched": "2025-05-13",
+    "title": "MEDDET TRAUMA TRAINING (Question and Answer Description updated.)",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.NATIONAL GUARD BUREAU.W7M0 USPFO ACTIVITY DE ARNG",
+    "datePosted": "2025-04-17",
+    "dueDate": "2025-04-29T11:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fa61f37e9dcc49a1bea2a767e404bc88",
+    "samUrl": "https://sam.gov/opp/fa61f37e9dcc49a1bea2a767e404bc88/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "bc88b34baf5d47c4abf0609035c12bdc",
+    "dateFetched": "2025-05-13",
+    "title": "Bolted Joints Combo Course",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSEA.NAVSEA SUPSHIP.SUP OF SHIPBUILDING GROTON",
+    "datePosted": "2025-04-17",
+    "dueDate": "2025-05-02T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Groton",
+    "locationState": "Connecticut",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bc88b34baf5d47c4abf0609035c12bdc",
+    "samUrl": "https://sam.gov/opp/bc88b34baf5d47c4abf0609035c12bdc/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "752e7abb30ea42d2bbd3dc0f93be13ff",
+    "dateFetched": "2025-05-13",
+    "title": "FIREFIGHTER I, II AND HAZMAT CERTIFICATIONS TRAININGS - CAMP CASEY, KOREA",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-OO.411TH CSB.0906 AQ CO     CONTRACTING BAT",
+    "datePosted": "2025-04-16",
+    "dueDate": "2025-04-25T11:00:00+09:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=752e7abb30ea42d2bbd3dc0f93be13ff",
+    "samUrl": "https://sam.gov/opp/752e7abb30ea42d2bbd3dc0f93be13ff/view",
+    "noticeStatus": "documented"
+  },
+  {
     "noticeId": "f9f37786fbd541a9ac964754d3afb1f7",
     "dateFetched": "2025-05-13",
     "title": "New England CERFP Collective Training Event, Exeter RI",
@@ -14,8 +3624,7 @@
     "locationState": "Rhode Island",
     "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f9f37786fbd541a9ac964754d3afb1f7",
     "samUrl": "https://sam.gov/opp/f9f37786fbd541a9ac964754d3afb1f7/view",
-    "summaryText": "**One-line Description:** The New England CERF-P requires non-personal services for a Collective Training Event in Exeter, Rhode Island, focused on providing role players, logistical, and medical support.\n\n**Summary Paragraph:**\nThe United States Property and Fiscal Office (USPFO) is seeking a contractor to provide comprehensive support for a Collective Training Event scheduled from July 14-18, 2025, in Exeter, Rhode Island. This firm-fixed-price contract will require the contractor to supply role players, SCVS reset, medical support, mannequins, and moulage capabilities. Additionally, the contractor must provide all necessary personnel, equipment, tools, materials, supervision, and quality control as outlined in the Performance Work Statements. The contract is set aside for small businesses as per FAR 19.5. Although the exact number of personnel required is not specified, the scope suggests a significant team will be needed to cover the various roles and tasks. The value of the contract is not disclosed in the information provided. The work will be conducted on-site in Exeter, RI. Contractors interested in this opportunity must be registered with SAM and comply with all solicitation requirements, including acknowledgment of any amendments posted on SAM.gov. Evaluation of proposals will consider technical capabilities, past performance, and price to determine the best value for the government.",
-    "noticeStatus": "emailed"
+    "noticeStatus": "documented"
   },
   {
     "noticeId": "d5ac43277be24b99a5d92d0765664d6b",
@@ -32,8 +3641,7 @@
     "locationState": "Texas",
     "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d5ac43277be24b99a5d92d0765664d6b",
     "samUrl": "https://sam.gov/opp/d5ac43277be24b99a5d92d0765664d6b/view",
-    "summaryText": "**One-line Description:**\nThe 338th Enterprise Sourcing Squadron is seeking sources for SERE training support services at Fairchild AFB, Washington and Joint Base San Antonio, Texas.\n\n**Summary Paragraph:**\nThe 338th Enterprise Sourcing Squadron (338th ESS) is conducting market research to identify potential vendors capable of providing Survival, Evasion, Resistance, and Escape (SERE) training support services. The services are required for the 336th Training Group at Fairchild Air Force Base, Washington, and Joint Base San Antonio, Texas. The training includes a variety of courses such as Advanced SERE Skills, Long-Term Survival and Evasion, Emergency Parachute and Water Survival, Arctic Survival, Underwater Egress, SERE Specialist Training Orientation, and Evasion and Conduct After Capture. The period of performance, number of personnel required, and contract value have not been specified in this sources sought notice. Responses are to be submitted electronically by May 13, 2025. Work location specifics (remote, on-site, hybrid) were not detailed, but given the nature of the training, it is likely to be primarily on-site.",
-    "noticeStatus": "emailed"
+    "noticeStatus": "documented"
   },
   {
     "noticeId": "134da9c106f14a65a5367ef4c5ccdd0f",
@@ -50,8 +3658,7 @@
     "locationState": "Virginia",
     "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=134da9c106f14a65a5367ef4c5ccdd0f",
     "samUrl": "https://sam.gov/opp/134da9c106f14a65a5367ef4c5ccdd0f/view",
-    "summaryText": "**One-line Description:** Award of a limited-source, firm-fixed price contract by NAVSUP FLC Norfolk to MacGyver Solutions Inc. for a specialized mechanic certification course in Virginia Beach, VA.\n\n**Summary Paragraph:**\nThe Naval Supply System Command (NAVSUP) Fleet Logistics Center (FLC) in Norfolk, VA has awarded a firm-fixed price contract to MacGyver Solutions Inc. for the provision of a Polaris MCC Mechanic Certification Course. This course is tailored to support the Explosive Ordnance Disposal Expeditionary Support Unit Two (EODESU2). Although the specific number of personnel required for the course is not detailed, the contract involves specialized training essential for operational readiness in logistics and system engineering disciplines. The period of performance and the exact contract value are not specified in the provided details. The work location is specified as Virginia Beach, Virginia, indicating on-site training. This contract is key in enhancing the technical skills of military personnel in a critical support unit.",
-    "noticeStatus": "emailed"
+    "noticeStatus": "documented"
   },
   {
     "noticeId": "79c35f9a7512414ea2a8e22af221d46a",
@@ -68,8 +3675,7 @@
     "locationState": "Not specified",
     "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=79c35f9a7512414ea2a8e22af221d46a",
     "samUrl": "https://sam.gov/opp/79c35f9a7512414ea2a8e22af221d46a/view",
-    "summaryText": "**One-Line Description:** Training provision for heavy equipment operations and pavement repairs for Air Force Civil Engineers at various global locations.\n\n**Summary Paragraph:**\nThe Air Force Civil Engineer Center/Readiness and Training Division requires specialized training services for military personnel and Federal civilian employees involved in constructing and maintaining airfields and other infrastructure. The objective is to enhance the skills in operating heavy equipment such as asphalt pavers, excavators, and graders. The contractor will be responsible for delivering courses and issuing training certificates as per the Statement of Work. The specific number of personnel required for this contract, the period of performance, and the contract value are not detailed in the provided description and should be referred to in the attached draft Statement of Work and Sources Sought Notice. The work location is not explicitly specified, indicating it could be at various operational locations worldwide or not fixed to a specific site. Key topics include Logistics, Data Analysis, Engineering Management, Consulting, and System Engineering.",
-    "noticeStatus": "emailed"
+    "noticeStatus": "documented"
   },
   {
     "noticeId": "e82be54838694999a100b1d47c626a7f",
@@ -86,8 +3692,7 @@
     "locationState": "Pennsylvania",
     "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e82be54838694999a100b1d47c626a7f",
     "samUrl": "https://sam.gov/opp/e82be54838694999a100b1d47c626a7f/view",
-    "summaryText": "**One-line Description:** On-site fiber optic training course for 12 personnel at NSWCPD in Philadelphia, Pennsylvania.\n\n**Summary Paragraph:** The Department of Defense requires a specialized vendor to conduct an on-site fiber optic training course for 12 individuals at the Naval Surface Warfare Center Philadelphia Division (NSWCPD). The training must adhere to NAVSEA Drawing 8477552 Rev. C and is restricted to two vendors qualified to provide instruction on MIL-STD-2042C. The training curriculum will include Single Ferrule Termination (various types), Multi Terminus systems (Amphenol and connector fibers), and Optical Testing (visual fault indication and dB loss testing). The specifics regarding the period of performance and the contract value are not provided. The work location is clearly specified as on-site in Philadelphia, Pennsylvania, focusing on practical applications in system engineering and optical technologies.",
-    "noticeStatus": "emailed"
+    "noticeStatus": "documented"
   },
   {
     "noticeId": "fa4ece0d6c874e59b26786908c9f6ff9",
@@ -104,8 +3709,7 @@
     "locationState": "Not specified",
     "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fa4ece0d6c874e59b26786908c9f6ff9",
     "samUrl": "https://sam.gov/opp/fa4ece0d6c874e59b26786908c9f6ff9/view",
-    "summaryText": "**One-line Description:** NAVFAC Mid-Atlantic is seeking a company to provide on-demand electrical and utilities training, including fundamental and advanced courses.\n\n**Summary Paragraph:** NAVFAC Mid-Atlantic requires a contractor to deliver both fundamental and advanced training courses aimed at enhancing the skills necessary for the diagnosis and repair of electrical systems and utilities. This educational service is essential for maintaining the proficiency of employees and offering refresher training for those lacking basic skills. The specific number of people required for the delivery of the training has not been detailed, and the value of the contract is also not specified in the provided information. The period of performance and whether the work will be conducted remotely, on-site, or in a hybrid format have not been outlined. However, it is clear that the contract involves significant elements of consulting, logistics, and engineering management in an educational context, tailored to electrical and utilities systems within the NAVFAC Mid-Atlantic’s operations.",
-    "noticeStatus": "emailed"
+    "noticeStatus": "documented"
   },
   {
     "noticeId": "bd2f3dc65184459abb598849a714c6d7",
@@ -122,8 +3726,7 @@
     "locationState": "Florida",
     "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bd2f3dc65184459abb598849a714c6d7",
     "samUrl": "https://sam.gov/opp/bd2f3dc65184459abb598849a714c6d7/view",
-    "summaryText": "**One-line Description:** Intent to award a sole source contract for a Counter-Intelligence Technical Surveillance Countermeasure Course tailored for Special Operation Forces in Tampa, Florida.\n\n**Summary Paragraph:**\nThe U.S. Department of Defense, specifically the Air Force's Air Mobility Command, is indicating its intent to award a sole source contract to Skinny Research and Development for delivering a Counter-Intelligence Technical Surveillance Countermeasure Course with Cyber Applications specifically designed for Special Operations Forces. The contract will leverage DAFFARS 5313.106-1 statutory authority due to the unique qualifications provided by Skinny Research and Development that appear unmatched by other vendors. This notice does not constitute a request for competitive proposals but invites other parties who believe they can fulfill these requirements to submit a capabilities statement by May 1, 2025. The detailed capabilities statement should outline relevant experience and include contact information, business status, and size based on NAICS code 611519. The exact number of personnel required, the period of performance, and contract value are not specified in the provided documents. The work location is in Tampa, Florida, although the notice does not specify whether the work is remote, on-site, or hybrid.",
-    "noticeStatus": "emailed"
+    "noticeStatus": "documented"
   },
   {
     "noticeId": "1040945291ca4504b5fd21ed20e3c965",
@@ -140,7 +3743,295 @@
     "locationState": "California",
     "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=1040945291ca4504b5fd21ed20e3c965",
     "samUrl": "https://sam.gov/opp/1040945291ca4504b5fd21ed20e3c965/view",
-    "summaryText": "**One-line Description:** NAVSUP Fleet Logistics Center in San Diego is seeking responses to a market survey to identify capable businesses for fleet logistics support.\n\n**Summary Paragraph:** The NAVSUP Fleet Logistics Center in San Diego is conducting a market survey to engage businesses capable of fulfilling the requirements outlined in the Performance Work Statement and Sources Sought notice. The survey aims to stimulate industry awareness, enhance participation, and gather feedback to refine the acquisition process. This initiative falls under the logistics and system engineering sectors, emphasizing the need for robust capabilities in these areas. Although the specific number of personnel required, the period of performance, and the contract value are not detailed in the provided information, interested parties are encouraged to review the attached Sources Sought notice for comprehensive details. The location for this opportunity is specified as San Diego, California, indicating that the work may require on-site presence, although the exact nature of remote or hybrid possibilities is not specified in the summary provided.",
-    "noticeStatus": "emailed"
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "fd15857e52d6470886165e6045422cd8",
+    "dateFetched": "2025-05-14",
+    "title": "Global Hawk RQ-4 Program Support and Services",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE LIFE CYCLE MANAGEMENT CENTER.INTELLIGENCE, SURVEILLANCE, RECONNAISSANCE.FA8578  AFLCMC WIKA",
+    "datePosted": "2025-05-14",
+    "dueDate": "2025-05-30T16:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Warner Robins",
+    "locationState": "Georgia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fd15857e52d6470886165e6045422cd8",
+    "samUrl": "https://sam.gov/opp/fd15857e52d6470886165e6045422cd8/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "4f19e10bf4a24116acce807ef2861dc4",
+    "dateFetched": "2025-05-14",
+    "title": "Notice of Tentative Acquisition Strategy F/A-18 COMS and CIS FTSS V",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR NAWC TSD.NAWC TRAINING SYSTEMS DIV",
+    "datePosted": "2025-05-14",
+    "dueDate": null,
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=4f19e10bf4a24116acce807ef2861dc4",
+    "samUrl": "https://sam.gov/opp/4f19e10bf4a24116acce807ef2861dc4/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "35b9758e21614a10b54dbdd7cf718115",
+    "dateFetched": "2025-05-14",
+    "title": "ENTERPRISE LEVEL LOGISTICS AND ENGINEERING TECHNICAL SUPPORT SERVICES",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVAIR.NAVAIR HQS.FLEET READINESS CENTER",
+    "datePosted": "2025-05-14",
+    "dueDate": "2025-04-25T14:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=35b9758e21614a10b54dbdd7cf718115",
+    "samUrl": "https://sam.gov/opp/35b9758e21614a10b54dbdd7cf718115/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "0e6958a62ff749fa992403cb8b858fca",
+    "dateFetched": "2025-05-14",
+    "title": "Audio Over IP Network - Library of Congress",
+    "federalOrg": "LIBRARY OF CONGRESS.LIBRARY OF CONGRESS.CONTRACTS SERVICES",
+    "datePosted": "2025-05-14",
+    "dueDate": "2025-05-23T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Culpeper",
+    "locationState": "Virginia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0e6958a62ff749fa992403cb8b858fca",
+    "samUrl": "https://sam.gov/opp/0e6958a62ff749fa992403cb8b858fca/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "b9eccd92beb341d4a38fa784fca98562",
+    "dateFetched": "2025-05-14",
+    "title": "R408 - Digital Integration Services",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC NORFOLK.NAVSUP FLT LOG CTR NORFOLK",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-20T00:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b9eccd92beb341d4a38fa784fca98562",
+    "samUrl": "https://sam.gov/opp/b9eccd92beb341d4a38fa784fca98562/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "7e394213f334499b89d57228b48e481f",
+    "dateFetched": "2025-05-14",
+    "title": "SATOC for Title I and Title II Architect-Engineer Services for the Renovation of Hangar 225 at Hill Air Force Base, UT",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AF INSTALLATION & MISSION SUPPORT CENTER.FA8903  772 ESS PK",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-23T12:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Hill Air Force Base",
+    "locationState": "Utah",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7e394213f334499b89d57228b48e481f",
+    "samUrl": "https://sam.gov/opp/7e394213f334499b89d57228b48e481f/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "0f933159d3f044ad8d25eef9bb660dcb",
+    "dateFetched": "2025-05-14",
+    "title": "Architect-Engineering Synopsis for Historic Preservation MATOC, U.S. Army Corps of Engineers, St. Louis District",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.US ARMY CORPS OF ENGINEERS.ENGINEER DIVISION MISSISSIPPI VALLEY.W07V ENDIST ST LOUIS",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-06-10T14:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=0f933159d3f044ad8d25eef9bb660dcb",
+    "samUrl": "https://sam.gov/opp/0f933159d3f044ad8d25eef9bb660dcb/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "3637a141aefb40a1bbd24590540934ac",
+    "dateFetched": "2025-05-14",
+    "title": "Intelligence Analysts Support Services",
+    "federalOrg": "JUSTICE, DEPARTMENT OF.FEDERAL BUREAU OF INVESTIGATION.FBI - REDSTONE ARSENAL",
+    "datePosted": "2025-05-14",
+    "dueDate": "2025-06-12T12:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Redstone Arsenal",
+    "locationState": "Alabama",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=3637a141aefb40a1bbd24590540934ac",
+    "samUrl": "https://sam.gov/opp/3637a141aefb40a1bbd24590540934ac/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "ff443b0445864db09e5a8315ac32b92e",
+    "dateFetched": "2025-05-14",
+    "title": "Positive Sum Solutions Methodology (PSSM)",
+    "federalOrg": "DEPT OF DEFENSE.DEFENSE HEALTH AGENCY (DHA).DEFENSE HEALTH AGENCY",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-27T15:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Bethesda",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ff443b0445864db09e5a8315ac32b92e",
+    "samUrl": "https://sam.gov/opp/ff443b0445864db09e5a8315ac32b92e/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "30bfc2b441e043abb28772d733b659aa",
+    "dateFetched": "2025-05-14",
+    "title": "R420--Education Platform Service",
+    "federalOrg": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.262-NETWORK CONTRACT OFFICE 22 (36C262)",
+    "datePosted": "2025-05-13",
+    "dueDate": "2025-05-19T16:00:00-07:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Long Beach",
+    "locationState": "CA",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=30bfc2b441e043abb28772d733b659aa",
+    "samUrl": "https://sam.gov/opp/30bfc2b441e043abb28772d733b659aa/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "2a1c2c7b019d4d549140044b1b4a2be6",
+    "dateFetched": "2025-05-14",
+    "title": "New England CERFP Collective Training Event, Exeter RI",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.NATIONAL GUARD BUREAU.W7NC USPFO ACTIVITY ME ARNG",
+    "datePosted": "2025-05-14",
+    "dueDate": "2025-05-19T15:00:00-04:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611519"
+    ],
+    "locationCity": "Exeter",
+    "locationState": "Rhode Island",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2a1c2c7b019d4d549140044b1b4a2be6",
+    "samUrl": "https://sam.gov/opp/2a1c2c7b019d4d549140044b1b4a2be6/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "e7f5f3f8b9df4ebe9360aea2784e8d1f",
+    "dateFetched": "2025-05-14",
+    "title": "C--TREATMENT PLAN & REPAIRS OF COKE OVENS",
+    "federalOrg": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.SER EAST MABO(51000)",
+    "datePosted": "2025-05-14",
+    "dueDate": "2025-05-28T17:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Not specified",
+    "locationState": "Not specified",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e7f5f3f8b9df4ebe9360aea2784e8d1f",
+    "samUrl": "https://sam.gov/opp/e7f5f3f8b9df4ebe9360aea2784e8d1f/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "6b9431037db34e4f8c8f10eab6a0a800",
+    "dateFetched": "2025-05-14",
+    "title": "Sources Sought - Department of State Natural Hazard Engineering & Design Services IDIQ Recompete",
+    "federalOrg": "STATE, DEPARTMENT OF.STATE, DEPARTMENT OF.ACQUISITIONS - AQM MOMENTUM",
+    "datePosted": "2025-05-14",
+    "dueDate": "2025-06-13T23:59:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541330"
+    ],
+    "locationCity": "Washington",
+    "locationState": "District of Columbia",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6b9431037db34e4f8c8f10eab6a0a800",
+    "samUrl": "https://sam.gov/opp/6b9431037db34e4f8c8f10eab6a0a800/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "f4650396710c45e398337af6214fd1c1",
+    "dateFetched": "2025-05-14",
+    "title": "Healthcare Effectiveness Data Information Set (HEDIS®) Summary Level Data Collection for Medicare Advantage",
+    "federalOrg": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.CENTERS FOR MEDICARE AND MEDICAID SERVICES.OFFICE OF ACQ  GRANTS MGMT",
+    "datePosted": "2025-05-14",
+    "dueDate": "2025-05-28T14:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "St James",
+    "locationState": "Maryland",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f4650396710c45e398337af6214fd1c1",
+    "samUrl": "https://sam.gov/opp/f4650396710c45e398337af6214fd1c1/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "69ffbfc5017c425981779efcf4290b8b",
+    "dateFetched": "2025-05-14",
+    "title": "National Oceanic and Atmospheric Administration (NOAA) NOAA Fisheries  West Coast Region (WCR) Administrative, Clerical, and Non-Scientific Support Services Multiple Award Indefinite Delivery Indefinite Quantity (IDIQ)",
+    "federalOrg": "COMMERCE, DEPARTMENT OF.NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION.DEPT OF COMMERCE NOAA",
+    "datePosted": "2025-05-14",
+    "dueDate": null,
+    "setAside": "SBA Certified Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15)",
+    "naicsCodes": [
+      "541611"
+    ],
+    "locationCity": "Seattle",
+    "locationState": "Washington",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=69ffbfc5017c425981779efcf4290b8b",
+    "samUrl": "https://sam.gov/opp/69ffbfc5017c425981779efcf4290b8b/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "dbef06cb90af47d1804c16feffaa06b6",
+    "dateFetched": "2025-05-14",
+    "title": "Reading Efficiency and Comprehension Improvement Course IDIQ",
+    "federalOrg": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.MISSION INSTALLATION CONTRACTING COMMAND.FDO EUSTIS.W6QM MICC-FT LEAVENWORTH",
+    "datePosted": "2025-05-14",
+    "dueDate": "2025-06-12T10:00:00-05:00",
+    "setAside": "Total Small Business Set-Aside (FAR 19.5)",
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Fort Leavenworth",
+    "locationState": "Kansas",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=dbef06cb90af47d1804c16feffaa06b6",
+    "samUrl": "https://sam.gov/opp/dbef06cb90af47d1804c16feffaa06b6/view",
+    "noticeStatus": "documented"
+  },
+  {
+    "noticeId": "6f3035c7358a43bcb9ebbb9f69e6b817",
+    "dateFetched": "2025-05-14",
+    "title": "Notice of Intent to Sole Source - Aviat Microware Virtual Training",
+    "federalOrg": "HOMELAND SECURITY, DEPARTMENT OF.US COAST GUARD.C5I DIVISION 2 KEARNEYSVILLE",
+    "datePosted": "2025-05-14",
+    "dueDate": "2025-05-29T13:00:00-04:00",
+    "setAside": null,
+    "naicsCodes": [
+      "611430"
+    ],
+    "locationCity": "Austin",
+    "locationState": "Texas",
+    "descriptionUrl": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6f3035c7358a43bcb9ebbb9f69e6b817",
+    "samUrl": "https://sam.gov/opp/6f3035c7358a43bcb9ebbb9f69e6b817/view",
+    "noticeStatus": "documented"
   }
 ]

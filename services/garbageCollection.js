@@ -1,12 +1,13 @@
 import { readFileStorage, saveToFileStorage } from "./storage.js";
+import { logError, logAction } from "../utils/logger.js";
 
+// Function to clean up old records from storage.json
 export async function cleanOldRecords() {
   try {
     // Read data from storage.json
     const storageData = await readFileStorage();
-    console.log(
-      `Total records in storage before cleanup: ${storageData.length}`
-    );
+    logAction("Starting garbage collection...");
+    logAction(`Total records in storage before cleanup: ${storageData.length}`);
 
     // Get the current date and calculate the cutoff date (30 days ago)
     const currentDate = new Date();
@@ -19,7 +20,7 @@ export async function cleanOldRecords() {
       return datePosted >= cutoffDate; // Keep records within the last 30 days
     });
 
-    console.log(`Total records after cleanup: ${updatedRecords.length}`);
+    logAction(`Total records after cleanup: ${updatedRecords.length}`);
 
     // Save the updated records back to storage.json
     for (const record of updatedRecords) {
@@ -41,8 +42,8 @@ export async function cleanOldRecords() {
       );
     }
 
-    console.log("Old records successfully cleaned up.");
+    logAction("Old records successfully cleaned up.");
   } catch (error) {
-    console.error("Error during garbage collection:", error.message);
+    logError(`Error during garbage collection: ${error.message}`);
   }
 }

@@ -7,9 +7,34 @@ import {
 } from "../config.js";
 import { alreadyExistsInFileStorage, saveToFileStorage } from "./storage.js";
 import fetch from "node-fetch";
+import { logError, logAction } from "../utils/logger.js";
 
+// Ping SAM.gov API to check if it's operational
+export async function pingSamGov() {
+  const queryString = `${samApiUrl}?api_key=${
+    config.SAM_API_KEY
+  }&postedFrom=${getDate(30)}&postedTo=${getDate()}&limit=1`;
+
+  try {
+    logAction(`Pinging SAM.gov with query: ${queryString}`);
+    const response = await fetch(queryString);
+
+    if (response.status === 200) {
+      logAction("SAM.gov ping successful.");
+      return true;
+    } else {
+      logError(`SAM.gov ping failed with status: ${response.status}`);
+      return false;
+    }
+  } catch (error) {
+    logError(`Error pinging SAM.gov: ${error.message}`);
+    return false;
+  }
+}
+
+// Fetch opportunities from SAM.gov and save them to storage
 export async function fetchAndSaveOpportunities() {
-  console.log("Starting to fetch opportunities from SAM.gov...");
+  logAction("Starting to fetch opportunities from SAM.gov...");
 
   for (const naicsCode of naicsCodes) {
     // Construct query parameters for all pCodes and setAsideValues
@@ -26,21 +51,19 @@ export async function fetchAndSaveOpportunities() {
     )}&postedTo=${getDate()}&limit=100&sortBy=createdDate&sortOrder=desc`;
 
     try {
-      console.log(`Fetching opportunities for NAICS: ${naicsCode}`);
-      console.log(`Query: ${queryString}`);
+      logAction(`Fetching opportunities for NAICS: ${naicsCode}`);
       const response = await fetch(queryString);
       const data = await response.json();
 
       if (data.opportunitiesData && Array.isArray(data.opportunitiesData)) {
         for (const opportunity of data.opportunitiesData) {
-          const noticeId = opportunity.noticeId; // Use noticeId from the API response
+          const noticeId = opportunity.noticeId;
           const title = opportunity.title;
           const federalOrg = opportunity.fullParentPathName;
-          const datePosted = opportunity.postedDate; // Use datePosted from the API response
-          const dueDate = opportunity.responseDeadLine; // Use dueDate from the API response
-          const setAside = opportunity.typeOfSetAsideDescription; // Use setAsideDescription from the API response
-          const naicsCodes = opportunity.naicsCodes; // Use naicsCodes from the API response
-          // Safely expand placeOfPerformance object
+          const datePosted = opportunity.postedDate;
+          const dueDate = opportunity.responseDeadLine;
+          const setAside = opportunity.typeOfSetAsideDescription;
+          const naicsCodes = opportunity.naicsCodes;
           const placeOfPerformance = opportunity.placeOfPerformance || {};
           const locationCity = placeOfPerformance.city?.name || "Not specified";
           const locationState =
@@ -49,6 +72,7 @@ export async function fetchAndSaveOpportunities() {
           const samUrl = opportunity.uiLink;
           const summaryText = "";
           const noticeStatus = "new";
+
           // Check if the notice already exists in the storage file
           if (!(await alreadyExistsInFileStorage(noticeId))) {
             // Save the opportunity to the storage file
@@ -68,29 +92,29 @@ export async function fetchAndSaveOpportunities() {
               summaryText,
               noticeStatus
             );
-            console.log(`Saved new opportunity: ${noticeId}`);
+            logAction(`Saved new opportunity: ${noticeId}`);
           } else {
-            console.log(`Opportunity already exists: ${noticeId}`);
+            logAction(`Opportunity already exists: ${noticeId}`);
           }
         }
       } else {
-        console.log(`No opportunities found for NAICS: ${naicsCode}`);
+        logAction(`No opportunities found for NAICS: ${naicsCode}`);
       }
     } catch (error) {
-      console.error(
-        `Error fetching opportunities for NAICS: ${naicsCode}`,
-        error.message
+      logError(
+        `Error fetching opportunities for NAICS: ${naicsCode}: ${error.message}`
       );
     }
   }
 
-  console.log("Finished fetching opportunities from SAM.gov.");
+  logAction("Finished fetching opportunities from SAM.gov.");
 }
 
+// Fetch the description document for a specific opportunity
 export async function fetchDescription(descriptionUrl) {
   const queryString = `${descriptionUrl}&api_key=${config.SAM_API_KEY}`;
   try {
-    console.log(`Fetching description from: ${queryString}`);
+    logAction(`Fetching description from: ${queryString}`);
     const response = await fetch(queryString);
 
     if (!response.ok) {
@@ -100,12 +124,11 @@ export async function fetchDescription(descriptionUrl) {
     }
 
     const data = await response.json();
-    console.log(`Successfully fetched description for URL: ${queryString}`);
+    logAction(`Successfully fetched description for URL: ${queryString}`);
     return data;
   } catch (error) {
-    console.error(
-      `Error fetching description from ${queryString}:`,
-      error.message
+    logError(
+      `Error fetching description from ${queryString}: ${error.message}`
     );
     throw error;
   }

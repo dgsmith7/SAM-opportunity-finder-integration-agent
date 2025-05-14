@@ -1,35 +1,60 @@
 import { fetchDescription } from "./samgov.js";
 import { readFileStorage, saveToFileStorage } from "./storage.js";
 import fetch from "node-fetch";
+import { logError, logAction } from "../utils/logger.js";
 
 const BATCH_SIZE = 2; // Number of records to process per batch
 const BATCH_DELAY = 60001; // Delay between batches in milliseconds (60 seconds)
 
+// Function to ping OpenAI API to check if it's operational
+export async function pingAI() {
+  try {
+    const response = await fetch("https://api.openai.com/v1/models", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+      },
+    });
+
+    if (!response.ok) {
+      logError(`OpenAI ping failed with status: ${response.status}`);
+      return false;
+    }
+    logAction("OpenAI ping successful.");
+    return true;
+  } catch (error) {
+    logError(`OpenAI ping failed: ${error.message}`);
+    return false;
+  }
+}
+
+// Function to generate summaries for records in storage.json
 export async function generateSummariesForStorage() {
   try {
     // Read data from storage.json
     const storageData = await readFileStorage();
-    console.log(`Total records in storage: ${storageData.length}`);
+    logAction(`Total records in storage: ${storageData.length}`);
 
-    // Filter records with an empty summary
+    // Filter records with a status of "new"
     const recordsToProcess = storageData.filter(
-      (record) => !record.summaryText
+      (record) => record.noticeStatus === "new"
     );
-    console.log(`Records to process: ${recordsToProcess.length}`);
+    logAction(`Records to process: ${recordsToProcess.length}`);
 
     // Process records in batches
     for (let i = 0; i < recordsToProcess.length; i += BATCH_SIZE) {
       const batch = recordsToProcess.slice(i, i + BATCH_SIZE);
-      console.log(
+      logAction(
         `Processing batch ${i / BATCH_SIZE + 1} of ${Math.ceil(
-          recordsToProcess.length / 2
+          recordsToProcess.length / BATCH_SIZE
         )} with ${batch.length} records...`
       );
 
       // Process each record in the batch
       for (const record of batch) {
         try {
-          console.log(`Processing record with Notice ID: ${record.noticeId}`);
+          logAction(`Processing record with Notice ID: ${record.noticeId}`);
 
           // Fetch the description document from SAM.gov
           const descriptionData = await fetchDescription(record.descriptionUrl);
@@ -41,6 +66,9 @@ export async function generateSummariesForStorage() {
             In the summary paragraph, include the number of people required, the period of performance, and the value if available. 
             If not available, state that. Also include the location of work (remote, on-site, hybrid, or not specified).
             Be sure to include topics such as Logistics, Data Analysis, Engineering Management, Consulting, System Engineering, or similar topics.
+            The output should be in Markdown format with the following structure:
+            **One-line Description:** [One-line description]
+            **Summary:** [Summary paragraph]
 
             Description: ${
               descriptionData.description || "No description provided."
@@ -59,7 +87,7 @@ export async function generateSummariesForStorage() {
 
           // Update the record with the generated summary
           record.summaryText = summary;
-          console.log(`Generated summary: ${summary}`);
+          logAction(`Generated summary for Notice ID: ${record.noticeId}`);
 
           // Save the updated record back to storage.json immediately
           await saveToFileStorage(
@@ -79,20 +107,19 @@ export async function generateSummariesForStorage() {
             "summarized"
           );
 
-          console.log(
+          logAction(
             `Summary generated and saved for Notice ID: ${record.noticeId}`
           );
         } catch (error) {
-          console.error(
-            `Error processing record with Notice ID: ${record.noticeId}`,
-            error.message
+          logError(
+            `Error processing record with Notice ID: ${record.noticeId}: ${error.message}`
           );
         }
       }
 
       // Delay between batches to respect rate limits
       if (i + BATCH_SIZE < recordsToProcess.length) {
-        console.log(
+        logAction(
           `Batch ${i / BATCH_SIZE + 1} completed. Waiting ${
             BATCH_DELAY / 1000
           } seconds before next batch...`
@@ -101,9 +128,9 @@ export async function generateSummariesForStorage() {
       }
     }
 
-    console.log("All summaries have been processed.");
+    logAction("All summaries have been processed.");
   } catch (error) {
-    console.error("Error generating summaries:", error.message);
+    logError(`Error generating summaries: ${error.message}`);
   }
 }
 
@@ -143,7 +170,7 @@ async function generateSummaryWithOpenAI(prompt) {
 
     return data.choices[0].message.content.trim();
   } catch (error) {
-    console.error("Error calling OpenAI API:", error.message);
+    logError(`Error calling OpenAI API: ${error.message}`);
     throw error;
   }
 }

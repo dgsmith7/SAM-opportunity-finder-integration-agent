@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
+import { logError, logAction } from "../utils/logger.js";
 
 const STORAGE_FILE = path.resolve("storage.json");
 
@@ -49,17 +50,18 @@ export async function saveToFileStorage(
     if (recordIndex !== -1) {
       // Overwrite the existing record
       existingRecords[recordIndex] = record;
-      console.log(`Updated existing record: ${noticeId}`);
+      logAction(`Updated existing record: ${noticeId}`);
     } else {
       // Add the new record
       existingRecords.push(record);
-      console.log(`Added new record: ${noticeId}`);
+      logAction(`Added new record: ${noticeId}`);
     }
 
     // Write the updated records back to storage.json
     await fs.writeFile(STORAGE_FILE, JSON.stringify(existingRecords, null, 2));
+    logAction(`Successfully saved record to storage: ${noticeId}`);
   } catch (error) {
-    console.error("Error saving to file storage:", error.message);
+    logError(`Error saving to file storage: ${error.message}`);
   }
 }
 
@@ -67,9 +69,15 @@ export async function saveToFileStorage(
 export async function alreadyExistsInFileStorage(noticeId) {
   try {
     const existingRecords = await readFileStorage();
-    return existingRecords.some((record) => record.noticeId === noticeId);
+    const exists = existingRecords.some(
+      (record) => record.noticeId === noticeId
+    );
+    logAction(
+      `Checked existence of record with Notice ID: ${noticeId}. Exists: ${exists}`
+    );
+    return exists;
   } catch (error) {
-    console.error("Error checking file storage:", error.message);
+    logError(`Error checking file storage: ${error.message}`);
     return false;
   }
 }
@@ -78,13 +86,15 @@ export async function alreadyExistsInFileStorage(noticeId) {
 export async function readFileStorage() {
   try {
     const data = await fs.readFile(STORAGE_FILE, "utf-8");
+    logAction("Successfully read data from storage file.");
     return JSON.parse(data);
   } catch (error) {
     if (error.code === "ENOENT") {
       // If the file doesn't exist, return an empty array
+      logAction("Storage file not found. Returning an empty array.");
       return [];
     }
-    console.error("Error reading file storage:", error.message);
+    logError(`Error reading file storage: ${error.message}`);
     throw error;
   }
 }
@@ -97,8 +107,8 @@ export async function deleteFromFileStorage(noticeId) {
       (record) => record.noticeId !== noticeId
     );
     await fs.writeFile(STORAGE_FILE, JSON.stringify(updatedRecords, null, 2));
-    console.log(`Deleted record: ${noticeId}`);
+    logAction(`Deleted record with Notice ID: ${noticeId}`);
   } catch (error) {
-    console.error("Error deleting from file storage:", error.message);
+    logError(`Error deleting from file storage: ${error.message}`);
   }
 }

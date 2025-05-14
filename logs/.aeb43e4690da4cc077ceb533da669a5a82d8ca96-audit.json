@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/dgsmith7/Documents/Computation/Code repos/SAM-opportunity-finder-integration-agent/logs/.aeb43e4690da4cc077ceb533da669a5a82d8ca96-audit.json",
+    "files": [
+        {
+            "date": 1747228574894,
+            "name": "/Users/dgsmith7/Documents/Computation/Code repos/SAM-opportunity-finder-integration-agent/logs/error-2025-05-14.log",
+            "hash": "ef9f3c63d0649f52194ea9e1a9136a95c1de298cce93f881f4a33bf0f181a6a7"
+        }
+    ],
+    "hashType": "sha256"
+}

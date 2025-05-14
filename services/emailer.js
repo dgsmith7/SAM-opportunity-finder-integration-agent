@@ -1,5 +1,7 @@
 import nodemailer from "nodemailer";
 import { readFileStorage, saveToFileStorage } from "./storage.js";
+import { emailRecipeients } from "../config.js";
+import { logAction, logError } from "../utils/logger.js";
 
 // Nodemailer configuration
 const transporter = nodemailer.createTransport({
@@ -25,7 +27,7 @@ export async function sendEmailRollup() {
 
     // If no new opportunities, send an email stating that
     if (summarizedRecords.length === 0) {
-      console.log("No new summarized records to include in the email roll-up.");
+      logAction("No new summarized records to include in the email roll-up.");
 
       // Send the "no new opportunities" email
       const mailOptions = {
@@ -39,7 +41,7 @@ export async function sendEmailRollup() {
       };
 
       await transporter.sendMail(mailOptions);
-      console.log("No new opportunities email sent successfully.");
+      logAction("No new opportunities email sent successfully.");
       return;
     }
 
@@ -47,14 +49,13 @@ export async function sendEmailRollup() {
     let emailHtml = "<h1>New Opportunities Roll-Up</h1>";
     for (const record of summarizedRecords) {
       // Extract the one-liner and summary paragraph from the summary text
-      // Extract the one-liner and summary paragraph from the summary text
       let cleanedOneLiner = "No one-liner available.";
       let summaryParagraph = "No summary available.";
 
       if (record.summaryText) {
         // Match the one-liner section
         const oneLinerMatch = record.summaryText.match(
-          /\*\*One-line Description:\*\*\s*(.+?)(?=\n|$)/
+          /\*\*One-line Description:\*\*\s*(.+)/
         );
         if (oneLinerMatch) {
           cleanedOneLiner = oneLinerMatch[1].trim(); // Extract and clean the one-liner
@@ -62,7 +63,7 @@ export async function sendEmailRollup() {
 
         // Match the summary paragraph section
         const summaryParagraphMatch = record.summaryText.match(
-          /\*\*Summary Paragraph:\*\*\s*([\s\S]+)/
+          /\*\*Summary:\*\*\s*([\s\S]+)/
         );
         if (summaryParagraphMatch) {
           summaryParagraph = summaryParagraphMatch[1].trim(); // Extract and clean the summary paragraph
@@ -113,17 +114,19 @@ export async function sendEmailRollup() {
       );
     }
 
-    // Send the email
-    const mailOptions = {
-      from: process.env.MESSAGE_FROM, // Sender address
-      to: process.env.MESSAGE_TO, // Recipient address
-      subject: "New Opportunities Roll-Up", // Subject line
-      html: emailHtml, // HTML body
-    };
+    // Send the email roll-up to each recipient
+    for (const recipient of emailRecipeients) {
+      const mailOptions = {
+        from: process.env.MESSAGE_FROM, // Sender address
+        to: recipient, // Recipient address
+        subject: "New Opportunities Roll-Up", // Subject line
+        html: emailHtml, // HTML body
+      };
 
-    await transporter.sendMail(mailOptions);
-    console.log("Email roll-up sent successfully.");
+      await transporter.sendMail(mailOptions);
+      logAction(`Email roll-up sent successfully to ${recipient}.`);
+    }
   } catch (error) {
-    console.error("Error sending email roll-up:", error.message);
+    logError(`Error sending email roll-up: ${error.message}`);
   }
 }
