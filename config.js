@@ -13,7 +13,25 @@ export const config = {
 };
 
 // List of NAICS codes to filter opportunities
-export const naicsCodes = ["611000", "541519"]; //["541330", "541611", "541614", "611430", "611519"];
+export const naicsCodes = [
+  "336611",
+  "488190",
+  "488999",
+  "541310",
+  "541330",
+  "541350",
+  "541360",
+  "541370",
+  "541380",
+  "541611",
+  "541614",
+  "541690",
+  "541990",
+  "611430",
+  "611512",
+  "611519",
+];
+// 336611 - Ship Building and Repairing
 // 541330 - Engineering Services
 // 541611 - Administrative Management and General Management Consulting Services
 // 541614 - Process, Physical Distribution, and Logistics Consulting Services
@@ -21,16 +39,16 @@ export const naicsCodes = ["611000", "541519"]; //["541330", "541611", "541614",
 // 611519 - Other Technical and Trade Schools
 
 // List of set-aside values for filtering opportunities
-export const setAsideValues = ["SDVOSBC", "SDVOSBS", "SBA", "VSA", "VSS"]; //[
-//   "SBA", // Total Small Business Set-Aside (FAR 19.5)
-//   "SDVOSBC", // Service-Disabled Veteran-Owned Small Business Set-Aside (FAR 19.14)
-//   "SDVOSBS", // Service-Disabled Veteran-Owned Small Business Sole Source (FAR 19.14)
-//   "IEE", // Indian Economic Enterprise Set-Aside (specific to Department of Interior)
-//   "ISBEE", // Indian Small Business Economic Enterprise Set-Aside (specific to Department of Interior)
-//   "BICiv", // Buy Indian Set-Aside (specific to Department of Health and Human Services, Indian Health Services)
-//   "VSA", // Veteran-Owned Small Business Set-Aside (specific to Department of Veterans Affairs)
-//   "VSS", // Veteran-Owned Small Business Sole Source (specific to Department of Veterans Affairs)
-// ];
+export const setAsideValues = [
+  "SBA", // Total Small Business Set-Aside (FAR 19.5)
+  "SDVOSBC", // Service-Disabled Veteran-Owned Small Business Set-Aside (FAR 19.14)
+  "SDVOSBS", // Service-Disabled Veteran-Owned Small Business Sole Source (FAR 19.14)
+  "IEE", // Indian Economic Enterprise Set-Aside (specific to Department of Interior)
+  "ISBEE", // Indian Small Business Economic Enterprise Set-Aside (specific to Department of Interior)
+  "BICiv", // Buy Indian Set-Aside (specific to Department of Health and Human Services, Indian Health Services)
+  "VSA", // Veteran-Owned Small Business Set-Aside (specific to Department of Veterans Affairs)
+  "VSS", // Veteran-Owned Small Business Sole Source (specific to Department of Veterans Affairs)
+];
 
 // List of procurement codes for filtering opportunities
 export const pCodes = ["p", "a", "r", "s", "o", "k", "i"];
@@ -52,7 +70,4 @@ export const openAIApiUrl = "https://api.openai.com/v1/chat/completions";
 export const googleDocAPIUrl = "https://sheets.googleapis.com/v4/spreadsheets";
 
 // List of email recipients for notifications
-export const emailRecipeients = [
-  "david@davidgailsmith.com",
-  //  "dgsmith7@hotmail.com",
-];
+export const emailRecipeients = ["marc.aparicio@vlinc.com"];
