@@ -55,6 +55,7 @@ cron.schedule("1 6 * * 5", async () => {
 try {
   logAction("Running weekly tasks on startup...");
   await runWeeklyTasks();
+  // Send an email roll-up of summarized opportunities
   logAction("Startup tasks completed.");
 } catch (error) {
   logError(`Error in startup tasks: ${error.message}`);

@@ -1,8 +1,16 @@
-import fs from "fs/promises";
-import path from "path";
+import AWS from "aws-sdk";
 import { logError, logAction } from "../utils/logger.js";
 
-const STORAGE_FILE = path.resolve("storage.json");
+// Configure AWS SDK for DigitalOcean Spaces
+const spacesEndpoint = new AWS.Endpoint("nyc3.digitaloceanspaces.com");
+const s3 = new AWS.S3({
+  endpoint: spacesEndpoint,
+  accessKeyId: process.env.DO_SPACES_KEY, // Add this to your .env file
+  secretAccessKey: process.env.DO_SPACES_SECRET, // Add this to your .env file
+});
+
+const BUCKET_NAME = "sofia";
+const STORAGE_FILE_KEY = "storage.json";
 
 // Save a new record to the storage file
 export async function saveToFileStorage(
@@ -39,7 +47,6 @@ export async function saveToFileStorage(
       noticeStatus,
     };
 
-    // Read existing records from storage.json
     const existingRecords = await readFileStorage();
 
     // Check if the record already exists
@@ -48,20 +55,70 @@ export async function saveToFileStorage(
     );
 
     if (recordIndex !== -1) {
-      // Overwrite the existing record
-      existingRecords[recordIndex] = record;
-      logAction(`Updated existing record: ${noticeId}`);
+      existingRecords[recordIndex] = record; // Update existing record
     } else {
-      // Add the new record
-      existingRecords.push(record);
-      logAction(`Added new record: ${noticeId}`);
+      existingRecords.push(record); // Add new record
     }
 
-    // Write the updated records back to storage.json
-    await fs.writeFile(STORAGE_FILE, JSON.stringify(existingRecords, null, 2));
+    // Upload updated records to DigitalOcean Spaces
+    await s3
+      .putObject({
+        Bucket: BUCKET_NAME,
+        Key: STORAGE_FILE_KEY,
+        Body: JSON.stringify(existingRecords, null, 2),
+        ContentType: "application/json",
+      })
+      .promise();
+
     logAction(`Successfully saved record to storage: ${noticeId}`);
   } catch (error) {
     logError(`Error saving to file storage: ${error.message}`);
+  }
+}
+
+// Read all records from the storage file
+export async function readFileStorage() {
+  try {
+    const data = await s3
+      .getObject({
+        Bucket: BUCKET_NAME,
+        Key: STORAGE_FILE_KEY,
+      })
+      .promise();
+
+    logAction("Successfully read data from storage file.");
+    return JSON.parse(data.Body.toString("utf-8"));
+  } catch (error) {
+    if (error.code === "NoSuchKey") {
+      logAction("Storage file not found. Returning an empty array.");
+      return [];
+    }
+    logError(`Error reading file storage: ${error.message}`);
+    throw error;
+  }
+}
+
+// Delete a record from the storage file by notice ID
+export async function deleteFromFileStorage(noticeId) {
+  try {
+    const existingRecords = await readFileStorage();
+    const updatedRecords = existingRecords.filter(
+      (record) => record.noticeId !== noticeId
+    );
+
+    // Upload updated records to DigitalOcean Spaces
+    await s3
+      .putObject({
+        Bucket: BUCKET_NAME,
+        Key: STORAGE_FILE_KEY,
+        Body: JSON.stringify(updatedRecords, null, 2),
+        ContentType: "application/json",
+      })
+      .promise();
+
+    logAction(`Deleted record with Notice ID: ${noticeId}`);
+  } catch (error) {
+    logError(`Error deleting from file storage: ${error.message}`);
   }
 }
 
@@ -79,36 +136,5 @@ export async function alreadyExistsInFileStorage(noticeId) {
   } catch (error) {
     logError(`Error checking file storage: ${error.message}`);
     return false;
-  }
-}
-
-// Read all records from the storage file
-export async function readFileStorage() {
-  try {
-    const data = await fs.readFile(STORAGE_FILE, "utf-8");
-    logAction("Successfully read data from storage file.");
-    return JSON.parse(data);
-  } catch (error) {
-    if (error.code === "ENOENT") {
-      // If the file doesn't exist, return an empty array
-      logAction("Storage file not found. Returning an empty array.");
-      return [];
-    }
-    logError(`Error reading file storage: ${error.message}`);
-    throw error;
-  }
-}
-
-// Delete a record from the storage file by notice ID
-export async function deleteFromFileStorage(noticeId) {
-  try {
-    const existingRecords = await readFileStorage();
-    const updatedRecords = existingRecords.filter(
-      (record) => record.noticeId !== noticeId
-    );
-    await fs.writeFile(STORAGE_FILE, JSON.stringify(updatedRecords, null, 2));
-    logAction(`Deleted record with Notice ID: ${noticeId}`);
-  } catch (error) {
-    logError(`Error deleting from file storage: ${error.message}`);
   }
 }

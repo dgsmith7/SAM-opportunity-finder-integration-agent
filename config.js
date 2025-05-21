@@ -70,4 +70,4 @@ export const openAIApiUrl = "https://api.openai.com/v1/chat/completions";
 export const googleDocAPIUrl = "https://sheets.googleapis.com/v4/spreadsheets";
 
 // List of email recipients for notifications
-export const emailRecipeients = ["marc.aparicio@vlinc.com"];
+export const emailRecipients = ["marc.aparicio@vlinc.com"];
