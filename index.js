@@ -1,5 +1,6 @@
 import express from "express";
 import cron from "node-cron";
+import cors from "cors";
 import { runDailyTasks, runWeeklyTasks } from "./worker.js";
 import { logError, logAction, logTraffic } from "./utils/logger.js";
 import { pingSamGov } from "./services/samgov.js";
