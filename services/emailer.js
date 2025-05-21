@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 import { readFileStorage, saveToFileStorage } from "./storage.js";
-import { emailRecipeients } from "../config.js";
+import { emailRecipients } from "../config.js";
 import { logAction, logError } from "../utils/logger.js";
 
 // Nodemailer configuration
@@ -30,18 +30,22 @@ export async function sendEmailRollup() {
       logAction("No new summarized records to include in the email roll-up.");
 
       // Send the "no new opportunities" email
-      const mailOptions = {
-        from: process.env.MESSAGE_FROM, // Sender address
-        to: process.env.MESSAGE_TO, // Recipient address
-        subject: "No New Opportunities", // Subject line
-        html: `
-          <h1>No New Opportunities</h1>
-          <p>There are no new opportunities since the last update.</p>
-        `,
-      };
+      for (const recipient of emailRecipients) {
+        const mailOptions = {
+          from: process.env.MESSAGE_FROM, // Sender address
+          to: recipient, // Recipient address
+          subject: "No New Opportunities", // Subject line
+          html: `
+      <h1>No New Opportunities</h1>
+      <p>There are no new opportunities since the last update.</p>
+    `,
+        };
 
-      await transporter.sendMail(mailOptions);
-      logAction("No new opportunities email sent successfully.");
+        await transporter.sendMail(mailOptions);
+        logAction(
+          `No new opportunities email sent successfully to ${recipient}.`
+        );
+      }
       return;
     }
 
@@ -115,7 +119,7 @@ export async function sendEmailRollup() {
     }
 
     // Send the email roll-up to each recipient
-    for (const recipient of emailRecipeients) {
+    for (const recipient of emailRecipients) {
       const mailOptions = {
         from: process.env.MESSAGE_FROM, // Sender address
         to: recipient, // Recipient address
