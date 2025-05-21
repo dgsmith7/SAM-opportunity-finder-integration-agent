@@ -52,14 +52,14 @@ cron.schedule("1 6 * * 5", async () => {
 });
 
 // Will run on startup
-try {
-  logAction("Running weekly tasks on startup...");
-  await runWeeklyTasks();
-  // Send an email roll-up of summarized opportunities
-  logAction("Startup tasks completed.");
-} catch (error) {
-  logError(`Error in startup tasks: ${error.message}`);
-}
+// try {
+//   logAction("Running weekly tasks on startup...");
+//   await runWeeklyTasks();
+//   // Send an email roll-up of summarized opportunities
+//   logAction("Startup tasks completed.");
+// } catch (error) {
+//   logError(`Error in startup tasks: ${error.message}`);
+// }
 
 // Expose basic HTTP endpoints
 // Basic status endpoint
@@ -142,4 +142,15 @@ app.get("/health", async (req, res) => {
 // Start the server
 app.listen(PORT, () => {
   logAction(`SOFIA service listening on port ${PORT}`);
+  // Run startup tasks after the server starts
+  (async () => {
+    try {
+      logAction("Running weekly tasks on startup...");
+      await runWeeklyTasks();
+      // Send an email roll-up of summarized opportunities
+      logAction("Startup tasks completed.");
+    } catch (error) {
+      logError(`Error in startup tasks: ${error.message}`);
+    }
+  })();
 });
