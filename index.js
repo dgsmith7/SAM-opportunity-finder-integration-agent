@@ -17,17 +17,13 @@ app.use((req, res, next) => {
 });
 
 // Middleware to handle errors
-app.use((err, req, res) => {
+app.use((err, req, res, next) => {
   logError(`Error occurred: ${err.message}`);
   res.status(500).send("Internal Server Error");
 });
 
 // Configure CORS – adjust origin as needed - for future use when endpoints are public
-// app.use(
-//   cors({
-//     origin: "https://pin.dgs-creative.com", // update to your frontend domain if needed
-//   })
-// );
+app.use(cors());
 
 // Schedule daily tasks to run every day at 2:01 AM Eastern Time, except Friday
 cron.schedule("1 6 * * 0-4,6", async () => {
