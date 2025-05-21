@@ -90,6 +90,7 @@ export async function updateGoogleSheetWithEmailedRecords() {
         location || "Not specified",
         record.title || "No title available",
         shortDescription,
+        record.setAside || "Not specified", // New "Vehicle" column
         record.samUrl || "No link available",
         record.dueDate || "Not specified",
         record.relatedNoticeId || "Not specified",
@@ -104,6 +105,7 @@ export async function updateGoogleSheetWithEmailedRecords() {
       "Location",
       "Title",
       "Short Description",
+      "Vehicle", // New header for the "Vehicle" column
       "Link",
       "Date Due",
       "Related Notice ID",
