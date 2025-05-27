@@ -1,5 +1,6 @@
 import nodemailer from "nodemailer";
 import { readFileStorage, saveToFileStorage } from "./storage.js";
+// import { readFileStorage, saveToFileStorage } from "./fileStorage.js";
 import { emailRecipients } from "../config.js";
 import { logAction, logError } from "../utils/logger.js";
 
@@ -16,6 +17,8 @@ const transporter = nodemailer.createTransport({
 
 // Function to send email roll-up of new notifications
 export async function sendEmailRollup() {
+  logAction("Emailing summarized opportunities...");
+
   try {
     // Read data from storage.json
     const storageData = await readFileStorage();
@@ -52,49 +55,38 @@ export async function sendEmailRollup() {
     // Generate HTML content for the email roll-up
     let emailHtml = "<h1>New Opportunities Roll-Up</h1>";
     for (const record of summarizedRecords) {
-      // Extract the one-liner and summary paragraph from the summary text
-      let cleanedOneLiner = "No one-liner available.";
-      let summaryParagraph = "No summary available.";
+      // Ensure summaryText exists and contains the expected fields
+      const cleanedOneLiner =
+        record.summaryText && record.summaryText.oneLiner
+          ? record.summaryText.oneLiner
+          : "No one-liner available.";
+      const summaryParagraph =
+        record.summaryText && record.summaryText.summary
+          ? record.summaryText.summary
+          : "No summary available.";
 
-      if (record.summaryText) {
-        // Match the one-liner section
-        const oneLinerMatch = record.summaryText.match(
-          /\*\*One-line Description:\*\*\s*(.+)/
-        );
-        if (oneLinerMatch) {
-          cleanedOneLiner = oneLinerMatch[1].trim(); // Extract and clean the one-liner
-        }
-
-        // Match the summary paragraph section
-        const summaryParagraphMatch = record.summaryText.match(
-          /\*\*Summary:\*\*\s*([\s\S]+)/
-        );
-        if (summaryParagraphMatch) {
-          summaryParagraph = summaryParagraphMatch[1].trim(); // Extract and clean the summary paragraph
-        }
-      }
       // Determine the due date or fallback to "Not specified"
       const dueDate = record.dueDate || "Not specified";
 
       // Add the record to the email HTML
       emailHtml += `
-        <div>
-          <p><strong>One-Liner:</strong> ${cleanedOneLiner.trim()}</p>
-          <p><strong>Notice ID:</strong> ${record.noticeId}</p>
-          <p><strong>Date Posted:</strong> ${record.datePosted}</p>
-          <p><strong>Due Date:</strong> ${dueDate}</p>
-          <p><strong>Organization:</strong> ${record.federalOrg}</p>
-          <p><strong>Set-Aside Type(s):</strong> ${record.setAside}</p>
-          <p><strong>NAICS Code(s):</strong> ${
-            record.naicsCodes?.join(", ") || "Not specified"
-          }</p>
-          <p><strong>Summary:</strong> ${summaryParagraph.trim()}</p>
-          <p><strong>Link:</strong> <a href="${
-            record.samUrl
-          }" target="_blank">${record.samUrl}</a></p>
-        </div>
-        <hr>
-      `;
+    <div>
+      <p><strong>One-Liner:</strong> ${cleanedOneLiner.trim()}</p>
+      <p><strong>Notice ID:</strong> ${record.noticeId}</p>
+      <p><strong>Date Posted:</strong> ${record.datePosted}</p>
+      <p><strong>Due Date:</strong> ${dueDate}</p>
+      <p><strong>Organization:</strong> ${record.federalOrg}</p>
+      <p><strong>Set-Aside Type(s):</strong> ${record.setAside}</p>
+      <p><strong>NAICS Code(s):</strong> ${
+        record.naicsCodes?.join(", ") || "Not specified"
+      }</p>
+      <p><strong>Summary:</strong> ${summaryParagraph.trim()}</p>
+      <p><strong>Link:</strong> <a href="${record.samUrl}" target="_blank">${
+        record.samUrl
+      }</a></p>
+    </div>
+    <hr>
+  `;
 
       // Update the noticeStatus to "emailed"
       record.noticeStatus = "emailed";
@@ -102,7 +94,9 @@ export async function sendEmailRollup() {
       // Save the updated record back to storage.json
       await saveToFileStorage(
         record.noticeId,
+        record.type,
         record.dateFetched,
+        record.relatedTo,
         record.title,
         record.federalOrg,
         record.datePosted,

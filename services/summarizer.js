@@ -1,5 +1,6 @@
 import { fetchDescription } from "./samgov.js";
 import { readFileStorage, saveToFileStorage } from "./storage.js";
+//import { readFileStorage, saveToFileStorage } from "./fileStorage.js";
 import fetch from "node-fetch";
 import { logError, logAction } from "../utils/logger.js";
 
@@ -31,6 +32,8 @@ export async function pingAI() {
 
 // Function to generate summaries for records in storage.json
 export async function generateSummariesForStorage() {
+  logAction("Summarizing fetched opportunities...");
+
   try {
     // Read data from storage.json
     const storageData = await readFileStorage();
@@ -61,14 +64,11 @@ export async function generateSummariesForStorage() {
 
           // Prepare the prompt for OpenAI
           const prompt = `
-            Based on the following description and details, summarize the work required in a paragraph.
-            Before the paragraph, include a one-line description with the big picture and location.
-            In the summary paragraph, include the number of people required, the period of performance, and the value if available. 
-            If not available, state that. Also include the location of work (remote, on-site, hybrid, or not specified).
+            Based on the following description and details, summarize the work required in a JSON object.
+            The JSON object should have two fields:
+            - "oneLiner": A one-line description with the big picture and location.
+            - "summary": A detailed summary paragraph including the number of people required, the period of performance, the value (if available, otherwise state that), and the location of work (remote, on-site, hybrid, or not specified).
             Be sure to include topics such as Logistics, Data Analysis, Engineering Management, Consulting, System Engineering, or similar topics.
-            The output should be in Markdown format with the following structure:
-            **One-line Description:** [One-line description]
-            **Summary:** [Summary paragraph]
 
             Description: ${
               descriptionData.description || "No description provided."
@@ -83,16 +83,39 @@ export async function generateSummariesForStorage() {
           `;
 
           // Call OpenAI API to generate the summary
-          const summary = await generateSummaryWithOpenAI(prompt);
+          try {
+            const summaryResponse = await generateSummaryWithOpenAI(prompt); // Call the helper function to get the summary
 
-          // Update the record with the generated summary
-          record.summaryText = summary;
-          logAction(`Generated summary for Notice ID: ${record.noticeId}`);
+            if (summaryResponse) {
+              // Remove code block markers (e.g., ```json or ```) from the response
+              const sanitizedResponse = summaryResponse.replace(
+                /```(?:json)?|```/g,
+                ""
+              );
+
+              try {
+                const { oneLiner, summary } = JSON.parse(sanitizedResponse);
+                record.summaryText = { oneLiner, summary };
+              } catch (error) {
+                logError(
+                  `Failed to parse JSON for Notice ID: ${record.noticeId}: ${error.message}`
+                );
+                continue; // Skip this record and move to the next one
+              }
+            }
+            logAction(`Generated summary for Notice ID: ${record.noticeId}`);
+          } catch (error) {
+            logError(
+              `Error generating summary for Notice ID: ${record.noticeId}: ${error.message}`
+            );
+          }
 
           // Save the updated record back to storage.json immediately
           await saveToFileStorage(
             record.noticeId,
+            record.type,
             record.dateFetched,
+            record.relatedTo,
             record.title,
             record.federalOrg,
             record.datePosted,

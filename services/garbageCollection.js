@@ -1,4 +1,5 @@
-import { readFileStorage, saveToFileStorage } from "./storage.js";
+// import { readFileStorage, saveToFileStorage } from "./storage.js";
+import { readFileStorage, saveToFileStorage } from "./fileStorage.js";
 import { logError, logAction } from "../utils/logger.js";
 
 // Function to clean up old records from storage.json
@@ -26,7 +27,9 @@ export async function cleanOldRecords() {
     for (const record of updatedRecords) {
       await saveToFileStorage(
         record.noticeId,
+        record.type,
         record.dateFetched,
+        record.relatedTo,
         record.title,
         record.federalOrg,
         record.datePosted,

@@ -12,30 +12,50 @@ export const config = {
   NOTIFY_EMAILS: process.env.NOTIFY_EMAILS?.split(","), // List of notification email recipients
 };
 
-// List of NAICS codes to filter opportunities
+// List of NAICS codes to filter opportunities for VLinc
 export const naicsCodes = [
-  "336611",
+  "541611",
   "488190",
   "488999",
-  "541310",
   "541330",
-  "541350",
-  "541360",
-  "541370",
-  "541380",
-  "541611",
   "541614",
   "541690",
   "541990",
-  "611430",
-  "611512",
-  "611519",
 ];
+// previous longer list of naics codes
+// export const naicsCodes = [
+//   "336611",
+//   "488190",
+//   "488999",
+//   "541310",
+//   "541330",
+//   "541350",
+//   "541360",
+//   "541370",
+//   "541380",
+//   "541611",
+//   "541614",
+//   "541690",
+//   "541990",
+//   "611430",
+//   "611512",
+//   "611519",
+// ];
 // 336611 - Ship Building and Repairing
+// 488190 - Other Support Activities for Air Transportation
+// 488999 - All Other Support Activities for Transportation
+// 541310 - Architectural Services
 // 541330 - Engineering Services
+// 541350 - Building Inspection Services
+// 541360 - Geophysical Surveying and Mapping Services
+// 541370 - Surveying and Mapping (except Geophysical) Services
+// 541380 - Testing Laboratories
 // 541611 - Administrative Management and General Management Consulting Services
 // 541614 - Process, Physical Distribution, and Logistics Consulting Services
+// 541690 - Other Scientific and Technical Consulting Services
+// 541990 - All Other Professional, Scientific, and Technical Services
 // 611430 - Professional and Management Development Training
+// 611512 - Flight Training
 // 611519 - Other Technical and Trade Schools
 
 // List of set-aside values for filtering opportunities
@@ -63,6 +83,7 @@ export const pCodes = ["p", "a", "r", "s", "o", "k", "i"];
 // Base URL for SAM.gov API
 export const samApiUrl = "https://api.sam.gov/opportunities/v2/search";
 
+export const samApiKey = process.env.SAM_API_KEY;
 // Base URL for OpenAI API
 export const openAIApiUrl = "https://api.openai.com/v1/chat/completions";
 
@@ -70,7 +91,9 @@ export const openAIApiUrl = "https://api.openai.com/v1/chat/completions";
 export const googleDocAPIUrl = "https://sheets.googleapis.com/v4/spreadsheets";
 
 // List of email recipients for notifications
-export const emailRecipients = [
-  "marc.aparicio@vlinc.com",
-  "dgsmith7@hotmail.com",
-];
+//export const emailRecipients = ["dgsmith7@hotmail.com"];
+
+// List of email recipients for notifications
+export const emailRecipients = process.env.EMAIL_RECIPS.split(":");
+//
+export const samBasic = process.env.SAM_BASIC;

@@ -1,21 +1,38 @@
-import AWS from "aws-sdk";
+import {
+  S3Client,
+  GetObjectCommand,
+  PutObjectCommand,
+} from "@aws-sdk/client-s3";
 import { logError, logAction } from "../utils/logger.js";
 
 // Configure AWS SDK for DigitalOcean Spaces
-const spacesEndpoint = new AWS.Endpoint("nyc3.digitaloceanspaces.com");
-const s3 = new AWS.S3({
-  endpoint: spacesEndpoint,
-  accessKeyId: process.env.DO_SPACES_KEY, // Add this to your .env file
-  secretAccessKey: process.env.DO_SPACES_SECRET, // Add this to your .env file
+const s3 = new S3Client({
+  endpoint: "https://nyc3.digitaloceanspaces.com",
+  region: "us-east-1", // Specify the region
+  credentials: {
+    accessKeyId: process.env.DO_SPACES_KEY, // Add this to your .env file
+    secretAccessKey: process.env.DO_SPACES_SECRET, // Add this to your .env file
+  },
 });
 
-const BUCKET_NAME = "sofia";
-const STORAGE_FILE_KEY = "storage.json";
+const BUCKET_NAME = process.env.BUCKET_NAME;
+const STORAGE_FILE_NAME = process.env.STORAGE_FILE_NAME;
+
+// Helper function to convert stream to string
+async function streamToString(stream) {
+  const chunks = [];
+  for await (const chunk of stream) {
+    chunks.push(chunk);
+  }
+  return Buffer.concat(chunks).toString("utf-8");
+}
 
 // Save a new record to the storage file
 export async function saveToFileStorage(
   noticeId,
+  type,
   dateFetched,
+  relatedTo,
   title,
   federalOrg,
   datePosted,
@@ -32,7 +49,9 @@ export async function saveToFileStorage(
   try {
     const record = {
       noticeId,
+      type,
       dateFetched,
+      relatedTo,
       title,
       federalOrg,
       datePosted,
@@ -61,14 +80,13 @@ export async function saveToFileStorage(
     }
 
     // Upload updated records to DigitalOcean Spaces
-    await s3
-      .putObject({
-        Bucket: BUCKET_NAME,
-        Key: STORAGE_FILE_KEY,
-        Body: JSON.stringify(existingRecords, null, 2),
-        ContentType: "application/json",
-      })
-      .promise();
+    const command = new PutObjectCommand({
+      Bucket: BUCKET_NAME,
+      Key: STORAGE_FILE_NAME,
+      Body: JSON.stringify(existingRecords, null, 2),
+      ContentType: "application/json",
+    });
+    await s3.send(command);
 
     logAction(`Successfully saved record to storage: ${noticeId}`);
   } catch (error) {
@@ -79,17 +97,17 @@ export async function saveToFileStorage(
 // Read all records from the storage file
 export async function readFileStorage() {
   try {
-    const data = await s3
-      .getObject({
-        Bucket: BUCKET_NAME,
-        Key: STORAGE_FILE_KEY,
-      })
-      .promise();
+    const command = new GetObjectCommand({
+      Bucket: BUCKET_NAME,
+      Key: STORAGE_FILE_NAME,
+    });
+    const data = await s3.send(command);
+    const body = await streamToString(data.Body);
 
     logAction("Successfully read data from storage file.");
-    return JSON.parse(data.Body.toString("utf-8"));
+    return JSON.parse(body);
   } catch (error) {
-    if (error.code === "NoSuchKey") {
+    if (error.name === "NoSuchKey") {
       logAction("Storage file not found. Returning an empty array.");
       return [];
     }
@@ -107,14 +125,13 @@ export async function deleteFromFileStorage(noticeId) {
     );
 
     // Upload updated records to DigitalOcean Spaces
-    await s3
-      .putObject({
-        Bucket: BUCKET_NAME,
-        Key: STORAGE_FILE_KEY,
-        Body: JSON.stringify(updatedRecords, null, 2),
-        ContentType: "application/json",
-      })
-      .promise();
+    const command = new PutObjectCommand({
+      Bucket: BUCKET_NAME,
+      Key: STORAGE_FILE_NAME,
+      Body: JSON.stringify(updatedRecords, null, 2),
+      ContentType: "application/json",
+    });
+    await s3.send(command);
 
     logAction(`Deleted record with Notice ID: ${noticeId}`);
   } catch (error) {

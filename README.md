@@ -1,237 +1,240 @@
 # SAM Opportunity Finder Integration Agent (SOFIA)
 
 **Author:** David G. Smith, DGS Creative LLC  
-**Date:** May 14, 2025  
-**Created for:** VLinc Corporation
+**Date:** May 14, 2025
 
 ---
 
 ## Description
 
-**SAM Opportunity Finder Integration Agent (SOFIA)** is a microservice designed to automate the discovery, summarization, and distribution of government contracting opportunities from SAM.gov. This tool is tailored for VLinc Corporation to streamline the process of identifying relevant opportunities, summarizing them using OpenAI, and notifying stakeholders via email and Google Sheets.
+**SAM Opportunity Finder Integration Agent (SOFIA)** is a specialized microservice designed to automate the discovery, analysis, and distribution of government contracting opportunities from the System for Award Management (SAM.gov) platform. This tool leverages multiple APIs to streamline the identification of relevant opportunities, generate intelligent summaries, and distribute timely notifications to stakeholders.
 
-SOFIA integrates seamlessly with SAM.gov, OpenAI, and Google APIs to provide a robust and efficient solution for managing government opportunities.
-
----
-
-## Tech Stack
-
-- **Backend Framework:** Node.js with Express
-- **Task Scheduling:** Node-Cron
-- **APIs Used:**
-  - SAM.gov API
-  - OpenAI API
-  - Google Sheets API
-- **Database:** Local file system (for logging and storage)
-- **Email Service:** Nodemailer
-- **Logging:** Winston with Daily Rotate File
-- **Deployment Platform:** DigitalOcean App Platform
-
----
-
-## Design
-
-SOFIA is designed as a modular microservice with the following key components:
-
-1. **SAM.gov Integration**:
-
-   - Fetches opportunities based on NAICS codes, set-asides, and procurement types.
-   - See https://nodemailer.com/usage/using-gmail/
-   - Filters and stores opportunities in a local JSON file or MongoDB.
-   - See https://open.gsa.gov/api/get-opportunities-public-api/
-
-2. **Summarization**:
-
-   - Uses OpenAI's GPT-4 model to generate concise summaries of opportunities.
-   - See https://platform.openai.com/docs/api-reference/introduction
-
-3. **Notification System**:
-
-   - Sends email roll-ups of new opportunities to stakeholders.
-   - Updates Google Sheets with emailed records.
-   - See https://developers.google.com/workspace/docs/api/how-tos/overview
-
-4. **Task Scheduling**:
-
-   - Daily tasks: Fetch opportunities and generate summaries.
-   - Weekly tasks: Send email roll-ups, update Google Sheets, and clean old records.
-   - Garbage collection: Removes records older than 30 days.
-
-5. **Health Monitoring**:
-   - Exposes endpoints for health checks and manual task triggering.
+SOFIA serves as a bridge between SAM.gov data and stakeholder decision-making processes, delivering actionable intelligence on government contracting opportunities through an automated workflow.
 
 ---
 
 ## Features
 
-- **Automated Opportunity Fetching**:
+- **Automated Opportunity Discovery**
+  - Configurable NAICS code-based search
+  - Filtering by set-aside types and procurement categories
+  - Daily refreshing of opportunities
+- **AI-Powered Analysis**
 
-  - Polls SAM.gov daily to fetch new opportunities.
-  - Filters opportunities based on NAICS codes, set-asides, and procurement types.
+  - Intelligent summarization of opportunity details using OpenAI's GPT-4
+  - Extraction of key information including scope, deadlines, and requirements
+  - One-liner summaries for quick assessment
 
-- **AI-Powered Summarization**:
+- **Multi-Channel Distribution**
 
-  - Summarizes opportunities using OpenAI's GPT-4 model.
+  - Configurable email notifications with detailed opportunity information
+  - Google Sheets integration for team collaboration
+  - Structured data export for further analysis
 
-- **Email Notifications**:
+- **Efficient Data Management**
 
-  - Sends daily or weekly email roll-ups to stakeholders.
+  - Cloud-based storage of opportunity data
+  - Automated cleanup of outdated records
+  - Status tracking through the entire opportunity lifecycle
 
-- **Google Sheets Integration**:
+- **Operational Reliability**
+  - Health monitoring of all integrated services
+  - Comprehensive logging system
+  - Scheduled task management
 
-  - Logs emailed opportunities to a shared Google Sheet.
+---
 
-- **Health Monitoring**:
+## Architecture
 
-  - Provides endpoints for health checks and manual task execution.
+SOFIA is built as a modular microservice with the following components:
 
-- **Logging**:
-  - Logs actions, errors, and traffic for debugging and monitoring.
+1. **API Integration Layer**
+
+   - SAM.gov API for opportunity data
+   - OpenAI API for intelligent summarization
+   - Google Sheets API for collaborative tracking
+
+2. **Processing Engine**
+
+   - Opportunity filtering based on configurable parameters
+   - AI-powered summary generation
+   - Status management workflow
+
+3. **Distribution System**
+
+   - Email notification generation and delivery
+   - Google Sheets data synchronization
+
+4. **Task Scheduler**
+
+   - Daily opportunity discovery and summarization
+   - Weekly email distribution and data synchronization
+   - Automated housekeeping tasks
+
+5. **Monitoring & Logging**
+   - Health check endpoints
+   - Multi-level logging system
+   - Error tracking and reporting
+
+---
+
+## Technology Stack
+
+- **Runtime**: Node.js with Express
+- **Task Scheduling**: Node-Cron
+- **APIs**:
+  - SAM.gov API for government opportunities
+  - OpenAI API for intelligent summarization
+  - Google Sheets API for data integration
+- **Storage**: DigitalOcean Spaces (S3-compatible)
+- **Email**: Nodemailer with SMTP integration
+- **Logging**: Winston with Daily Rotate File
+- **Deployment**: DigitalOcean App Platform
 
 ---
 
 ## Configuration
 
-### Customizing the config.js file for your organization
+SOFIA is designed to be highly configurable through environment variables and a central configuration file. Key configuration parameters include:
 
-The config.js file also includes constants such as NAICS codes, set-aside values, procurement codes, and email recipients, allowing you to change the paramaters for the API calls as your organization changes and grows. These are pre-defined in the file and can be modified as needed:
+### NAICS Codes and Set-Asides
+
+The `config.js` file allows customization of search parameters:
 
 ```javascript
-// config.js
-export const naicsCodes = ["541330", "541611", "541614", "611430", "611519"];
-export const setAsideValues = ["SBA", "SDVOSBC", "ISBEE"];
-export const pCodes = ["p", "a", "r", "s", "o", "k", "i"];
-export const emailRecipeients = [
-  "recipient1@email.com",
-  "recipient2@email.com",
+// NAICS codes for targeted opportunity discovery
+export const naicsCodes = [
+  "541611", // Administrative Management and General Management Consulting
+  "541330", // Engineering Services
+  "541614", // Process, Physical Distribution, and Logistics Consulting
+  // Additional codes can be added as needed
 ];
+
+// Set-aside types to filter opportunities
+export const setAsideValues = [
+  "SBA", // Small Business Set-Aside
+  "SDVOSBC", // Service-Disabled Veteran-Owned Small Business
+  // Additional set-aside types can be added as needed
+];
+
+// Procurement types to include in search
+export const pCodes = ["p", "a", "r", "s", "o", "k", "i"];
+// p = Pre-solicitation, o = Solicitation, etc.
 ```
 
 ---
 
 ## Deployment
 
-### Deploying as a Microservice
+### Deployment as a Microservice
 
-SOFIA is designed to run as a microservice on DigitalOcean's App Platform. To restrict endpoint access, configure network-level restrictions to allow only specific IP addresses.
-
-#### Prerequisites:
-
-- DigitalOcean account
-- Environment variables configured (see below)
-
-#### Steps for Deployment:
-
-1. **Set Environment Variables**:
-
-   - Configure the following environment variables in DigitalOcean:
-     ```bash
-     # .env
-     NODE_ENV=production
-     PORT=3000
-     SAM_API_KEY=<your-sam-api-key>
-     SAM_API_URL=https://api.sam.gov/opportunities/v2/search
-     OPENAI_API_KEY=<your-openai-api-key>
-     MESSAGE_FROM=<your-gmail-address>
-     GMAIL_HOST='smtp.gmail.com'
-     GMAIL_USERNAME=<your-gmail-address>
-     GMAIL_PASSWORD=<your-gmail-app-password>
-     GMAIL_HOST='smtp.gmail.com'
-     MAIL_PORT='465'
-     MAIL_SECURE='true'
-     MAIL_TLS='true'
-     GOOGLE_SHEET_ID=<your-google-sheet-id>
-     GOOGLE_CLIENT_EMAIL=<your-google-cloud-service-client-email>
-     GOOGLE_PRIVATE_KEY=<your-google-private-key>
-     ```
-
-2. **Point the `start` Script**:
-
-   - Ensure the `start` script in `package.json` points to `index.js`.
-
-3. **Deploy as a Web Service**:
-
-   - Use DigitalOcean's App Platform to deploy the service as a web application.
-
-4. **Restrict Access**:
-   - Configure DigitalOcean's firewall to allow access only from specific IP addresses.
-
----
-
-### Running Locally
-
-To run SOFIA locally, follow these steps:
+SOFIA is designed to run as a standalone microservice on cloud platforms supporting Node.js applications. The recommended deployment platform is DigitalOcean's App Platform.
 
 #### Prerequisites:
 
-- **Node.js** (v16 or higher)
-- **npm** (Node Package Manager)
-- **Google Cloud Service Account** (for Google Sheets API)
-- **SAM.gov API Key**
-- **OpenAI API Key**
-- **Google Mail APP**
+- Node.js v16 or higher
+- Access to SAM.gov API
+- OpenAI API account
+- Google Cloud Platform account with Google Sheets API enabled
+- DigitalOcean account (or alternative deployment platform)
 
-#### Steps:
+#### Environment Configuration:
 
-1. **Clone the Repository**:
+Configure the following environment variables for deployment:
 
-   - Clone the repository to your local machine:
-     ```javascript
-     git clone https://github.com/your-username/SAM-opportunity-finder-integration-agent.git
-     cd SAM-opportunity-finder-integration-agent
-     ```
-
-2. **Install Dependencies**:
-
-   - Install the required Node.js packages using npm:
-     ```javascript
-     npm install
-     ```
-
-3. **Set Up Environment Variables**:
-
-   - Create a `.env` file in the root directory of the project and add the following environment variables:
-     ```javascript
-     # .env
-     NODE_ENV=production
-     PORT=3000
-     SAM_API_KEY=<your-sam-api-key>
-     SAM_API_URL=https://api.sam.gov/opportunities/v2/search
-     OPENAI_API_KEY=<your-openai-api-key>
-     MESSAGE_FROM=<your-gmail-address>
-     GMAIL_HOST='smtp.gmail.com'
-     GMAIL_USERNAME=<your-gmail-address>
-     GMAIL_PASSWORD=<your-gmail-app-password>
-     GMAIL_HOST='smtp.gmail.com'
-     MAIL_PORT='465'
-     MAIL_SECURE='true'
-     MAIL_TLS='true'
-     GOOGLE_SHEET_ID=<your-google-sheet-id>
-     GOOGLE_CLIENT_EMAIL=<your-google-cloud-service-client-email>
-     GOOGLE_PRIVATE_KEY=<your-google-private-key>
-     ```
-   - Be sure to replace the placeholders with your actual API keys, email credentials, and Google Sheet ID, etc.
-   - **Note**: For Gmail, you may need to set up an App Password if you have 2-Step Verification enabled. See [Gmail App Passwords](https://support.google.com/accounts/answer/185201) for more information.
-   - For Google Sheets, you need to create a service account and download the JSON key file. Follow the instructions in the [Google Sheets API documentation](https://developers.google.com/sheets/api/quickstart/nodejs) to set this up.
-   - For the Google API, you will need to share the Google Sheet with the service account email address.
-   - For the OpenAI API, you will need to create an account and generate an API key. Follow the instructions in the [OpenAI API documentation](https://platform.openai.com/docs/api-reference/introduction) to set this up.
-   - For the SAM.gov API, you will need to create an account and generate an API key. Follow the instructions in the [SAM.gov API documentation](https://open.gsa.gov/api/get-opportunities-public-api/) to set this up.
-
-4. **Run the Application**:
-
-   - Start the application using the following command:
-     ```javascript
-     npm start
-     ```
-
-5. **Access the Application**:
-
-   - Open your browser or use a tool like Postman to access the following endpoints:
-     - `/` – Basic status check to confirm the service is running.
-     - `/health` – Detailed health check for all integrated services.
-     - `/runall` – Manually trigger the weekly tasks.
-
-6. **Verify Logs**:
-   - Check the `logs` directory for action, error, and traffic logs to ensure the application is running as expected.
+```
+NODE_ENV=production
+PORT=3000
+SAM_API_KEY=<your-sam-api-key>
+SAM_API_URL=https://api.sam.gov/opportunities/v2/search
+OPENAI_API_KEY=<your-openai-api-key>
+MESSAGE_FROM=<email-address>
+GMAIL_HOST=smtp.gmail.com
+GMAIL_USERNAME=<email-username>
+GMAIL_PASSWORD=<app-password>
+MAIL_PORT=465
+MAIL_SECURE=true
+MAIL_TLS=true
+GOOGLE_SHEET_ID=<your-google-sheet-id>
+GOOGLE_CLIENT_EMAIL=<your-service-account-email>
+GOOGLE_PRIVATE_KEY=<your-private-key>
+DO_SPACES_KEY=<your-spaces-key>
+DO_SPACES_SECRET=<your-spaces-secret>
+BUCKET_NAME=<your-bucket-name>
+STORAGE_FILE_NAME=storage.json
+EMAIL_RECIPS=<email-list-separated-by-colons>
+```
 
 ---
+
+## Local Development
+
+To run SOFIA locally for development:
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/SAM-opportunity-finder-integration-agent.git
+   cd SAM-opportunity-finder-integration-agent
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+
+   - Create a `.env` file using the template above
+   - Add your API keys and other configuration
+
+4. **Start the service**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Access the API endpoints**
+   - `http://localhost:3000/` - Service status
+   - `http://localhost:3000/health` - Health check for all integrated services
+   - `http://localhost:3000/runall` - Manually trigger all processing tasks
+
+---
+
+## API Endpoints
+
+- **`/`** - Basic service status check
+- **`/health`** - Comprehensive health check of all integrated services
+- **`/runall`** - Manually trigger the opportunity discovery and processing workflow
+
+---
+
+## Scheduled Tasks
+
+- **Daily Task (2:01 AM Eastern, Sun-Thu, Sat)**: Discover and summarize new opportunities
+- **Weekly Task (2:01 AM Eastern, Fri)**: Discover, summarize, and email opportunities, update Google Sheets
+
+---
+
+## Logging
+
+SOFIA maintains three types of log files:
+
+- **Action Logs**: Records normal operations and activities
+- **Error Logs**: Captures errors and exceptions
+- **Traffic Logs**: Tracks API endpoint access
+
+All logs utilize Winston's daily rotation to maintain a 14-day history.
+
+---
+
+## License
+
+MIT
+
+---
+
+## Support
+
+For issues, feature requests, or questions, please file an issue in the repository's issue tracker.

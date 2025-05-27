@@ -4,8 +4,14 @@ import {
   pCodes,
   setAsideValues,
   samApiUrl,
+  samBasic,
+  samApiKey,
 } from "../config.js";
 import { alreadyExistsInFileStorage, saveToFileStorage } from "./storage.js";
+// import {
+//   alreadyExistsInFileStorage,
+//   saveToFileStorage,
+// } from "./fileStorage.js";
 import fetch from "node-fetch";
 import { logError, logAction } from "../utils/logger.js";
 
@@ -58,6 +64,9 @@ export async function fetchAndSaveOpportunities() {
       if (data.opportunitiesData && Array.isArray(data.opportunitiesData)) {
         for (const opportunity of data.opportunitiesData) {
           const noticeId = opportunity.noticeId;
+          const type = opportunity.type;
+          const relatedTo =
+            opportunity.relatedTo || "Click link for this notice";
           const title = opportunity.title;
           const federalOrg = opportunity.fullParentPathName;
           const datePosted = opportunity.postedDate;
@@ -73,12 +82,16 @@ export async function fetchAndSaveOpportunities() {
           const summaryText = "";
           const noticeStatus = "new";
 
+          //await getRelatedToInfo(noticeId);
+
           // Check if the notice already exists in the storage file
           if (!(await alreadyExistsInFileStorage(noticeId))) {
             // Save the opportunity to the storage file
             await saveToFileStorage(
               noticeId,
+              type,
               new Date().toISOString().split("T")[0],
+              relatedTo,
               title,
               federalOrg,
               datePosted,
@@ -114,7 +127,7 @@ export async function fetchAndSaveOpportunities() {
 export async function fetchDescription(descriptionUrl) {
   const queryString = `${descriptionUrl}&api_key=${config.SAM_API_KEY}`;
   try {
-    logAction(`Fetching description from: ${queryString}`);
+    logAction(`Fetching description from: ${descriptionUrl}`);
     const response = await fetch(queryString);
 
     if (!response.ok) {
@@ -124,11 +137,11 @@ export async function fetchDescription(descriptionUrl) {
     }
 
     const data = await response.json();
-    logAction(`Successfully fetched description for URL: ${queryString}`);
+    logAction(`Successfully fetched description for URL: ${descriptionUrl}`);
     return data;
   } catch (error) {
     logError(
-      `Error fetching description from ${queryString}: ${error.message}`
+      `Error fetching description from ${descriptionUrl}: ${error.message}`
     );
     throw error;
   }
@@ -144,4 +157,38 @@ function getDate(subtractDays = 0) {
   const day = String(date.getDate()).padStart(2, "0");
 
   return `${month}/${day}/${year}`;
+}
+
+async function getRelatedToInfo(opportunityId) {
+  try {
+    // Construct the API URL
+    const apiUrl = `https://api.sam.gov/opportunities/${opportunityId}/relatedopportunities/solicitation&api_key=${samApiKey}`;
+    const auth = btoa(samBasic);
+
+    // Make the GET request
+    const response = await fetch(apiUrl, {
+      method: "GET",
+      headers: {
+        Authorization: `Basic ${auth}`,
+        // "X-Api-Key": samApiKey,
+        // Accept: "application/json",
+        // "Content-Type": "application/json",
+      },
+    });
+
+    // Check if the response is successful
+    if (!response.ok) {
+      throw new Error(
+        `Failed to fetch related opportunities: ${response.status} ${response.statusText}`
+      );
+    }
+
+    // Parse the JSON response
+    const data = await response.json();
+
+    // Print the results to the console
+    console.log("Related Opportunities:", data);
+  } catch (error) {
+    console.error(`Error fetching related opportunities: ${error.message}`);
+  }
 }

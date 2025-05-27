@@ -1,5 +1,6 @@
 import { google } from "googleapis";
 import { readFileStorage, saveToFileStorage } from "./storage.js";
+// import { readFileStorage, saveToFileStorage } from "./fileStorage.js";
 import { logError, logAction } from "../utils/logger.js";
 
 // Ping Google Sheets API to check if it's operational
@@ -66,16 +67,11 @@ export async function updateGoogleSheetWithEmailedRecords() {
 
     // Prepare data for Google Sheets
     const rows = emailedRecords.map((record) => {
-      // Extract the one-liner (short description) from the summaryText
-      let shortDescription = "No short description available.";
-      if (record.summaryText) {
-        const oneLinerMatch = record.summaryText.match(
-          /\*\*One-line Description:\*\*\s*(.+?)(?=\n|$)/
-        );
-        if (oneLinerMatch) {
-          shortDescription = oneLinerMatch[1].trim();
-        }
-      }
+      // Extract the one-liner (short description) directly from the JSON structure
+      const shortDescription =
+        record.summaryText?.oneLiner && record.summaryText.oneLiner.trim()
+          ? record.summaryText.oneLiner.trim()
+          : "No short description available.";
 
       // Combine location city and state
       const location = `${record.locationCity || ""}, ${
@@ -86,6 +82,7 @@ export async function updateGoogleSheetWithEmailedRecords() {
 
       return [
         record.noticeId,
+        record.type,
         record.naicsCodes?.join(", ") || "Not specified",
         location || "Not specified",
         record.title || "No title available",
@@ -93,7 +90,7 @@ export async function updateGoogleSheetWithEmailedRecords() {
         record.setAside || "Not specified", // New "Vehicle" column
         record.samUrl || "No link available",
         record.dueDate || "Not specified",
-        record.relatedNoticeId || "Not specified",
+        record.relatedTo || "Not specified",
         "", // Awardee column left blank
       ];
     });
@@ -101,6 +98,7 @@ export async function updateGoogleSheetWithEmailedRecords() {
     // Add headers only if the sheet is empty
     const headers = [
       "Notice ID",
+      "Type",
       "NAICS Code",
       "Location",
       "Title",
@@ -145,7 +143,9 @@ export async function updateGoogleSheetWithEmailedRecords() {
       // Save the updated record back to storage.json
       await saveToFileStorage(
         record.noticeId,
+        record.type,
         record.dateFetched,
+        record.relatedTo,
         record.title,
         record.federalOrg,
         record.datePosted,
