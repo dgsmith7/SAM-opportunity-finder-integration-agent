@@ -54,6 +54,7 @@ export async function sendEmailRollup() {
 
     // Generate HTML content for the email roll-up
     let emailHtml = "<h1>New Opportunities Roll-Up</h1>";
+    emailHtml += `${summarizedRecords.length} new records processed.<br><br>`;
     for (const record of summarizedRecords) {
       // Ensure summaryText exists and contains the expected fields
       const cleanedOneLiner =
@@ -73,6 +74,7 @@ export async function sendEmailRollup() {
     <div>
       <p><strong>One-Liner:</strong> ${cleanedOneLiner.trim()}</p>
       <p><strong>Notice ID:</strong> ${record.noticeId}</p>
+      <p><strong>Type:</strong> ${record.type} fetched ${record.dateFetched}</p>
       <p><strong>Date Posted:</strong> ${record.datePosted}</p>
       <p><strong>Due Date:</strong> ${dueDate}</p>
       <p><strong>Organization:</strong> ${record.federalOrg}</p>
