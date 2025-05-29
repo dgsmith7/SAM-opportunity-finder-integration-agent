@@ -1,5 +1,5 @@
-// import { readFileStorage, saveToFileStorage } from "./storage.js";
-import { readFileStorage, saveToFileStorage } from "./fileStorage.js";
+import { readFileStorage, saveToFileStorage } from "./storage.js";
+// import { readFileStorage, saveToFileStorage } from "./fileStorage.js";
 import { logError, logAction } from "../utils/logger.js";
 
 // Function to clean up old records from storage.json
